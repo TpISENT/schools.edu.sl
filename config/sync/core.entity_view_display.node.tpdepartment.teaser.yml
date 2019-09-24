@@ -1,0 +1,30 @@
+uuid: 519969b8-a2fd-4b0d-9c0a-45e36b697f18
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tpdepartment.body
+    - node.type.tpdepartment
+  module:
+    - text
+    - user
+id: node.tpdepartment.teaser
+targetEntityType: node
+bundle: tpdepartment
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

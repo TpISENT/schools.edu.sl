@@ -1,0 +1,55 @@
+uuid: dde0f013-1c30-4a99-b1cb-687920a8eb40
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tpphotos.body
+    - field.field.node.tpphotos.field_meta_tags
+    - field.field.node.tpphotos.field_tags
+    - field.field.node.tpphotos.field_tp_audience
+    - field.field.node.tpphotos.field_tp_category
+    - field.field.node.tpphotos.field_tp_photos
+    - field.field.node.tpphotos.field_tp_section
+    - field.field.node.tpphotos.field_tp_seo_meta_description
+    - field.field.node.tpphotos.field_yoast_seo
+    - node.type.tpphotos
+  module:
+    - media
+    - user
+id: node.tpphotos.teaser
+targetEntityType: node
+bundle: tpphotos
+mode: teaser
+content:
+  field_tp_photos:
+    type: media_thumbnail
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_tp_seo_meta_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_meta_tags: true
+  field_tags: true
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_section: true
+  field_yoast_seo: true

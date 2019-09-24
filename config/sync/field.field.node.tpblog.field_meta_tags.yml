@@ -1,0 +1,21 @@
+uuid: 502d2d66-54f1-4e5d-b828-aba2f961f632
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.tpblog
+  module:
+    - metatag
+id: node.tpblog.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: tpblog
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

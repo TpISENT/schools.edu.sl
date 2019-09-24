@@ -46,6 +46,7 @@
         "drupal/dynamic_entity_reference": "^1.7",
         "drupal/encrypt": "^3.0@RC",
         "drupal/entity_browser": "^2.2",
+        "drupal/entity_browser_enhanced": "^1.0",
         "drupal/entity_clone": "^1.0@beta",
         "drupal/entity_reference_layout": "^1.0@alpha",
         "drupal/entityqueue": "^1.0@beta",

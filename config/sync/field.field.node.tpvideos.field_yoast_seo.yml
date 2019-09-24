@@ -1,0 +1,21 @@
+uuid: a1d6d854-fb2e-47d3-863c-6965045a6a22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.tpvideos
+  module:
+    - yoast_seo
+id: node.tpvideos.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: tpvideos
+label: 'Real-time SEO'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

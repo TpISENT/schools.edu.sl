@@ -1,0 +1,13 @@
+uuid: a2f2b689-fcce-481e-819a-4b2191d20390
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
+id: media_publish_action
+label: 'Publish media'
+type: media
+plugin: 'entity:publish_action:media'
+configuration: {  }

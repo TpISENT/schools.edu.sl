@@ -1,0 +1,30 @@
+uuid: 0ab390bc-fc60-4fb0-adaf-48e911fbf56a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tpevent.body
+    - node.type.tpevent
+  module:
+    - text
+    - user
+id: node.tpevent.teaser
+targetEntityType: node
+bundle: tpevent
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

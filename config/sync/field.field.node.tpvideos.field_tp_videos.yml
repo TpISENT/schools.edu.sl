@@ -1,0 +1,30 @@
+uuid: 0b8158cc-94f2-4166-8b5f-ef506e8e9b78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_videos
+    - media.type.remote_video
+    - media.type.video
+    - node.type.tpvideos
+id: node.tpvideos.field_tp_videos
+field_name: field_tp_videos
+entity_type: node
+bundle: tpvideos
+label: 'Tp Videos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+      video: video
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: remote_video
+field_type: entity_reference

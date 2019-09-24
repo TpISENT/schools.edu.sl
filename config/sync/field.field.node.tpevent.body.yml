@@ -1,0 +1,22 @@
+uuid: ff10751a-b3e5-46ff-b683-864929904537
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tpevent
+  module:
+    - text
+id: node.tpevent.body
+field_name: body
+entity_type: node
+bundle: tpevent
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+uuid: 8f5ca570-c1c3-473e-a2a9-a80836a7154e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_seo_meta_description
+    - node.type.article
+id: node.article.field_tp_seo_meta_description
+field_name: field_tp_seo_meta_description
+entity_type: node
+bundle: article
+label: 'SEO Meta Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

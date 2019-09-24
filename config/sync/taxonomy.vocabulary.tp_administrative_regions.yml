@@ -1,0 +1,8 @@
+uuid: ff6b529e-7a7d-46a6-ac76-16714f64d967
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tp Administrative Regions'
+vid: tp_administrative_regions
+description: ''
+weight: 0

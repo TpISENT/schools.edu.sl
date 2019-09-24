@@ -1,0 +1,22 @@
+uuid: c1fb6b44-a76e-411c-ac70-b80cf6e764ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tpblog
+  module:
+    - text
+id: node.tpblog.body
+field_name: body
+entity_type: node
+bundle: tpblog
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: 90c6664b-9856-4e65-9a24-a3d78ef50010
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tpphotos
+  module:
+    - text
+id: node.tpphotos.body
+field_name: body
+entity_type: node
+bundle: tpphotos
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

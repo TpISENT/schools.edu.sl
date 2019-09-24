@@ -1,0 +1,50 @@
+uuid: b085b07b-6edb-4b38-8008-e32e7e4c664b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - field.field.node.page.field_image
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_tags
+    - field.field.node.page.field_tp_audience
+    - field.field.node.page.field_tp_category
+    - field.field.node.page.field_tp_file_attachment
+    - field.field.node.page.field_tp_section
+    - field.field.node.page.field_tp_seo_meta_description
+    - field.field.node.page.field_yoast_seo
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: cSv5lDnbIgDug475Hdz3woED2XMqYv3awI-J9u1JLbY
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  field_tp_seo_meta_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_image: true
+  field_meta_tags: true
+  field_tags: true
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_file_attachment: true
+  field_tp_section: true
+  field_yoast_seo: true

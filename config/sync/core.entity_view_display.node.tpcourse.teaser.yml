@@ -1,0 +1,30 @@
+uuid: a1a0d8de-542c-450e-80d8-01aa8ef7c80a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tpcourse.body
+    - node.type.tpcourse
+  module:
+    - text
+    - user
+id: node.tpcourse.teaser
+targetEntityType: node
+bundle: tpcourse
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

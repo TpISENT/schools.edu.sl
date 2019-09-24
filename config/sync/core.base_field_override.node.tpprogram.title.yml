@@ -1,0 +1,18 @@
+uuid: a9c14a70-3516-45a8-a558-ab2dc8b36037
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tpprogram
+id: node.tpprogram.title
+field_name: title
+entity_type: node
+bundle: tpprogram
+label: 'SEO Meta Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

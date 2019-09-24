@@ -1,0 +1,29 @@
+uuid: 2bd3c5d5-3a70-47ec-95ba-7934cf616fc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_audience
+    - node.type.tpphotos
+    - taxonomy.vocabulary.tp_audience
+id: node.tpphotos.field_tp_audience
+field_name: field_tp_audience
+entity_type: node
+bundle: tpphotos
+label: Audience
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tp_audience: tp_audience
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: f2945256-1ae1-47c2-aa95-77a29122b434
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_seo_meta_description
+    - node.type.tp_listing
+id: node.tp_listing.field_tp_seo_meta_description
+field_name: field_tp_seo_meta_description
+entity_type: node
+bundle: tp_listing
+label: 'SEO Meta Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

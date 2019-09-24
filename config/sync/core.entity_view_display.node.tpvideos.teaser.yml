@@ -1,0 +1,46 @@
+uuid: eeb7056a-514c-4088-8635-474f0cdeaff7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tpvideos.body
+    - field.field.node.tpvideos.field_meta_tags
+    - field.field.node.tpvideos.field_tags
+    - field.field.node.tpvideos.field_tp_audience
+    - field.field.node.tpvideos.field_tp_category
+    - field.field.node.tpvideos.field_tp_section
+    - field.field.node.tpvideos.field_tp_seo_meta_description
+    - field.field.node.tpvideos.field_tp_videos
+    - field.field.node.tpvideos.field_yoast_seo
+    - node.type.tpvideos
+  module:
+    - user
+id: node.tpvideos.teaser
+targetEntityType: node
+bundle: tpvideos
+mode: teaser
+content:
+  field_tp_seo_meta_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_meta_tags: true
+  field_tags: true
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_section: true
+  field_tp_videos: true
+  field_yoast_seo: true

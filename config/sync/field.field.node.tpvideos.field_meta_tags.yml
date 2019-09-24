@@ -1,0 +1,21 @@
+uuid: b0409f18-dd9a-46f3-af63-2fd4da59cebc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.tpvideos
+  module:
+    - metatag
+id: node.tpvideos.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: tpvideos
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

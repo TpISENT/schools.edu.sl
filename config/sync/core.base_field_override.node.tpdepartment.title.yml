@@ -1,0 +1,18 @@
+uuid: 78c6f703-9efb-4c09-a333-8041c97170d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tpdepartment
+id: node.tpdepartment.title
+field_name: title
+entity_type: node
+bundle: tpdepartment
+label: 'SEO Meta Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

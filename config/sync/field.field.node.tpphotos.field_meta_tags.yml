@@ -1,0 +1,21 @@
+uuid: c2945b33-0d92-42b6-8cf8-d55d580f92a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.tpphotos
+  module:
+    - metatag
+id: node.tpphotos.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: tpphotos
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

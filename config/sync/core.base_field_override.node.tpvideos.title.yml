@@ -1,0 +1,18 @@
+uuid: 994ca6fc-0bd0-450c-8f12-a2257247e1f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tpvideos
+id: node.tpvideos.title
+field_name: title
+entity_type: node
+bundle: tpvideos
+label: 'SEO Meta Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

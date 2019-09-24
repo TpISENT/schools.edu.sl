@@ -1,0 +1,21 @@
+uuid: eb327b0a-0d22-47f6-85c0-0ea18ba07c05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_slideshow_text
+    - node.type.article
+  module:
+    - text
+id: node.article.field_tp_slideshow_text
+field_name: field_tp_slideshow_text
+entity_type: node
+bundle: article
+label: 'Slideshow text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,29 @@
+uuid: baf84790-2dc4-4cd4-992e-1ae425a5234e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.tpschool
+    - taxonomy.vocabulary.tags
+id: node.tpschool.field_tags
+field_name: field_tags
+entity_type: node
+bundle: tpschool
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

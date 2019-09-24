@@ -1,0 +1,22 @@
+uuid: 4fc92b48-51cd-4698-b1e9-c036b3bc320f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tpprogram
+  module:
+    - text
+id: node.tpprogram.body
+field_name: body
+entity_type: node
+bundle: tpprogram
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

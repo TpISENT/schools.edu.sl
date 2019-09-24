@@ -1,0 +1,21 @@
+uuid: 48182b6e-e89e-497c-b0f6-b5d1ceed1ff4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.tpblog
+  module:
+    - yoast_seo
+id: node.tpblog.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: tpblog
+label: 'Real-time SEO'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

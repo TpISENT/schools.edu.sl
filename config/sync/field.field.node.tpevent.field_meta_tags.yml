@@ -1,0 +1,21 @@
+uuid: a5b7adce-6877-483e-b458-4dc6858fbed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.tpevent
+  module:
+    - metatag
+id: node.tpevent.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: tpevent
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

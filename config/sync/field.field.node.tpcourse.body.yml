@@ -1,0 +1,22 @@
+uuid: 4d5128b8-d135-42da-b609-ef23d121380e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tpcourse
+  module:
+    - text
+id: node.tpcourse.body
+field_name: body
+entity_type: node
+bundle: tpcourse
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

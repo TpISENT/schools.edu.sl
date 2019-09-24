@@ -1,0 +1,21 @@
+uuid: dd5e1a60-e9c8-4972-aded-2498510a295b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.tp_listing
+  module:
+    - metatag
+id: node.tp_listing.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: tp_listing
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

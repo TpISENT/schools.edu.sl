@@ -1,0 +1,30 @@
+uuid: 8ad5f471-725c-46c7-a8b6-0a57e07bfc0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tpschool.body
+    - node.type.tpschool
+  module:
+    - text
+    - user
+id: node.tpschool.teaser
+targetEntityType: node
+bundle: tpschool
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

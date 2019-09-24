@@ -1,0 +1,21 @@
+uuid: 22478068-7e42-4196-bade-2dd24faa4f86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.tpphotos
+  module:
+    - yoast_seo
+id: node.tpphotos.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: tpphotos
+label: 'Real-time SEO'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

@@ -1,0 +1,30 @@
+uuid: 7bd8c88f-0080-41fb-b0ee-2481a23091c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tppublication.body
+    - node.type.tppublication
+  module:
+    - text
+    - user
+id: node.tppublication.teaser
+targetEntityType: node
+bundle: tppublication
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

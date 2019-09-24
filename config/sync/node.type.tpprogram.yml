@@ -1,0 +1,18 @@
+uuid: e7c560ae-8565-4648-95e6-20742bc84d21
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: TpProgram
+type: tpprogram
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

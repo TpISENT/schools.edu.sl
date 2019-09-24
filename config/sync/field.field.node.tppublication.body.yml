@@ -1,0 +1,22 @@
+uuid: 091f392d-fbd6-467a-b8de-bc86ed157f48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tppublication
+  module:
+    - text
+id: node.tppublication.body
+field_name: body
+entity_type: node
+bundle: tppublication
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: f0eebca8-cfac-4da2-a4db-30e42b2e3211
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tp_listing
+  module:
+    - text
+id: node.tp_listing.body
+field_name: body
+entity_type: node
+bundle: tp_listing
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

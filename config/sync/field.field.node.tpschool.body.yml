@@ -1,0 +1,22 @@
+uuid: 644ff2e8-074e-44ab-b568-a993809de9de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tpschool
+  module:
+    - text
+id: node.tpschool.body
+field_name: body
+entity_type: node
+bundle: tpschool
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

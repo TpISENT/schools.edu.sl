@@ -1,0 +1,20 @@
+uuid: 2843e280-9f2f-4e2f-b07f-f2908f488623
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_tp_section
+field_name: field_tp_section
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

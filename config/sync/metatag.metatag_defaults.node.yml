@@ -1,0 +1,14 @@
+uuid: 3faa8b5a-f906-43de-8e70-45bcdcbf1bfd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  abstract: '[node:field_tp_seo_meta_description]'
+  robots: 'index, follow'
+  title: '[node:title]'
+  description: '[node:field_tp_seo_meta_description]'
+  canonical_url: '[node:url]'
