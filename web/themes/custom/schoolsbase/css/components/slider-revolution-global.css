@@ -2,8 +2,8 @@
  * @file
  * Visual styles for Schools Base Theme's slider revolution.
  */
-.container-fluid .view-mt-slideshow-full-width,
-.container-fluid .view-mt-slideshow-fullscreen {
+.container-fluid .view-tp-slideshow-full-width,
+.container-fluid .view-tp-slideshow-fullscreen {
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -81,8 +81,8 @@
 .tp-caption__buttons-container {
   margin-top: 2em;
 }
-.rev_slider .tp-caption__buttons-container a.mt-button:hover,
-.rev_slider .tp-caption__buttons-container a.mt-button:focus {
+.rev_slider .tp-caption__buttons-container a.tp-button:hover,
+.rev_slider .tp-caption__buttons-container a.tp-button:focus {
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -129,11 +129,11 @@
     padding-bottom: 0;
   }
 }
-.tp-caption__buttons-container a.mt-button {
+.tp-caption__buttons-container a.tp-button {
   margin: 0;
   margin-right: 20px;
 }
-.tp-caption__buttons-container a.mt-button:last-child {
+.tp-caption__buttons-container a.tp-button:last-child {
   margin-right: 0;
 }
 

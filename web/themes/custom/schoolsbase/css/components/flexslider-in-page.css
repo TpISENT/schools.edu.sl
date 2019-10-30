@@ -6,8 +6,8 @@
   position: relative;
 }
 @media (max-width:767px) {
-  .mt-style-sharp.mt-style-image-global .in-page-images-slider .flex-viewport,
-  .mt-style-image-sharp .in-page-images-slider .flex-viewport {
+  .tp-style-sharp.tp-style-image-global .in-page-images-slider .flex-viewport,
+  .tp-style-image-sharp .in-page-images-slider .flex-viewport {
     margin-right: -15px;
     margin-left: -15px;
   }

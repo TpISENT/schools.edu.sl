@@ -9,8 +9,8 @@
 {% block node_side %}
 {% endblock %}
 {% block meta_area %}
-  {{ content.field_mt_pst_image }}
-  {{ content.field_mt_pst_category }}
+  {{ content.field_tp_pst_image }}
+  {{ content.field_tp_pst_category }}
   {{ title_prefix }}
   <h2{{ title_attributes.addClass('node__title') }}>
     <a href="{{ url }}" rel="bookmark">{{ label }}</a>
@@ -42,9 +42,9 @@
 {% block content %}
   {{ attach_library('schoolsbase/node-post') }}
   {{ attach_library('schoolsbase/node-view-mode-teaser') }}
-  {% if content|without('comment', 'links', 'field_mt_pst_image', 'field_mt_pst_category')|render %}
+  {% if content|without('comment', 'links', 'field_tp_pst_image', 'field_tp_pst_category')|render %}
     <div class="node__main-content-section">
-      {{ content|without('comment', 'links', 'field_mt_pst_image', 'field_mt_pst_category') }}
+      {{ content|without('comment', 'links', 'field_tp_pst_image', 'field_tp_pst_category') }}
     </div>
   {% endif %}
   {{ content.links }}

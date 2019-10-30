@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tp_department.field_tp_dpt_body
+    - field.field.node.tp_department.field_tp_dpt_image
+    - field.field.node.tp_department.field_tp_dpt_teaser_image
+    - image.style.tp_large_teaser
+    - node.type.tp_department
+  module:
+    - image
+    - text
+    - user
+id: node.tp_department.teaser
+targetEntityType: node
+bundle: tp_department
+mode: teaser
+content:
+  field_tp_dpt_body:
+    type: text_summary_or_trimmed
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_tp_dpt_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: tp_large_teaser
+      image_link: content
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tp_dpt_image: true

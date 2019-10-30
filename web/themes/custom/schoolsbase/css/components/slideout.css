@@ -30,7 +30,7 @@
 .onscroll .slideout-toggle {
   padding: 26px;
 }
-.onscroll .mt-count-down ~ .slideout-toggle {
+.onscroll .tp-count-down ~ .slideout-toggle {
   top: 0;
 }
 .slideout-side-right .slideout-menu {

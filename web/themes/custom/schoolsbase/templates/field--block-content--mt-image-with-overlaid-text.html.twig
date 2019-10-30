@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the tabs powered custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_image_with_overlaid_text()
+ * @see schoolsbase_preprocess_field__block_content__tp_image_with_overlaid_text()
  */
 #}
 {{ attach_library('schoolsbase/image-with-overlaid-text') }}
@@ -13,7 +13,7 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'field--mt-image-with-overlaid-text',
+    'field--tp-image-with-overlaid-text',
     'clearfix',
   ]
 %}

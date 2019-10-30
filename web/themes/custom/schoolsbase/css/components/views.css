@@ -15,7 +15,7 @@
   text-align: center;
   margin-top: 10px;
 }
-.col-12 .view.view-mt-metro-tiles > .more-link {
+.col-12 .view.view-tp-metro-tiles > .more-link {
   margin-top: 40px;
 }
 .col-12 .view > .more-link a {
@@ -55,7 +55,7 @@
 .col-12 .view > .more-link a:focus {
   color: #ffffff;
 }
-.col-12 .view.view-mt-showcases-metro-tiles > .more-link {
+.col-12 .view.view-tp-showcases-metro-tiles > .more-link {
   margin-top: 40px;
 }
 .region--light-typography .col-12 .view > .more-link a {

@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtowlCarouselFeaturesSlideshow = {
     attach: function (context, settings) {
-      $(context).find('.mt-features-slideshow').once('mtowlCarouselFeaturesSlideshowInit').each(function() {
+      $(context).find('.tp-features-slideshow').once('mtowlCarouselFeaturesSlideshowInit').each(function() {
         $(this).owlCarousel({
           items: 1,
           responsive:{

@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtMagnificPopupDptMediaCombo = {
     attach: function (context, settings) {
-      $(context).find('.mt-department-media-area .iframe-popup > a, .mt-department-media-area a.image-popup').once('mtMagnificPopupDptMediaComboInit').magnificPopup({
+      $(context).find('.tp-department-media-area .iframe-popup > a, .tp-department-media-area a.image-popup').once('mtMagnificPopupDptMediaComboInit').magnificPopup({
         disableOn: 700,
         type: "image",
         mainClass: "mfp-fade",

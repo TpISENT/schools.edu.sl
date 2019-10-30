@@ -19,10 +19,10 @@
   {{ title_prefix }}
   {{ title_suffix }}
   <div class="media">
-    {% if content.field_mt_prd_image|render %}
-      {{ content.field_mt_prd_image }}
+    {% if content.field_tp_prd_image|render %}
+      {{ content.field_tp_prd_image }}
     {% elseif highlight_image_styled_url %}
-      <div class="field field--name-field-mt-prd-image field--type-image">
+      <div class="field field--name-field-tp-prd-image field--type-image">
         <div class="images-container clearfix">
           <div class="image-preview clearfix">
             <div class="field__item">
@@ -39,7 +39,7 @@
     {% endif %}
     <div class="media-body">
       {% if not page %}
-        <h5{{ title_attributes.addClass("mt-0 node__title") }}>
+        <h5{{ title_attributes.addClass("tp-0 node__title") }}>
           <a href="{{ url }}" rel="bookmark">{{ label }}</a>
         </h5>
       {% endif %}
@@ -55,11 +55,11 @@
       {% endif %}
 
       <div{{ content_attributes.addClass('node__content') }}>
-        {{ content|without('field_mt_prd_image', 'field_mt_prd_highlight') }}
+        {{ content|without('field_tp_prd_image', 'field_tp_prd_highlight') }}
       </div>
 
       {% trans %}
-        <a class="mt-link-stylable d-none d-lg-inline-block mb-0" href="{{ url }}">Read more</a>
+        <a class="tp-link-stylable d-none d-lg-inline-block mb-0" href="{{ url }}">Read more</a>
       {% endtrans %}
 
     </div>

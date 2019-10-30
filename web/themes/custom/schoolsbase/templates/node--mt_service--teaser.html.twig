@@ -18,23 +18,23 @@
 {{ attach_library('schoolsbase/node-field') }}
   <article{{ attributes.addClass(classes) }}>
 
-    {% if content.field_mt_srv_teaser_image|render %}
-      {{ content.field_mt_srv_teaser_image }}
+    {% if content.field_tp_srv_teaser_image|render %}
+      {{ content.field_tp_srv_teaser_image }}
     {% endif %}
 
     {% if node.isSticky() %}
       {% trans %}
-        <div class="promoted-label mt-style-custom-all">Promoted</div>
+        <div class="promoted-label tp-style-custom-all">Promoted</div>
       {% endtrans %}
     {% endif %}
 
-    {% if content.field_mt_srv_service_tags|render %}
-      {{ content.field_mt_srv_service_tags }}
+    {% if content.field_tp_srv_service_tags|render %}
+      {{ content.field_tp_srv_service_tags }}
     {% endif %}
 
     {{ title_prefix }}
     {% if not page %}
-      <h4{{ title_attributes.addClass("mt-0 node__title") }}>
+      <h4{{ title_attributes.addClass("tp-0 node__title") }}>
         <a href="{{ url }}" rel="bookmark">{{ label }}</a>
       </h4>
     {% endif %}
@@ -51,7 +51,7 @@
     {% endif %}
 
     <div{{ content_attributes.addClass('node__content') }}>
-      {{ content|without('field_mt_srv_teaser_image', 'field_mt_srv_service_tags') }}
+      {{ content|without('field_tp_srv_teaser_image', 'field_tp_srv_service_tags') }}
     </div>
 
   </article>

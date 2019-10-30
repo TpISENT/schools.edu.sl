@@ -34,6 +34,6 @@
 .horizontal-scroll-grid-item:hover + .horizontal-scroll-grid-item {
   margin-left: 0;
 }
-.horizontal-scroll-grid-item .node--view-mode-mt-teaser-tile-image {
+.horizontal-scroll-grid-item .node--view-mode-tp-teaser-tile-image {
   margin-bottom: 0;
 }

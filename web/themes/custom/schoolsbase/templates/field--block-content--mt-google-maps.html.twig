@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the dropdown custom block.
  *
- * @see schoolsbase_preprocess_field__block_content__field_mt_dropdown_block__mt_dropdown_block()
+ * @see schoolsbase_preprocess_field__block_content__field_tp_dropdown_block__tp_dropdown_block()
  */
 #}
 {%
@@ -27,8 +27,8 @@
     <h3{{ title_attributes.addClass(title_classes) }}>{{ label }}</h3>
   {% endif %}
 
-  <div class="google-map-canvas mt-style-custom-all"
-    data-attribute-mt-locations="{{ map_locations }}"
-    data-attribute-mt-map-zoom="{{field_mt_map_zoom_value}}">
+  <div class="google-map-canvas tp-style-custom-all"
+    data-attribute-tp-locations="{{ map_locations }}"
+    data-attribute-tp-map-zoom="{{field_tp_map_zoom_value}}">
   </div>
 </div>

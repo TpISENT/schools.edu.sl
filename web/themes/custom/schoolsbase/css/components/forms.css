@@ -197,38 +197,38 @@ input[type=search] {
   right: 0;
   bottom: 0;
 }
-.form--style-2 a.mt-button,
-.form--style-2 .mt-button > a,
-.form--style-2 button.mt-button,
+.form--style-2 a.tp-button,
+.form--style-2 .tp-button > a,
+.form--style-2 button.tp-button,
 .form--style-2 input[type="submit"],
 .form--style-2 input[type="reset"],
 .form--style-2 input[type="button"] {
   border-width: 0;
 }
-.form--style-2 a.mt-button:hover,
-.form--style-2 .mt-button > a:hover,
-.form--style-2 button.mt-button:hover,
+.form--style-2 a.tp-button:hover,
+.form--style-2 .tp-button > a:hover,
+.form--style-2 button.tp-button:hover,
 .form--style-2 input[type="submit"]:hover,
 .form--style-2 input[type="reset"]:hover,
 .form--style-2 input[type="button"]:hover,
-.form--style-2 a.mt-button:focus,
-.form--style-2 .mt-button > a:focus,
-.form--style-2 button.mt-button:focus,
+.form--style-2 a.tp-button:focus,
+.form--style-2 .tp-button > a:focus,
+.form--style-2 button.tp-button:focus,
 .form--style-2 input[type="submit"]:focus,
 .form--style-2 input[type="reset"]:focus,
 .form--style-2 input[type="button"]:focus {
   background-color: transparent;
   color: #333333;
 }
-.region--light-typography .form--style-2 a.mt-button:hover,
-.region--light-typography .form--style-2 .mt-button > a:hover,
-.region--light-typography .form--style-2 button.mt-button:hover,
+.region--light-typography .form--style-2 a.tp-button:hover,
+.region--light-typography .form--style-2 .tp-button > a:hover,
+.region--light-typography .form--style-2 button.tp-button:hover,
 .region--light-typography .form--style-2 input[type="submit"]:hover,
 .region--light-typography .form--style-2 input[type="reset"]:hover,
 .region--light-typography .form--style-2 input[type="button"]:hover,
-.region--light-typography .form--style-2 a.mt-button:focus,
-.region--light-typography .form--style-2 .mt-button > a:focus,
-.region--light-typography .form--style-2 button.mt-button:focus,
+.region--light-typography .form--style-2 a.tp-button:focus,
+.region--light-typography .form--style-2 .tp-button > a:focus,
+.region--light-typography .form--style-2 button.tp-button:focus,
 .region--light-typography .form--style-2 input[type="submit"]:focus,
 .region--light-typography .form--style-2 input[type="reset"]:focus,
 .region--light-typography .form--style-2 input[type="button"]:focus {

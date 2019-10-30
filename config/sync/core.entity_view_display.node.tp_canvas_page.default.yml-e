@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tp_canvas_page.field_tp_cnv_body
+    - node.type.tp_canvas_page
+  module:
+    - text
+    - user
+id: node.tp_canvas_page.default
+targetEntityType: node
+bundle: tp_canvas_page
+mode: default
+content:
+  field_tp_cnv_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

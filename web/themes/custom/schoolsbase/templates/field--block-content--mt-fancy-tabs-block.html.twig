@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the tabs powered custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_fancy_tabs_block()
+ * @see schoolsbase_preprocess_field__block_content__tp_fancy_tabs_block()
  */
 #}
 {%
@@ -13,7 +13,7 @@
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
     'field--entity-reference-target-type-' ~ entity_reference_target_type|clean_class,
-    'field--mt-tabs-block',
+    'field--tp-tabs-block',
     'clearfix',
   ]
 %}
@@ -30,13 +30,13 @@
   <ul class="nav nav-tabs nav-tabs--fancy nav-justified">
     {% for item in items %}
       <li class="nav-item">
-        <a class="nav-link mt-style-custom-all {{ loop.first ? ' active' : '' }}" href="#block-id-{{item.block_data.id}}" data-toggle="tab">
+        <a class="nav-link tp-style-custom-all {{ loop.first ? ' active' : '' }}" href="#block-id-{{item.block_data.id}}" data-toggle="tab">
           <span class="nav-tab__title">
-            {{ item.content['#paragraph'].get('field_mt_fancy_title').value }}
+            {{ item.content['#paragraph'].get('field_tp_fancy_title').value }}
           </span>
-          {% if item.content['#paragraph'].get('field_mt_fancy_subtitle').value %}
+          {% if item.content['#paragraph'].get('field_tp_fancy_subtitle').value %}
             <span class="nav-tab__subtitle">
-              {{ item.content['#paragraph'].get('field_mt_fancy_subtitle').value }}
+              {{ item.content['#paragraph'].get('field_tp_fancy_subtitle').value }}
             </span>
           {% endif %}
         </a>

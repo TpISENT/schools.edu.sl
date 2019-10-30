@@ -50,15 +50,15 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="timeline__badge"></div>
-      <div class="timeline-item{{ (content.field_mt_tml_timeline_date|render and paragraph.field_mt_tml_timeline_date.value|date('Y-m-d') < 'now'|date('Y-m-d')) ? ' timeline-item--expired' : ''}} ">
+      <div class="timeline-item{{ (content.field_tp_tml_timeline_date|render and paragraph.field_tp_tml_timeline_date.value|date('Y-m-d') < 'now'|date('Y-m-d')) ? ' timeline-item--expired' : ''}} ">
         <div class="timeline__header">
-          {% if paragraph.field_mt_tml_timeline_link['0'].url %}
-            <h5><a href="{{ paragraph.field_mt_tml_timeline_link['0'].url }}">{{ paragraph.field_mt_tml_timeline_title.value }}</a></h5>
+          {% if paragraph.field_tp_tml_timeline_link['0'].url %}
+            <h5><a href="{{ paragraph.field_tp_tml_timeline_link['0'].url }}">{{ paragraph.field_tp_tml_timeline_title.value }}</a></h5>
           {% else %}
-            <h5>{{ paragraph.field_mt_tml_timeline_title.value }}</h5>
+            <h5>{{ paragraph.field_tp_tml_timeline_title.value }}</h5>
           {% endif %}
         </div>
-        {{ content|without('field_mt_tml_timeline_title', 'field_mt_tml_timeline_link') }}
+        {{ content|without('field_tp_tml_timeline_title', 'field_tp_tml_timeline_link') }}
       </div>
     {% endblock %}
   </div>

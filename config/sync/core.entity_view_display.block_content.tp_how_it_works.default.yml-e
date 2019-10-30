@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_how_it_works
+    - field.field.block_content.tp_how_it_works.field_tp_hiw_item
+  module:
+    - entity_reference_revisions
+id: block_content.tp_how_it_works.default
+targetEntityType: block_content
+bundle: tp_how_it_works
+mode: default
+content:
+  field_tp_hiw_item:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
   var masonryContainer = $(".isotope-container"),
   filtersMasonry = $(".view-promoted-items .filters");
-  filtersMasonry.prepend( "<li class=\"nav-item\"><a class=\"nav-link active mt-style-custom-all\" href=\"#\" data-filter=\"*\">" + drupalSettings.schoolsbase.isotopeFiltersGridInit.isotopeFiltersText + "</a></li>" );
+  filtersMasonry.prepend( "<li class=\"nav-item\"><a class=\"nav-link active tp-style-custom-all\" href=\"#\" data-filter=\"*\">" + drupalSettings.schoolsbase.isotopeFiltersGridInit.isotopeFiltersText + "</a></li>" );
 
   $(".isotope-container").fadeIn("slow");
 

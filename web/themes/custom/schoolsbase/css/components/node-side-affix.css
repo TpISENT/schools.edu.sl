@@ -17,18 +17,18 @@
   width: 90px;
 }
 @media (min-width: 768px) {
-  .layout-no-sidebars .node--type-mt-post #affix.affix {
+  .layout-no-sidebars .node--type-tp-post #affix.affix {
     width: 150px;
   }
-  .layout-no-sidebars .node--type-mt-post #affix.affix-bottom {
+  .layout-no-sidebars .node--type-tp-post #affix.affix-bottom {
     width: 150px;
   }
 }
 @media (min-width: 992px) {
-  .layout-no-sidebars .node--type-mt-post #affix.affix {
+  .layout-no-sidebars .node--type-tp-post #affix.affix {
     width: 180px;
   }
-  .layout-no-sidebars .node--type-mt-post #affix.affix-bottom {
+  .layout-no-sidebars .node--type-tp-post #affix.affix-bottom {
     width: 180px;
   }
 }

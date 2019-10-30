@@ -19,8 +19,8 @@
 }
 
 /*images overlays*/
-.view-team-members-carousel .views-field-field-mt-tmm-member-photo img,
-.view-team-members-carousel .views-field-field-mt-tmm-member-photo .overlay {
+.view-team-members-carousel .views-field-field-tp-tmm-member-photo img,
+.view-team-members-carousel .views-field-field-tp-tmm-member-photo .overlay {
   border-radius: 5px 5px 0 0;
 }
 .view-team-members-carousel .overlay-inner {
@@ -46,7 +46,7 @@
   text-align: center;
   border-radius: 5px;
 }
-.view-team-members-carousel .views-field-field-mt-tmm-member-photo ~ .text-container {
+.view-team-members-carousel .views-field-field-tp-tmm-member-photo ~ .text-container {
   border-radius: 0 0 5px 5px;
 }
 .view-team-members-carousel .text-container .views-field-title a {
@@ -54,7 +54,7 @@
   font-weight: 700;
   text-decoration: none;
 }
-.view-team-members-carousel .text-container .views-field-field-mt-tmm-subtitle {
+.view-team-members-carousel .text-container .views-field-field-tp-tmm-subtitle {
   font-size: 16px;
   color: #424242;
 }

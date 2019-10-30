@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtMagnificPopupFieldImage = {
     attach: function (context, settings) {
-      $(context).find('.field--name-field-mt-pst-image a.image-popup').once('mtMagnificPopupFieldImageInit').magnificPopup({
+      $(context).find('.field--name-field-tp-pst-image a.image-popup').once('mtMagnificPopupFieldImageInit').magnificPopup({
         type:"image",
         removalDelay: 300,
         mainClass: "mfp-fade",

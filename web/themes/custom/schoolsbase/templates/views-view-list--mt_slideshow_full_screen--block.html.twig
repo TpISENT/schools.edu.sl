@@ -27,7 +27,7 @@
     {% endif %}
     <{{ list.type }}{{ list.attributes }}>
       {% for row in rows %}
-        <li{{ row.attributes }} data-transition="{{ mt_setting.rs_slideshow_fullscreen_effect }}" data-slotamount="default" data-title="{{ row.title }}" data-masterspeed="default">
+        <li{{ row.attributes }} data-transition="{{ tp_setting.rs_slideshow_fullscreen_effect }}" data-slotamount="default" data-title="{{ row.title }}" data-masterspeed="default">
           {{ row.content }}
           <div class="tp-caption scroll-button"
             data-actions='[{

@@ -2,9 +2,9 @@
  * @file
  * Styles for Schools Base Theme's buttons.
  */
-a.mt-button,
-.mt-button > a,
-button.mt-button,
+a.tp-button,
+.tp-button > a,
+button.tp-button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -27,12 +27,12 @@ input[type="button"] {
   background-color: transparent;
   color: #ffffff;
 }
-a.mt-button:hover,
-a.mt-button:focus,
-.mt-button > a:hover,
-.mt-button > a:focus,
-button.mt-button:hover,
-button.mt-button:focus,
+a.tp-button:hover,
+a.tp-button:focus,
+.tp-button > a:hover,
+.tp-button > a:focus,
+button.tp-button:hover,
+button.tp-button:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus,
 input[type="reset"]:hover,
@@ -41,60 +41,60 @@ input[type="button"]:hover,
 input[type="button"]:focus {
   background-color: transparent;
 }
-button.mt-button {
+button.tp-button {
   -webkit-appearance: none;
 }
-.region--dark-typography a.mt-button.mt-button--outline,
-.region--dark-typography .mt-button.mt-button--outline > a,
-.region--dark-typography input[type="submit"].mt-button--outline,
-.region--dark-typography input[type="reset"].mt-button--outline,
-.region--dark-typography input[type="button"].mt-button--outline {
+.region--dark-typography a.tp-button.tp-button--outline,
+.region--dark-typography .tp-button.tp-button--outline > a,
+.region--dark-typography input[type="submit"].tp-button--outline,
+.region--dark-typography input[type="reset"].tp-button--outline,
+.region--dark-typography input[type="button"].tp-button--outline {
   background-color: transparent;
 }
-.region--dark-typography a.mt-button.mt-button--outline:hover,
-.region--dark-typography .mt-button.mt-button--outline > a:hover,
-.region--dark-typography input[type="submit"].mt-button--outline:hover,
-.region--dark-typography input[type="reset"].mt-button--outline:hover,
-.region--dark-typography input[type="button"].mt-button--outline:hover,
-.region--dark-typography a.mt-button.mt-button--outline:focus,
-.region--dark-typography .mt-button.mt-button--outline > a:focus,
-.region--dark-typography input[type="submit"].mt-button--outline:focus,
-.region--dark-typography input[type="reset"].mt-button--outline:focus,
-.region--dark-typography input[type="button"].mt-button--outline:focus {
+.region--dark-typography a.tp-button.tp-button--outline:hover,
+.region--dark-typography .tp-button.tp-button--outline > a:hover,
+.region--dark-typography input[type="submit"].tp-button--outline:hover,
+.region--dark-typography input[type="reset"].tp-button--outline:hover,
+.region--dark-typography input[type="button"].tp-button--outline:hover,
+.region--dark-typography a.tp-button.tp-button--outline:focus,
+.region--dark-typography .tp-button.tp-button--outline > a:focus,
+.region--dark-typography input[type="submit"].tp-button--outline:focus,
+.region--dark-typography input[type="reset"].tp-button--outline:focus,
+.region--dark-typography input[type="button"].tp-button--outline:focus {
   color: #ffffff;
 }
-a.mt-button.mt-button--small,
-.mt-button.mt-button--small > a,
-button.mt-button.mt-button--small {
+a.tp-button.tp-button--small,
+.tp-button.tp-button--small > a,
+button.tp-button.tp-button--small {
   font-size: 14px;
   padding: 6px 20px;
   border-width: 2px;
   text-transform: none;
 }
-.headings-wide-spacing-enabled a.mt-button,
-.headings-wide-spacing-enabled .mt-button > a,
-.headings-wide-spacing-enabled button.mt-button,
+.headings-wide-spacing-enabled a.tp-button,
+.headings-wide-spacing-enabled .tp-button > a,
+.headings-wide-spacing-enabled button.tp-button,
 .headings-wide-spacing-enabled input[type="submit"],
 .headings-wide-spacing-enabled input[type="reset"],
 .headings-wide-spacing-enabled input[type="button"] {
   letter-spacing: 0.25em;
 }
 input[type="submit"] + input[type="submit"],
-.mt-button + .mt-button {
+.tp-button + .tp-button {
   margin-left: 20px;
 }
 @media (max-width: 767px) {
-  .text-center .mt-button + .mt-button {
+  .text-center .tp-button + .tp-button {
     margin-right: 5px;
   }
-  .text-center .mt-button {
+  .text-center .tp-button {
     margin-right: 5px;
     margin-left: 5px;
   }
 }
-.region--light-typography a.mt-button,
-.region--light-typography .mt-button > a,
-.region--light-typography button.mt-button,
+.region--light-typography a.tp-button,
+.region--light-typography .tp-button > a,
+.region--light-typography button.tp-button,
 .region--light-typography input[type="submit"],
 .region--light-typography input[type="reset"],
 .region--light-typography input[type="button"] {
@@ -102,12 +102,12 @@ input[type="submit"] + input[type="submit"],
   border-color: #ffffff;
   background-color: transparent;
 }
-.region--light-typography a.mt-button:hover,
-.region--light-typography a.mt-button:focus,
-.region--light-typography .mt-button > a:hover,
-.region--light-typography .mt-button > a:focus,
-.region--light-typography button.mt-button:hover,
-.region--light-typography button.mt-button:focus,
+.region--light-typography a.tp-button:hover,
+.region--light-typography a.tp-button:focus,
+.region--light-typography .tp-button > a:hover,
+.region--light-typography .tp-button > a:focus,
+.region--light-typography button.tp-button:hover,
+.region--light-typography button.tp-button:focus,
 .region--light-typography input[type="submit"]:hover,
 .region--light-typography input[type="submit"]:focus,
 .region--light-typography input[type="reset"]:hover,
@@ -118,29 +118,29 @@ input[type="submit"] + input[type="submit"],
   background: #ffffff;
   border-color: #ffffff;
 }
-span.mt-button-operator {
+span.tp-button-operator {
   margin: 0 10px 0 5px;
 }
-a.mt-button .svg-inline--fa {
+a.tp-button .svg-inline--fa {
   margin-right: 10px;
 }
-a.mt-button--no-margins {
+a.tp-button--no-margins {
   margin: 0;
 }
 
 /*Buttons hover style 2*/
-a.mt-button.mt-button--hover-style-2,
-.mt-button.mt-button--hover-style-2 > a {
+a.tp-button.tp-button--hover-style-2,
+.tp-button.tp-button--hover-style-2 > a {
   position: relative;
   z-index: 1;
   border-width: 2px;
 }
-a.mt-button.mt-button--hover-style-2:hover,
-.mt-button.mt-button--hover-style-2 > a:hover {
+a.tp-button.tp-button--hover-style-2:hover,
+.tp-button.tp-button--hover-style-2 > a:hover {
   background: transparent;
 }
-a.mt-button.mt-button--hover-style-2:before,
-.mt-button.mt-button--hover-style-2 > a:before {
+a.tp-button.tp-button--hover-style-2:before,
+.tp-button.tp-button--hover-style-2 > a:before {
   content:"";
   position: absolute;
   z-index: -1;
@@ -157,13 +157,13 @@ a.mt-button.mt-button--hover-style-2:before,
   transition: all 0.3s ease-in-out;
   background-color: #ffffff;
 }
-a.mt-button.mt-button--hover-style-2:hover:before,
-a.mt-button.mt-button--hover-style-2:focus:before,
-.mt-button.mt-button--hover-style-2 > a:hover:before,
-.mt-button.mt-button--hover-style-2 > a:focus:before {
+a.tp-button.tp-button--hover-style-2:hover:before,
+a.tp-button.tp-button--hover-style-2:focus:before,
+.tp-button.tp-button--hover-style-2 > a:hover:before,
+.tp-button.tp-button--hover-style-2 > a:focus:before {
   transform: scaleX(1);
 }
-.region--light-typography a.mt-button.mt-button--hover-style-2:before,
-.region--light-typography .mt-button.mt-button--hover-style-2 > a:before {
+.region--light-typography a.tp-button.tp-button--hover-style-2:before,
+.region--light-typography .tp-button.tp-button--hover-style-2 > a:before {
   background-color: #ffffff;
 }

@@ -9,7 +9,7 @@
 {% block node_side %}
 {% endblock %}
 {% block meta_area %}
-  {{ content.field_mt_video }}
+  {{ content.field_tp_video }}
 
   {% if display_submitted or content.field_tags|render %}
     <div class="node__meta">
@@ -33,7 +33,7 @@
   {% endif %}
 
   {{ title_prefix }}
-  <h4{{ title_attributes.addClass('node__title mt-0') }}>
+  <h4{{ title_attributes.addClass('node__title tp-0') }}>
     <a href="{{ url }}" rel="bookmark">{{ label }}</a>
   </h4>
   {{ title_suffix }}
@@ -42,7 +42,7 @@
 {% block content %}
   {{ attach_library('schoolsbase/node-view-mode-video-grid-item') }}
   <div class="node__main-content-section">
-    {{ content|without('field_mt_video', 'field_tags') }}
+    {{ content|without('field_tp_video', 'field_tags') }}
   </div>
   {{ content.links }}
 {% endblock %}

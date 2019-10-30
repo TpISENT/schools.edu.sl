@@ -42,7 +42,7 @@
   {% for item in items %}
     {% set styled_item_content = item.content %}
     {% set styled_item = item %}
-      {% set styled_item_content = styled_item_content|merge({'#options': {'attributes': {'class': ['mt-style-custom-all']}}}) %}
+      {% set styled_item_content = styled_item_content|merge({'#options': {'attributes': {'class': ['tp-style-custom-all']}}}) %}
       {% set styled_item = styled_item|merge({'content': styled_item_content}) %}
     {% set styled_items = styled_items|merge([styled_item]) %}
   {% endfor %}

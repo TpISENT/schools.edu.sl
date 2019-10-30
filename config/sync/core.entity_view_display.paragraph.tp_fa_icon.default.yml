@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_fa_icon.field_tp_fa_icon_icon
+    - field.field.paragraph.tp_fa_icon.field_tp_fa_icon_link
+    - paragraphs.paragraphs_type.tp_fa_icon
+  module:
+    - fontawesome
+    - link
+id: paragraph.tp_fa_icon.default
+targetEntityType: paragraph
+bundle: tp_fa_icon
+mode: default
+content:
+  field_tp_fa_icon_icon:
+    weight: 0
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  field_tp_fa_icon_link:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

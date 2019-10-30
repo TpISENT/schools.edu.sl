@@ -51,36 +51,36 @@
     {% block content %}
       <div class="feature d-flex d-md-block">
         <div class="feature__icon align-self-start mr-4 mr-md-0">
-          {{ content.field_mt_if_fa_icon }}
+          {{ content.field_tp_if_fa_icon }}
         </div>
         <div class="feature__content">
-          {% if content.field_mt_if_image|render %}
+          {% if content.field_tp_if_image|render %}
             <div class="feature__image">
-              {% if paragraph.field_mt_if_link['0'].url %}
+              {% if paragraph.field_tp_if_link['0'].url %}
                 <div class="overlay-container">
                   <span class="overlay">
-                    <a class="overlay-target-link" href="{{ paragraph.field_mt_if_link['0'].url }}"></a>
+                    <a class="overlay-target-link" href="{{ paragraph.field_tp_if_link['0'].url }}"></a>
                     <span class="overlay-inner">
-                      <a class="overlay-icon overlay-icon--button" href="{{ paragraph.field_mt_if_link['0'].url }}"><i class="fas fa-link"></i></a>
+                      <a class="overlay-icon overlay-icon--button" href="{{ paragraph.field_tp_if_link['0'].url }}"><i class="fas fa-link"></i></a>
                     </span>
                   </span>
-                  {{ content.field_mt_if_image }}
+                  {{ content.field_tp_if_image }}
                 </div>
               {% else %}
-                {{ content.field_mt_if_image }}
+                {{ content.field_tp_if_image }}
               {% endif %}
             </div>
           {% endif %}
-          {% if paragraph.field_mt_if_title.value|render %}
-            {% if paragraph.field_mt_if_link['0'].url %}
-              <h4 class="feature__title mt-0"><a href="{{ paragraph.field_mt_if_link['0'].url }}">{{ paragraph.field_mt_if_title.value }}</a></h4>
+          {% if paragraph.field_tp_if_title.value|render %}
+            {% if paragraph.field_tp_if_link['0'].url %}
+              <h4 class="feature__title tp-0"><a href="{{ paragraph.field_tp_if_link['0'].url }}">{{ paragraph.field_tp_if_title.value }}</a></h4>
             {% else %}
-              <h4 class="feature__title mt-0">{{ paragraph.field_mt_if_title.value }}</h4>
+              <h4 class="feature__title tp-0">{{ paragraph.field_tp_if_title.value }}</h4>
             {% endif %}
           {% endif %}
-          {{ content|without('field_mt_if_fa_icon', 'field_mt_if_link', 'field_mt_if_title', 'field_mt_if_image') }}
-          {% if paragraph.field_mt_if_link['0'].url and paragraph.field_mt_if_link.title %}
-            <div class="feature__link"><a class="mt-button" href="paragraph.field_mt_if_link['0'].url">{{ paragraph.field_mt_if_link.title }}</a></div>
+          {{ content|without('field_tp_if_fa_icon', 'field_tp_if_link', 'field_tp_if_title', 'field_tp_if_image') }}
+          {% if paragraph.field_tp_if_link['0'].url and paragraph.field_tp_if_link.title %}
+            <div class="feature__link"><a class="tp-button" href="paragraph.field_tp_if_link['0'].url">{{ paragraph.field_tp_if_link.title }}</a></div>
           {% endif %}
         </div>
       </div>

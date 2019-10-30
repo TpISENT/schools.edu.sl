@@ -276,13 +276,13 @@ ul.menu li.menu-item--expanded > a:hover:before {
 
 /*vertical menu*/
 @media (min-width: 992px) {
-  .header-container .mt-vertical-menu {
+  .header-container .tp-vertical-menu {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
-  .header-container .mt-vertical-menu ul.menu {
+  .header-container .tp-vertical-menu ul.menu {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -291,18 +291,18 @@ ul.menu li.menu-item--expanded > a:hover:before {
     column-gap: 30px;
     width: fit-content;
   }
-  .header-container .header-second .mt-vertical-menu ul.menu {
+  .header-container .header-second .tp-vertical-menu ul.menu {
     text-align: left;
   }
-  .header-container .mt-vertical-menu ul.menu li {
+  .header-container .tp-vertical-menu ul.menu li {
     display: block;
   }
-  .header-container .mt-vertical-menu ul.menu li a,
-  .header-container .mt-vertical-menu ul.menu li > span {
+  .header-container .tp-vertical-menu ul.menu li a,
+  .header-container .tp-vertical-menu ul.menu li > span {
     padding: 7px 10px 7px 15px;
   }
-  .header-container .mt-vertical-menu ul.menu > li > a:before,
-  .header-container .mt-vertical-menu ul.menu > li > span:before {
+  .header-container .tp-vertical-menu ul.menu > li > a:before,
+  .header-container .tp-vertical-menu ul.menu > li > span:before {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -425,37 +425,37 @@ ul.menu li.menu-item--expanded > a:hover:before {
 }
 
 /* Superfish mega-menu support */
-.header-container .sf-menu.sf-mt-mega-menu > li {
+.header-container .sf-menu.sf-tp-mega-menu > li {
   position: static;
 }
-.header-container .sf-menu.sf-mt-mega-menu > li > .sf-multicolumn {
+.header-container .sf-menu.sf-tp-mega-menu > li > .sf-multicolumn {
   width: 100%!important;
   position: fixed;
   top: auto;
 }
-.header-container .sf-menu.sf-mt-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
+.header-container .sf-menu.sf-tp-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
   display: block;
   margin: 0 auto;
   padding: 8px 0;
   width: 100%;
 }
 @media (min-width: 576px) {
-  .header-container .col-12 .sf-menu.sf-mt-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
+  .header-container .col-12 .sf-menu.sf-tp-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
     width: 510px!important;
   }
 }
 @media (min-width: 768px) {
-  .header-container .col-12 .sf-menu.sf-mt-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
+  .header-container .col-12 .sf-menu.sf-tp-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
     width: 690px!important;
   }
 }
 @media (min-width: 992px) {
-  .header-container .col-12 .sf-menu.sf-mt-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
+  .header-container .col-12 .sf-menu.sf-tp-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
     width: 930px!important;
   }
 }
 @media (min-width: 1200px) {
-  .header-container .col-12 .sf-menu.sf-mt-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
+  .header-container .col-12 .sf-menu.sf-tp-mega-menu > li > .sf-multicolumn > .sf-multicolumn-wrapper {
     width: 1110px!important;
   }
 }

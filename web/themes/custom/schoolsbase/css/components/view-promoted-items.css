@@ -26,18 +26,18 @@
 .region--light-typography .view-promoted-items .views-field-body {
   color: rgba(255, 255, 255, 0.3);
 }
-.view-promoted-items .views-field-field-mt-price {
+.view-promoted-items .views-field-field-tp-price {
   font-size: 18px;
   margin: 0px 0 10px 0;
   font-weight: 700;
 }
-.region--light-typography .view-promoted-items .views-field-field-mt-price {
+.region--light-typography .view-promoted-items .views-field-field-tp-price {
   color: #ffffff;
 }
 .view-promoted-items .views-field-link {
   margin-top: 20px;
 }
-.view-promoted-items .views-field-link a.mt-button {
+.view-promoted-items .views-field-link a.tp-button {
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -51,14 +51,14 @@
   font-size: 14px;
   margin-top: 5px;
 }
-.view-promoted-items .views-field-field-mt-prd-body,
-.view-promoted-items .views-field-field-mt-srv-price,
-.view-promoted-items .views-field-field-mt-alb-body {
+.view-promoted-items .views-field-field-tp-prd-body,
+.view-promoted-items .views-field-field-tp-srv-price,
+.view-promoted-items .views-field-field-tp-alb-body {
   padding-bottom: 15px;
 }
-.view-promoted-items .views-field-field-mt-prd-body p:last-child,
-.view-promoted-items .views-field-field-mt-srv-price p:last-child,
-.view-promoted-items .views-field-field-mt-alb-body p:last-child {
+.view-promoted-items .views-field-field-tp-prd-body p:last-child,
+.view-promoted-items .views-field-field-tp-srv-price p:last-child,
+.view-promoted-items .views-field-field-tp-alb-body p:last-child {
   padding-bottom: 0;
 }
 

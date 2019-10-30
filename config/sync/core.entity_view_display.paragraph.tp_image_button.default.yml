@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_image_button.field_tp_image_button_image
+    - field.field.paragraph.tp_image_button.field_tp_image_button_link
+    - paragraphs.paragraphs_type.tp_image_button
+  module:
+    - image
+id: paragraph.tp_image_button.default
+targetEntityType: paragraph
+bundle: tp_image_button
+mode: default
+content:
+  field_tp_image_button_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_tp_image_button_link: true

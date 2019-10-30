@@ -2,21 +2,21 @@
  * @file
  * Visual styles for Minimal's breaking slider.
  */
-.view-mt-breaking-slider {
+.view-tp-breaking-slider {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 15px 0;
 }
-.view-mt-breaking-slider .mt-link-stylable {
+.view-tp-breaking-slider .tp-link-stylable {
   font-size: 18px;
 }
-.view-mt-breaking-slider .flexslider {
+.view-tp-breaking-slider .flexslider {
   display: block;
   padding-left: 120px;
 }
-.view-mt-breaking-slider > .view-content {
+.view-tp-breaking-slider > .view-content {
   -ms-flex-order: 2;
   order: 2;
   -ms-flex-preferred-size: 0;
@@ -27,13 +27,13 @@
   position: relative;
   width: 100%;
 }
-.view-mt-breaking-slider .views-field-title {
+.view-tp-breaking-slider .views-field-title {
   font-size: 16px;
 }
-.region--dark-typography .view-mt-breaking-slider .views-field-title a {
+.region--dark-typography .view-tp-breaking-slider .views-field-title a {
   color: #333333;
 }
-.view-mt-breaking-slider .flex-direction-nav {
+.view-tp-breaking-slider .flex-direction-nav {
   width: 65px;
   height: auto;
   position: absolute;
@@ -41,7 +41,7 @@
   top: 50%;
   margin-top: -15px;
 }
-.view-mt-breaking-slider .flex-direction-nav a {
+.view-tp-breaking-slider .flex-direction-nav a {
   width: 30px;
   height: 30px;
   display: block;
@@ -49,24 +49,24 @@
   border-style: solid;
   border-color: #c4c4c4;
 }
-.region--light-typography .view-mt-breaking-slider .flex-direction-nav a {
+.region--light-typography .view-tp-breaking-slider .flex-direction-nav a {
   border-color: rgba(255, 255, 255, 0.2);
 }
-.view-mt-breaking-slider .flex-direction-nav a:before {
+.view-tp-breaking-slider .flex-direction-nav a:before {
   font-size: 18px;
   line-height: 30px;
   margin-top: 0;
   top: 0;
   color: #000000;
 }
-.region--light-typography .view-mt-breaking-slider .flex-direction-nav a:before {
+.region--light-typography .view-tp-breaking-slider .flex-direction-nav a:before {
   color: #ffffff;
 }
-.view-mt-breaking-slider .flexslider:hover .flex-direction-nav .flex-prev,
-.view-mt-breaking-slider .flexslider:hover .flex-direction-nav .flex-next {
+.view-tp-breaking-slider .flexslider:hover .flex-direction-nav .flex-prev,
+.view-tp-breaking-slider .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 1;
 }
-.view-mt-breaking-slider .flex-pauseplay {
+.view-tp-breaking-slider .flex-pauseplay {
   width: 30px;
   height: auto;
   position: absolute;
@@ -74,7 +74,7 @@
   top: 50%;
   margin-top: -15px;
 }
-.view-mt-breaking-slider .flex-pauseplay a {
+.view-tp-breaking-slider .flex-pauseplay a {
   width: 30px;
   height: 30px;
   display: block;
@@ -85,16 +85,16 @@
   text-align: center;
   opacity: 1;
 }
-.region--light-typography .view-mt-breaking-slider .flex-pauseplay a {
+.region--light-typography .view-tp-breaking-slider .flex-pauseplay a {
   border-color: rgba(255, 255, 255, 0.2);
 }
-.view-mt-breaking-slider .flex-pauseplay a:before {
+.view-tp-breaking-slider .flex-pauseplay a:before {
   font-size: 15px;
   line-height: 30px;
   margin-top: 0;
   top: 0;
   color: #000000;
 }
-.region--light-typography .view-mt-breaking-slider .flex-pauseplay a:before {
+.region--light-typography .view-tp-breaking-slider .flex-pauseplay a:before {
   color: #ffffff;
 }

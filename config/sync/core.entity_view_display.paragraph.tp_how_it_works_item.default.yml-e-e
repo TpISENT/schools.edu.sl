@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_how_it_works_item.field_tp_hiw_body
+    - field.field.paragraph.tp_how_it_works_item.field_tp_hiw_link
+    - field.field.paragraph.tp_how_it_works_item.field_tp_hiw_title
+    - paragraphs.paragraphs_type.tp_how_it_works_item
+  module:
+    - link
+    - text
+id: paragraph.tp_how_it_works_item.default
+targetEntityType: paragraph
+bundle: tp_how_it_works_item
+mode: default
+content:
+  field_tp_hiw_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tp_hiw_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_hiw_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -2,11 +2,11 @@
  * @file
  * Visual styles for Schools Base Theme's background image block.
  */
-.container-fluid .field--mt-image-with-overlaid-text {
+.container-fluid .field--tp-image-with-overlaid-text {
   margin: 0 -15px;
 }
 @media (min-width: 1200px) {
-  .container-fluid .field--mt-image-with-overlaid-text {
+  .container-fluid .field--tp-image-with-overlaid-text {
     margin: 0 -3rem;
   }
 }

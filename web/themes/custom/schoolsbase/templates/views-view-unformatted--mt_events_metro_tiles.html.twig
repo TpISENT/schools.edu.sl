@@ -27,8 +27,8 @@
   %}
   <div{{ row.attributes.addClass(row_classes) }}>
     {% set row_content = row.content %}
-    {% set row_content = row_content|merge({'#mt_view_index': loop.index}) %}
-    {% set row_content = row_content|merge({'#mt_view_page_index': view.pager.current_page}) %}
+    {% set row_content = row_content|merge({'#tp_view_index': loop.index}) %}
+    {% set row_content = row_content|merge({'#tp_view_page_index': view.pager.current_page}) %}
     {{- row_content -}}
   </div>
 {% endfor %}

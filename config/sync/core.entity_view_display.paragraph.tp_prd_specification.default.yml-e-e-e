@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_prd_specification.field_tp_prd_specification_label
+    - field.field.paragraph.tp_prd_specification.field_tp_prd_specification_value
+    - paragraphs.paragraphs_type.tp_prd_specification
+id: paragraph.tp_prd_specification.default
+targetEntityType: paragraph
+bundle: tp_prd_specification
+mode: default
+content:
+  field_tp_prd_specification_label:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tp_prd_specification_value:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_typing_animation_block
+    - field.field.block_content.tp_typing_animation_block.body
+  module:
+    - text
+id: block_content.tp_typing_animation_block.default
+targetEntityType: block_content
+bundle: tp_typing_animation_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

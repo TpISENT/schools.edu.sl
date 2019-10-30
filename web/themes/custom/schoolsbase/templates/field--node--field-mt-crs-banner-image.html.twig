@@ -54,14 +54,14 @@
 {{ attach_library('schoolsbase/slider-revolution-internal-banner-init') }}
 {% if label_hidden %}
   <div class="slideshow-internal-container">
-    <div class="container mt-sm-5 mb-sm-3">
+    <div class="container tp-sm-5 mb-sm-3">
       <div class="row">
         <div class="col-12">
           <div id="slideshow-internal" class="slideshow-internal rev_slider_wrapper {% if items|length <= 1 %}one-slide{% endif %}">
             <div class="rev_slider" data-version="5.4.5">
               <ul>
                 {% for item in items %}
-                  <li data-transition="{{ mt_setting.rs_slideshow_internal_effect }}" data-slotamount="default" data-masterspeed="default" data-title="{{ item.content['#item'].title }}">
+                  <li data-transition="{{ tp_setting.rs_slideshow_internal_effect }}" data-slotamount="default" data-masterspeed="default" data-title="{{ item.content['#item'].title }}">
 
                     {{ item.content }}
 
@@ -110,14 +110,14 @@
   <div{{ attributes.addClass(classes) }}>
     <h5{{ title_attributes.addClass(title_classes) }}>{{ label }}</h5>
     <div class="slideshow-internal-container">
-      <div class="container mt-sm-5 mb-sm-3">
+      <div class="container tp-sm-5 mb-sm-3">
         <div class="row">
           <div class="col-12">
             <div id="slideshow-internal" class="slideshow-internal rev_slider_wrapper {% if items|length <= 1 %}one-slide{% endif %}">
               <div class="rev_slider" data-version="5.4.5">
                 <ul>
                   {% for item in items %}
-                    <li data-transition="{{ mt_setting.rs_slideshow_internal_effect }}" data-slotamount="default" data-masterspeed="default" data-title="{{ item.content['#item'].title }}">
+                    <li data-transition="{{ tp_setting.rs_slideshow_internal_effect }}" data-slotamount="default" data-masterspeed="default" data-title="{{ item.content['#item'].title }}">
 
                       {{ item.content }}
 

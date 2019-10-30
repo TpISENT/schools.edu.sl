@@ -1,6 +1,6 @@
 /*Animations*/
 /*fix for admin pages*/
-.path-admin .mt-no-opacity {
+.path-admin .tp-no-opacity {
   opacity: 1;
   filter: alpha(opacity=100);
 }

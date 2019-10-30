@@ -68,6 +68,6 @@
 .region--no-block-paddings .block + .block {
   padding: 0;
 }
-.mt-mobile-menu-widget-wrapper .block {
+.tp-mobile-menu-widget-wrapper .block {
   padding-bottom: 20px;
 }

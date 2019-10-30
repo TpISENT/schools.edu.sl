@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtMagnificPopupHighlightImage = {
     attach: function (context, settings) {
-      $(context).find('.field--name-field-mt-highlight-image a.image-popup').once('mtMagnificPopupHighlightImageInit').magnificPopup({
+      $(context).find('.field--name-field-tp-highlight-image a.image-popup').once('mtMagnificPopupHighlightImageInit').magnificPopup({
         type:"image",
         removalDelay: 300,
         mainClass: "mfp-fade",

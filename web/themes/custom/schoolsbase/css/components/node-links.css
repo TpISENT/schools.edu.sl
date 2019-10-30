@@ -46,13 +46,13 @@
 }
 .node--type-article ul.links li.comment-comments,
 .node--type-article ul.links li.comment-add,
-.node--type-mt-post ul.links li.comment-comments,
-.node--type-mt-post ul.links li.comment-add,
-.node--type-mt-product ul.links li.comment-comments,
-.node--type-mt-showcase ul.links li.comment-add,
-.node--type-mt-product ul.links li.comment-add,
-.node--type-mt-showcase ul.links li.comment-forbidden,
-.node--type-mt-product ul.links li.comment-forbidden {
+.node--type-tp-post ul.links li.comment-comments,
+.node--type-tp-post ul.links li.comment-add,
+.node--type-tp-product ul.links li.comment-comments,
+.node--type-tp-showcase ul.links li.comment-add,
+.node--type-tp-product ul.links li.comment-add,
+.node--type-tp-showcase ul.links li.comment-forbidden,
+.node--type-tp-product ul.links li.comment-forbidden {
   display: none;
 }
 .node ul.inline li a {

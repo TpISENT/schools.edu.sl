@@ -19,19 +19,19 @@
   <div class="metro-tile-container">
     {{ title_prefix }}
     {{ title_suffix }}
-    {% if content.field_mt_dpt_teaser_image|render %}
-      {% set view_row_index = elements['#mt_view_index'] %}
-      {% set view_page_index = elements['#mt_view_page_index'] %}
+    {% if content.field_tp_dpt_teaser_image|render %}
+      {% set view_row_index = elements['#tp_view_index'] %}
+      {% set view_page_index = elements['#tp_view_page_index'] %}
       {% if view_page_index == 0 and (view_row_index == 2 or view_row_index == 3) %}
-        {% set field_mt_dpt_teaser_image_styled = content.field_mt_dpt_teaser_image.0 %}
-        {% set field_mt_dpt_teaser_image_styled = field_mt_dpt_teaser_image_styled|merge({'#image_style': 'mt_metro_tile_wide_image'}) %}
+        {% set field_tp_dpt_teaser_image_styled = content.field_tp_dpt_teaser_image.0 %}
+        {% set field_tp_dpt_teaser_image_styled = field_tp_dpt_teaser_image_styled|merge({'#image_style': 'tp_metro_tile_wide_image'}) %}
       {% else %}
-        {% set field_mt_dpt_teaser_image_styled = content.field_mt_dpt_teaser_image %}
+        {% set field_tp_dpt_teaser_image_styled = content.field_tp_dpt_teaser_image %}
       {% endif %}
-      {{ field_mt_dpt_teaser_image_styled }}
+      {{ field_tp_dpt_teaser_image_styled }}
     {% endif %}
 
-    <div class="metro-tile__caption mt-style-custom-tl region--default-background">
+    <div class="metro-tile__caption tp-style-custom-tl region--default-background">
 
       {% if not page %}
         <h4{{ title_attributes.addClass("my-0 node__title") }}>
@@ -41,7 +41,7 @@
     </div>
   </div>
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('field_mt_dpt_teaser_image') }}
+    {{ content|without('field_tp_dpt_teaser_image') }}
   </div>
 
 </article>

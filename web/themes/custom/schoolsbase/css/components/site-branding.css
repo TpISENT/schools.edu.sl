@@ -153,7 +153,7 @@
 }
 
 /* Site Branding @mobile widget*/
-.mt-mobile-menu-widget-wrapper .logo-and-site-name-wrapper {
+.tp-mobile-menu-widget-wrapper .logo-and-site-name-wrapper {
   text-align: left;
   -ms-flex-align: center;
   align-items: center;
@@ -163,6 +163,6 @@
   display: flex;
   margin-bottom: 20px;
 }
-.mt-mobile-menu-widget-wrapper .site-slogan {
+.tp-mobile-menu-widget-wrapper .site-slogan {
   display: none;
 }

@@ -11,9 +11,9 @@
     {% if page %}
       <div class="product-meta-info">
         <div class="row justify-content-start align-items-center mb-3">
-          {% if content.field_mt_prd_categories|render %}
+          {% if content.field_tp_prd_categories|render %}
             <div class="col-auto">
-              {{ content.field_mt_prd_categories }}
+              {{ content.field_tp_prd_categories }}
             </div>
           {% endif %}
           <div class="col-auto">
@@ -49,48 +49,48 @@
     {% endif %}
     <div class="product-content-top two-columns">
 
-      {% if content.field_mt_prd_image|render %}
+      {% if content.field_tp_prd_image|render %}
         <div class="product-content-top-first">
-          {{ content.field_mt_prd_image }}
+          {{ content.field_tp_prd_image }}
         </div>
-      {% elseif content.field_mt_prd_subheader_body|render or content.field_mt_prd_subtitle|render %}
+      {% elseif content.field_tp_prd_subheader_body|render or content.field_tp_prd_subtitle|render %}
         <div class="product-content-top-first">
-          {{ content.field_mt_prd_subtitle }}
-          {{ content.field_mt_prd_subheader_body }}
+          {{ content.field_tp_prd_subtitle }}
+          {{ content.field_tp_prd_subheader_body }}
         </div>
       {% endif %}
 
-      {% if content.field_mt_prd_subtitle|render or content.field_mt_prd_subheader_body|render or content.field_mt_prd_buy_link|render or content.field_mt_prd_price|render or content.field_mt_prd_product_code|render or content.field_mt_prd_availability|render %}
+      {% if content.field_tp_prd_subtitle|render or content.field_tp_prd_subheader_body|render or content.field_tp_prd_buy_link|render or content.field_tp_prd_price|render or content.field_tp_prd_product_code|render or content.field_tp_prd_availability|render %}
         <div class="product-content-top-second d-flex flex-column">
-          {% if content.field_mt_prd_image|render and (content.field_mt_prd_subheader_body|render or content.field_mt_prd_subtitle|render) %}
+          {% if content.field_tp_prd_image|render and (content.field_tp_prd_subheader_body|render or content.field_tp_prd_subtitle|render) %}
             <div class="mb-auto">
-              {{ content.field_mt_prd_subtitle }}
-              {{ content.field_mt_prd_subheader_body }}
+              {{ content.field_tp_prd_subtitle }}
+              {{ content.field_tp_prd_subheader_body }}
             </div>
           {% endif %}
-          {% if content.field_mt_prd_product_code|render or content.field_mt_prd_availability|render or content.field_mt_prd_price|render %}
+          {% if content.field_tp_prd_product_code|render or content.field_tp_prd_availability|render or content.field_tp_prd_price|render %}
             <div class="row justify-content-start align-items-center">
-              {% if content.field_mt_prd_price|render %}
+              {% if content.field_tp_prd_price|render %}
                 <div class="col-auto">
-                  {{ content.field_mt_prd_price }}
+                  {{ content.field_tp_prd_price }}
                 </div>
               {% endif %}
-              {% if content.field_mt_prd_product_code|render %}
+              {% if content.field_tp_prd_product_code|render %}
                 <div class="col-auto">
-                  {{ content.field_mt_prd_product_code }}
+                  {{ content.field_tp_prd_product_code }}
                 </div>
               {% endif %}
-              {% if content.field_mt_prd_availability|render %}
-                <div class="col-auto {{ node.field_mt_prd_availability.value }}">
-                  {{ content.field_mt_prd_availability }}
+              {% if content.field_tp_prd_availability|render %}
+                <div class="col-auto {{ node.field_tp_prd_availability.value }}">
+                  {{ content.field_tp_prd_availability }}
                 </div>
               {% endif %}
             </div>
           {% endif %}
-          {{ content.field_mt_prd_buy_link }}
+          {{ content.field_tp_prd_buy_link }}
         </div>
       {% endif %}
 
     </div>
-    {{ content|without('field_mt_prd_banner_carousel', 'field_mt_prd_image', 'field_mt_prd_buy_link', 'field_mt_prd_price', 'field_mt_prd_product_code', 'field_mt_prd_availability', 'field_mt_prd_categories', 'field_mt_prd_subheader_body', 'field_mt_prd_subtitle') }}
+    {{ content|without('field_tp_prd_banner_carousel', 'field_tp_prd_image', 'field_tp_prd_buy_link', 'field_tp_prd_price', 'field_tp_prd_product_code', 'field_tp_prd_availability', 'field_tp_prd_categories', 'field_tp_prd_subheader_body', 'field_tp_prd_subtitle') }}
 {% endblock %}

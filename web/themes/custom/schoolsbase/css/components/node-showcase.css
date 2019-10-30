@@ -2,18 +2,18 @@
  * @file
  * Visual styles for Schools Base Theme's showcase content type.
  */
-.node--type-mt-showcase .node__meta {
+.node--type-tp-showcase .node__meta {
   margin-bottom: 0;
 }
-.node--type-mt-showcase .node__header {
+.node--type-tp-showcase .node__header {
   padding-bottom: 0;
 }
-.node--type-mt-showcase .node__header + .field:not(.field--name-field-mt-shw-subtitle) {
+.node--type-tp-showcase .node__header + .field:not(.field--name-field-tp-shw-subtitle) {
   padding-top: 10px;
 }
 
 /* subtitle */
-.node--type-mt-showcase .field.field--name-field-mt-shw-subtitle {
+.node--type-tp-showcase .field.field--name-field-tp-shw-subtitle {
   font-size: 20px;
   line-height: 1.66;
   color: #363636;
@@ -24,13 +24,13 @@
 }
 
 /*video field*/
-.node--type-mt-showcase .field.field--name-field-mt-shw-video {
+.node--type-tp-showcase .field.field--name-field-tp-shw-video {
   margin-bottom: 20px;
 }
 
 /* showcase layout */
 @media (min-width: 768px) {
-  .node--type-mt-showcase.node--view-mode-full .node__container {
+  .node--type-tp-showcase.node--view-mode-full .node__container {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -38,24 +38,24 @@
     margin-right: -15px;
     margin-left: -15px;
   }
-  .node--type-mt-showcase.node--view-mode-full .node__main-content {
+  .node--type-tp-showcase.node--view-mode-full .node__main-content {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
     padding-right: 15px;
     padding-left: 15px;
   }
-  .layout-no-sidebars .node--type-mt-showcase.node--view-mode-full:not(.node--display-submitted) .node__main-content {
+  .layout-no-sidebars .node--type-tp-showcase.node--view-mode-full:not(.node--display-submitted) .node__main-content {
     margin-left: auto;
     margin-right: auto;
   }
-  .layout-one-sidebar .node--type-mt-showcase.node--view-mode-full:not(.node--display-submitted) .node__main-content,
-  .layout-two-sidebars .node--type-mt-showcase.node--view-mode-full:not(.node--display-submitted) .node__main-content {
+  .layout-one-sidebar .node--type-tp-showcase.node--view-mode-full:not(.node--display-submitted) .node__main-content,
+  .layout-two-sidebars .node--type-tp-showcase.node--view-mode-full:not(.node--display-submitted) .node__main-content {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .node--type-mt-showcase.node--view-mode-full .node__side {
+  .node--type-tp-showcase.node--view-mode-full .node__side {
     -ms-flex: 0 0 120px;
     flex: 0 0 120px;
     max-width: 120px;
@@ -64,31 +64,31 @@
     padding-right: 15px;
     padding-left: 15px;
   }
-  .node--type-mt-showcase.node--view-mode-full .node__side + .node__main-content {
+  .node--type-tp-showcase.node--view-mode-full .node__side + .node__main-content {
     overflow: hidden;
   }
 }
 @media (max-width: 767px) {
-  .node--type-mt-showcase.node--view-mode-full .node__side {
+  .node--type-tp-showcase.node--view-mode-full .node__side {
     display: none;
   }
 }
 
 /* node side */
-.node--type-mt-showcase.node--view-mode-full .node__side {
+.node--type-tp-showcase.node--view-mode-full .node__side {
   text-align: center;
 }
-.node--type-mt-showcase.node--view-mode-full .node__side .field--name-user-picture {
+.node--type-tp-showcase.node--view-mode-full .node__side .field--name-user-picture {
   max-width: 65px;
   margin-left: auto;
   margin-right: auto;
   float: none;
   margin-bottom: 10px;
 }
-.node--type-mt-showcase.node--view-mode-full .node__side .field--name-user-picture img {
+.node--type-tp-showcase.node--view-mode-full .node__side .field--name-user-picture img {
   border-radius: 100%;
 }
-.node--type-mt-showcase.node--view-mode-full .node__side .node-date {
+.node--type-tp-showcase.node--view-mode-full .node__side .node-date {
   font-size: 14px;
   color: #707070;
   margin-bottom: 30px

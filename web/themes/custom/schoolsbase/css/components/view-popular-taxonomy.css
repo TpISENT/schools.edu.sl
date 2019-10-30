@@ -2,29 +2,29 @@
  * @file
  * Visual styles for Schools Base Theme's popular tags views.
  */
-.view-mt-popular-tags .views-row {
+.view-tp-popular-tags .views-row {
   display: inline-block;
   margin: 0 10px 10px 0;
 }
-.view-mt-popular-tags .views-row a {
+.view-tp-popular-tags .views-row a {
   display: block;
   padding: 0;
   font-size: 12px;
 }
-.region--dark-typography .view-mt-popular-tags .views-row a {
+.region--dark-typography .view-tp-popular-tags .views-row a {
   color: #000000;
 }
-.region--dark-typography .view-mt-popular-tags .views-row a:hover,
-.region--dark-typography .view-mt-popular-tags .views-row a:focus {
+.region--dark-typography .view-tp-popular-tags .views-row a:hover,
+.region--dark-typography .view-tp-popular-tags .views-row a:focus {
   color: #ffffff;
   text-decoration: none;
 }
-.view-mt-popular-tags .views-row a:before {
+.view-tp-popular-tags .views-row a:before {
   content: "#";
 }
-.region--light-typography .view-mt-popular-tags .views-row a {
+.region--light-typography .view-tp-popular-tags .views-row a {
   text-decoration: none;
 }
-.region--light-typography .view-mt-popular-tags .views-row a:hover {
+.region--light-typography .view-tp-popular-tags .views-row a:hover {
   background-color: #ffffff;
 }

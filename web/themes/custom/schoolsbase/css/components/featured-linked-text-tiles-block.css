@@ -45,9 +45,9 @@
 .region--light-typography .featured-linked-text-tile__body a:hover {
   text-decoration: underline;
 }
-.region--light-typography .featured-linked-text-tile a.mt-button {
+.region--light-typography .featured-linked-text-tile a.tp-button {
   color: #ffffff;
 }
-.region--light-typography .featured-linked-text-tile a.mt-button:hover {
+.region--light-typography .featured-linked-text-tile a.tp-button:hover {
   background-color: transparent;
 }

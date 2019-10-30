@@ -28,7 +28,7 @@
 }
 
 /*post share links*/
-.layout-no-sidebars .node--type-mt-post .share-links ul {
+.layout-no-sidebars .node--type-tp-post .share-links ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -36,7 +36,7 @@
   margin-right: -10px;
   margin-left: -10px;
 }
-.layout-no-sidebars .node--type-mt-post .share-links ul li {
+.layout-no-sidebars .node--type-tp-post .share-links ul li {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
@@ -46,7 +46,7 @@
   padding-left: 10px;
   margin-bottom: 20px;
 }
-.node--type-mt-post .share-links ul li a {
+.node--type-tp-post .share-links ul li a {
   display: block;
   width: 65px;
   height: 65px;
@@ -57,7 +57,7 @@
   padding: 0;
 }
 @media (min-width: 992px) {
-  .layout-no-sidebars .node--type-mt-post .share-links ul li a {
+  .layout-no-sidebars .node--type-tp-post .share-links ul li a {
     width: 80px;
     height: 80px;
     line-height: 80px;

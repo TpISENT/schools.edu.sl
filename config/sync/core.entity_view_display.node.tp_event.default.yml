@@ -1,0 +1,184 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tp_event.field_tp_evnt_address
+    - field.field.node.tp_event.field_tp_evnt_banner_carousel
+    - field.field.node.tp_event.field_tp_evnt_body
+    - field.field.node.tp_event.field_tp_evnt_contact_info
+    - field.field.node.tp_event.field_tp_evnt_date
+    - field.field.node.tp_event.field_tp_evnt_image
+    - field.field.node.tp_event.field_tp_evnt_location
+    - field.field.node.tp_event.field_tp_evnt_related_resources
+    - field.field.node.tp_event.field_tp_evnt_tags
+    - field.field.node.tp_event.field_tp_evnt_teaser_image
+    - field.field.node.tp_event.field_tp_evnt_video
+    - filter.format.basic_html
+    - image.style.tp_large_teaser
+    - node.type.tp_event
+  module:
+    - datetime_range
+    - field_group
+    - geolocation
+    - image
+    - link
+    - text
+    - user
+    - video_embed_field
+third_party_settings:
+  field_group:
+    group_tp_evnt_details:
+      children:
+        - group_tp_evnt_related_resources
+        - group_tp_evnt_contact_info
+      parent_name: ''
+      weight: 8
+      format_type: accordion
+      format_settings:
+        id: ''
+        classes: ''
+        effect: bounceslide
+      label: Details
+      region: content
+    group_tp_evnt_related_resources:
+      children:
+        - field_tp_evnt_related_resources
+      parent_name: group_tp_evnt_details
+      weight: 20
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Related Resources'
+      region: content
+    group_tp_evnt_contact_info:
+      children:
+        - field_tp_evnt_contact_info
+      parent_name: group_tp_evnt_details
+      weight: 21
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Contact Information'
+      region: content
+id: node.tp_event.default
+targetEntityType: node
+bundle: tp_event
+mode: default
+content:
+  field_tp_evnt_address:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tp_evnt_banner_carousel:
+    weight: 6
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tp_evnt_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tp_evnt_contact_info:
+    weight: 22
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tp_evnt_date:
+    weight: 0
+    label: hidden
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_tp_evnt_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: tp_large_teaser
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tp_evnt_location:
+    weight: 3
+    label: hidden
+    settings:
+      title: ''
+      set_marker: '1'
+      common_map: '1'
+      data_provider_settings: {  }
+      map_provider_id: google_maps
+      centre:
+        fit_bounds:
+          enable: true
+          weight: -101
+          map_center_id: fit_bounds
+          settings:
+            reset_zoom: true
+      map_provider_settings: {  }
+      info_text:
+        value: ''
+        format: basic_html
+      use_overridden_map_settings: 0
+    third_party_settings: {  }
+    type: geolocation_map
+    region: content
+  field_tp_evnt_related_resources:
+    weight: 21
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_evnt_tags:
+    weight: 9
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_evnt_video:
+    weight: 4
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tp_evnt_teaser_image: true

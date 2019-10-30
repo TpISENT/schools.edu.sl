@@ -2,14 +2,14 @@
  * @file
  * Visual styles for Schools Base Theme's background video block.
  */
-.container-fluid .field--mt-background-video-block {
+.container-fluid .field--tp-background-video-block {
   margin: 0 -15px;
 }
-.field--mt-background-video-block .block {
+.field--tp-background-video-block .block {
   padding-bottom: 25px;
   position: relative;
 }
-.region--no-paddings .field--mt-background-video-block .block {
+.region--no-paddings .field--tp-background-video-block .block {
   padding-bottom: 0;
 }
 .container .container {

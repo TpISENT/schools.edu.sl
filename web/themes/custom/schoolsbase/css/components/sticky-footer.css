@@ -99,7 +99,7 @@
 .region--light-typography.sticky-footer {
   border-top-width: 0;
 }
-.collapsible-sticky-footer-trigger .mt-button {
+.collapsible-sticky-footer-trigger .tp-button {
   font-size: 22px;
   background-color: inherit;
   color: #333333;
@@ -108,46 +108,46 @@
   top: 2px;
   padding: 12px 40px;
 }
-.collapsible-sticky-footer-trigger .mt-button:hover,
-.collapsible-sticky-footer-trigger .mt-button:focus {
+.collapsible-sticky-footer-trigger .tp-button:hover,
+.collapsible-sticky-footer-trigger .tp-button:focus {
   color: #333333;
   border-color: #333333;
 }
-.collapsible-sticky-footer-trigger .region--light-typography.mt-button,
-.collapsible-sticky-footer-trigger .region--light-typography.mt-button:hover,
-.collapsible-sticky-footer-trigger .region--light-typography.mt-button:focus {
+.collapsible-sticky-footer-trigger .region--light-typography.tp-button,
+.collapsible-sticky-footer-trigger .region--light-typography.tp-button:hover,
+.collapsible-sticky-footer-trigger .region--light-typography.tp-button:focus {
   color: #ffffff;
   border-color: transparent;
 }
-.collapsible-sticky-footer-trigger .region--white-background.mt-button {
+.collapsible-sticky-footer-trigger .region--white-background.tp-button {
   background-color: #ffffff;
   border-bottom-color: #ffffff;
 }
-.collapsible-sticky-footer-trigger .region--default-background.mt-button {
+.collapsible-sticky-footer-trigger .region--default-background.tp-button {
   background-color: #ffffff;
   border-bottom-color: #ffffff;
 }
-.collapsible-sticky-footer-trigger .region--gray-background.mt-button {
+.collapsible-sticky-footer-trigger .region--gray-background.tp-button {
   background-color: #f6f6f6;
   border-bottom-color: #f6f6f6;
 }
-.collapsible-sticky-footer-trigger .region--dark-gray-background.mt-button {
+.collapsible-sticky-footer-trigger .region--dark-gray-background.tp-button {
   background-color: #333333;
   border-bottom-color: #333333;
 }
-.collapsible-sticky-footer-trigger .region--black-background.mt-button {
+.collapsible-sticky-footer-trigger .region--black-background.tp-button {
   background-color: #000000;
   border-bottom-color: #000000;
 }
-.collapsible-sticky-footer-trigger .mt-button.collapsed .collapsible-sticky-footer__collapse-icon {
+.collapsible-sticky-footer-trigger .tp-button.collapsed .collapsible-sticky-footer__collapse-icon {
   display: inline-block;
 }
-.collapsible-sticky-footer-trigger .mt-button.collapsed .collapsible-sticky-footer__expand-icon {
+.collapsible-sticky-footer-trigger .tp-button.collapsed .collapsible-sticky-footer__expand-icon {
   display: none;
 }
-.collapsible-sticky-footer-trigger .mt-button .collapsible-sticky-footer__expand-icon {
+.collapsible-sticky-footer-trigger .tp-button .collapsible-sticky-footer__expand-icon {
   display: inline-block;
 }
-.collapsible-sticky-footer-trigger .mt-button .collapsible-sticky-footer__collapse-icon {
+.collapsible-sticky-footer-trigger .tp-button .collapsible-sticky-footer__collapse-icon {
   display: none;
 }

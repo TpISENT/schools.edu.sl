@@ -49,18 +49,18 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="row">
-        {% if content.field_mt_highlight_image|render %}
-          <div class="col-md-6 mt-highlight-image-wrapper">
-            {{ content.field_mt_highlight_image }}
+        {% if content.field_tp_highlight_image|render %}
+          <div class="col-md-6 tp-highlight-image-wrapper">
+            {{ content.field_tp_highlight_image }}
           </div>
         {% endif %}
-        <div class="{{ (content.field_mt_highlight_image|render) ? 'col-md-6 align-self-center' : 'col-12 align-self-center' }}">
-          {{ content.field_mt_highlight_title }}
-          {{ content.field_mt_highlight_body }}
-          {{ content.field_mt_highlight_link }}
+        <div class="{{ (content.field_tp_highlight_image|render) ? 'col-md-6 align-self-center' : 'col-12 align-self-center' }}">
+          {{ content.field_tp_highlight_title }}
+          {{ content.field_tp_highlight_body }}
+          {{ content.field_tp_highlight_link }}
         </div>
       </div>
-      {{ content|without('field_mt_highlight_image', 'field_mt_highlight_title', 'field_mt_highlight_body', 'field_mt_highlight_link') }}
+      {{ content|without('field_tp_highlight_image', 'field_tp_highlight_title', 'field_tp_highlight_body', 'field_tp_highlight_link') }}
     {% endblock %}
   </div>
 {% endblock paragraph %}

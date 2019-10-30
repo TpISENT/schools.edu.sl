@@ -66,7 +66,7 @@
  * @see template_preprocess_node()
  */
 #}
-{% if (content.field_mt_dpt_video|render or content.field_mt_dpt_image|render) and content.field_mt_dpt_body|render %}
+{% if (content.field_tp_dpt_video|render or content.field_tp_dpt_image|render) and content.field_tp_dpt_body|render %}
   {% set two_column_layout = true %}
   {% set subheader_column_class = 'col-12' %}
   {% set top_column_class_first = 'col-lg-5' %}
@@ -80,7 +80,7 @@
   {% set bottom_column_class = 'col-12 col-xl-10' %}
 {% endif %}
 
-{% if content.field_mt_dpt_video|render %}
+{% if content.field_tp_dpt_video|render %}
   {% set has_video = true %}
 {% else %}
   {% set has_video = false %}
@@ -90,35 +90,35 @@
 {% block content %}
   {{ attach_library('schoolsbase/node-department') }}
   <div class="row">
-    {% if content.field_mt_dpt_subheader_body|render %}
+    {% if content.field_tp_dpt_subheader_body|render %}
       <div class="{{ subheader_column_class }}">
-        {{ content.field_mt_dpt_subheader_body }}
+        {{ content.field_tp_dpt_subheader_body }}
       </div>
     {% endif %}
-    {% if content.field_mt_dpt_video|render or content.field_mt_dpt_image|render %}
-      <div class="mt-department-media-area {{ top_column_class_first }}">
+    {% if content.field_tp_dpt_video|render or content.field_tp_dpt_image|render %}
+      <div class="tp-department-media-area {{ top_column_class_first }}">
         {% if view_mode == "full" %}
           {{ attach_library('schoolsbase/magnific-popup-dpt-media-combo-init') }}
         {% endif %}
-        {% if content.field_mt_dpt_video|render %}
-          {{ content.field_mt_dpt_video }}
+        {% if content.field_tp_dpt_video|render %}
+          {{ content.field_tp_dpt_video }}
         {% endif %}
-        {% if content.field_mt_dpt_image|render %}
-          {% set field_mt_dpt_image_extended = content.field_mt_dpt_image %}
-          {% set field_mt_dpt_image_extended = field_mt_dpt_image_extended|merge({'#has_video': has_video}) %}
-          {{ field_mt_dpt_image_extended }}
+        {% if content.field_tp_dpt_image|render %}
+          {% set field_tp_dpt_image_extended = content.field_tp_dpt_image %}
+          {% set field_tp_dpt_image_extended = field_tp_dpt_image_extended|merge({'#has_video': has_video}) %}
+          {{ field_tp_dpt_image_extended }}
         {% endif %}
       </div>
     {% endif %}
-    {% if content.field_mt_dpt_body|render %}
+    {% if content.field_tp_dpt_body|render %}
       <div class="{{ top_column_class_second }}">
-        {{ content.field_mt_dpt_body }}
+        {{ content.field_tp_dpt_body }}
       </div>
     {% endif %}
   </div>
   <div class="row">
     <div class="{{ bottom_column_class }}">
-      {{ content|without('field_mt_dpt_banner_image','field_mt_dpt_video','field_mt_dpt_image','field_mt_dpt_body','field_mt_dpt_subheader_body') }}
+      {{ content|without('field_tp_dpt_banner_image','field_tp_dpt_video','field_tp_dpt_image','field_tp_dpt_body','field_tp_dpt_subheader_body') }}
     </div>
   </div>
 {% endblock %}

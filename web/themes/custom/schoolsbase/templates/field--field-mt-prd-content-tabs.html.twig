@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the tabs powered custom block
  *
- * @see schoolsbase_preprocess_field__field_mt_content_tabs()
+ * @see schoolsbase_preprocess_field__field_tp_content_tabs()
  */
 #}
 {%
@@ -20,7 +20,7 @@
     label_display == 'visually_hidden' ? 'visually-hidden',
   ]
 %}
-{{ attach_library('schoolsbase/field-mt-prd-content-tabs') }}
+{{ attach_library('schoolsbase/field-tp-prd-content-tabs') }}
 <div{{ attributes.addClass(classes) }}>
   {% if not label_hidden %}
     <h3{{ title_attributes.addClass(title_classes) }}>{{ label }}</h3>
@@ -29,7 +29,7 @@
     {% for item in items %}
       <li class="nav-item">
         <a class="nav-link {{ loop.first ? ' active' : '' }}" href="#tab-id-{{loop.index}}" data-toggle="tab">
-          {{ item.content['#paragraph'].get('field_mt_tab_title').value }}
+          {{ item.content['#paragraph'].get('field_tp_tab_title').value }}
         </a>
       </li>
     {% endfor %}

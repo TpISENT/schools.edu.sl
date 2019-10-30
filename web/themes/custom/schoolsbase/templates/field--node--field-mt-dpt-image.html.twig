@@ -74,12 +74,12 @@
       {% if element['#has_video'] %}
         {% if (key + 1) is not divisible by(3) %}
           {% set item_col_class = 'col-6' %}
-          {% set item_content = item_content|merge({'#image_style': 'mt_square_teaser'}) %}
+          {% set item_content = item_content|merge({'#image_style': 'tp_square_teaser'}) %}
         {% endif %}
       {% else %}
         {% if (key) is not divisible by(3) %}
           {% set item_col_class = 'col-6' %}
-          {% set item_content = item_content|merge({'#image_style': 'mt_square_teaser'}) %}
+          {% set item_content = item_content|merge({'#image_style': 'tp_square_teaser'}) %}
         {% endif %}
       {% endif %}
       <div class="image-listing-item {{item_col_class}}">

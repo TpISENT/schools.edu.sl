@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tp_teaser_tile
+    - field.field.node.tp_course.field_tp_crs_banner_image
+    - field.field.node.tp_course.field_tp_crs_body
+    - field.field.node.tp_course.field_tp_crs_file_resources
+    - field.field.node.tp_course.field_tp_crs_image
+    - field.field.node.tp_course.field_tp_crs_link_resources
+    - field.field.node.tp_course.field_tp_crs_subheader_body
+    - field.field.node.tp_course.field_tp_crs_teaser_image
+    - field.field.node.tp_course.field_tp_crs_tutors
+    - field.field.node.tp_course.field_tp_crs_video
+    - image.style.tp_large_teaser
+    - node.type.tp_course
+  module:
+    - image
+    - text
+    - user
+id: node.tp_course.tp_teaser_tile
+targetEntityType: node
+bundle: tp_course
+mode: tp_teaser_tile
+content:
+  field_tp_crs_body:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_tp_crs_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: tp_large_teaser
+      image_link: content
+    third_party_settings: {  }
+  field_tp_crs_tutors:
+    weight: 1
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_tp_crs_banner_image: true
+  field_tp_crs_file_resources: true
+  field_tp_crs_image: true
+  field_tp_crs_link_resources: true
+  field_tp_crs_subheader_body: true
+  field_tp_crs_video: true
+  links: true

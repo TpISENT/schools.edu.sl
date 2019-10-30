@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_fancy_linked_image.field_tp_fli_button_fa_icon
+    - field.field.paragraph.tp_fancy_linked_image.field_tp_fli_image
+    - field.field.paragraph.tp_fancy_linked_image.field_tp_fli_link
+    - field.field.paragraph.tp_fancy_linked_image.field_tp_fli_shape
+    - field.field.paragraph.tp_fancy_linked_image.field_tp_fli_title
+    - paragraphs.paragraphs_type.tp_fancy_linked_image
+id: paragraph.tp_fancy_linked_image.default
+targetEntityType: paragraph
+bundle: tp_fancy_linked_image
+mode: default
+content:
+  field_tp_fli_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  created: true
+  field_tp_fli_button_fa_icon: true
+  field_tp_fli_image: true
+  field_tp_fli_link: true
+  field_tp_fli_shape: true
+  uid: true

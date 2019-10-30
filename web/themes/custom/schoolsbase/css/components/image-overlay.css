@@ -189,10 +189,10 @@
   line-height: 30px;
   margin-top: 25px;
 }
-.overlay .mt-button {
+.overlay .tp-button {
   padding: 15px 20px;
 }
-.overlay .mt-button .svg-inline--fa {
+.overlay .tp-button .svg-inline--fa {
   margin-right: 15px;
 }
 .overlay-container:hover {

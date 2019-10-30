@@ -43,10 +43,10 @@
         </header>
       </div>
       {% block node_side %}
-        {% if content.field_mt_prd_image|render %}
+        {% if content.field_tp_prd_image|render %}
           <div class="col-md-6">
             <div class="node__side-content clearfix">
-              {{ content.field_mt_prd_image }}
+              {{ content.field_tp_prd_image }}
             </div>
           </div>
         {% endif %}
@@ -55,14 +55,14 @@
         {{ attach_library('schoolsbase/node-product') }}
         {{ attach_library('schoolsbase/node-view-mode-slide-view') }}
         <div class="
-          {% if content.field_mt_prd_image|render %}
+          {% if content.field_tp_prd_image|render %}
             col-md-6
           {% else %}
             col-md-12
           {% endif %}">
           <div{{ content_attributes.addClass('node__main-content', 'clearfix') }}>
-            {{ content|without('comment', 'field_mt_prd_image', 'links') }}
-            <a class="mt-button mt-button--hover-style-2" href="{{ url }}">{% trans %}Learn More{% endtrans %}</a>
+            {{ content|without('comment', 'field_tp_prd_image', 'links') }}
+            <a class="tp-button tp-button--hover-style-2" href="{{ url }}">{% trans %}Learn More{% endtrans %}</a>
           </div>
         </div>
       {% endblock %}

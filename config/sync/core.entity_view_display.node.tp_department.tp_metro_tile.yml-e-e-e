@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tp_metro_tile
+    - field.field.node.tp_department.field_tp_dpt_body
+    - field.field.node.tp_department.field_tp_dpt_image
+    - field.field.node.tp_department.field_tp_dpt_teaser_image
+    - image.style.tp_metro_tile_square_image
+    - node.type.tp_department
+  module:
+    - image
+    - user
+id: node.tp_department.tp_metro_tile
+targetEntityType: node
+bundle: tp_department
+mode: tp_metro_tile
+content:
+  field_tp_dpt_teaser_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: tp_metro_tile_square_image
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_tp_dpt_body: true
+  field_tp_dpt_image: true
+  links: true

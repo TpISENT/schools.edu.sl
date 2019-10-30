@@ -11,16 +11,16 @@
   clear: both;
   content: "";
 }
-.view-testimonials-grid .views-field-field-mt-tst-testimonial-image {
+.view-testimonials-grid .views-field-field-tp-tst-testimonial-image {
   text-align: center;
 }
-.view-testimonials-grid .views-field-field-mt-tst-body {
+.view-testimonials-grid .views-field-field-tp-tst-body {
   padding-bottom: 10px;
 }
-.region--dark-typography .view-testimonials-grid .views-field-field-mt-tst-body {
+.region--dark-typography .view-testimonials-grid .views-field-field-tp-tst-body {
   color: #424242;
 }
-.view-testimonials-grid .views-field-field-mt-tst-body p {
+.view-testimonials-grid .views-field-field-tp-tst-body p {
   padding: 0;
   position: relative;
   margin-bottom: 10px;
@@ -34,31 +34,31 @@
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-.view-testimonials-grid .views-field-field-mt-tst-subtitle {
+.view-testimonials-grid .views-field-field-tp-tst-subtitle {
   font-size: 16px;
   font-weight: 500;
 }
-.view-testimonials-grid .views-field-field-mt-tst-subtitle {
+.view-testimonials-grid .views-field-field-tp-tst-subtitle {
   font-style: italic;
   font-weight: 400;
 }
-.region--dark-typography .view-testimonials-grid .views-field-field-mt-tst-subtitle {
+.region--dark-typography .view-testimonials-grid .views-field-field-tp-tst-subtitle {
   color: #939393;
 }
 @media (min-width: 768px) {
-  .views-field-field-mt-tst-testimonial-image {
+  .views-field-field-tp-tst-testimonial-image {
     margin-right: 25px;
     float: left;
     max-width: 70px;
     max-height: 70px;
   }
-  .view-testimonials-grid .views-field-field-mt-tst-testimonial-image ~ .views-field-title,
-  .view-testimonials-grid .views-field-field-mt-tst-testimonial-image ~ .views-field-field-mt-tst-subtitle {
+  .view-testimonials-grid .views-field-field-tp-tst-testimonial-image ~ .views-field-title,
+  .view-testimonials-grid .views-field-field-tp-tst-testimonial-image ~ .views-field-field-tp-tst-subtitle {
     margin-left: 95px;
   }
 }
 @media (max-width: 767px) {
-  .view-testimonials-grid .views-field-field-mt-tst-testimonial-image .views-field-field-image {
+  .view-testimonials-grid .views-field-field-tp-tst-testimonial-image .views-field-field-image {
     max-width: 70px;
     display: inline-block;
     margin-bottom: 10px;

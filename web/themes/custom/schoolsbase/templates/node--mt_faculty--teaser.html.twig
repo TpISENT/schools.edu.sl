@@ -26,32 +26,32 @@
 {% block content %}
   {{ attach_library('schoolsbase/node-faculty') }}
   <div class="row content-top mb-5">
-    {% if content.field_mt_fclt_teaser_image|render and not node.field_mt_fclt_teaser_image.isEmpty() %}
+    {% if content.field_tp_fclt_teaser_image|render and not node.field_tp_fclt_teaser_image.isEmpty() %}
       <div class="col-sm-4">
         <div class="photo-container mb-4 mb-sm-0">
-          {{ content.field_mt_fclt_teaser_image }}
+          {{ content.field_tp_fclt_teaser_image }}
         </div>
       </div>
     {% endif %}
-    {% if content.field_mt_fclt_teaser_image|render and not node.field_mt_fclt_teaser_image.isEmpty() %}
+    {% if content.field_tp_fclt_teaser_image|render and not node.field_tp_fclt_teaser_image.isEmpty() %}
       <div class="col-sm-8 pl-sm-3">
     {% else %}
       <div class="col-sm-12">
     {% endif %}
       {{ title_prefix }}
-        <h2{{ title_attributes.addClass('node__title mt-0') }}>
+        <h2{{ title_attributes.addClass('node__title tp-0') }}>
           <a href="{{ url }}" rel="bookmark">{{ label }}</a>
         </h2>
       {{ title_suffix }}
-      {{ content.field_mt_fclt_academic_title }}
-      {{ content.field_mt_fclt_body }}
+      {{ content.field_tp_fclt_academic_title }}
+      {{ content.field_tp_fclt_body }}
       {{ content.links }}
     </div>
   </div>
-  {% if content|without('field_mt_fclt_teaser_image','field_mt_fclt_body','field_mt_fclt_academic_title','links','field_mt_fclt_banner_image')|render %}
+  {% if content|without('field_tp_fclt_teaser_image','field_tp_fclt_body','field_tp_fclt_academic_title','links','field_tp_fclt_banner_image')|render %}
     <div class="row content">
       <div class="col-12 col-xl-8">
-        {{ content|without('field_mt_fclt_teaser_image','field_mt_fclt_body','field_mt_fclt_academic_title','links','field_mt_fclt_banner_image') }}
+        {{ content|without('field_tp_fclt_teaser_image','field_tp_fclt_body','field_tp_fclt_academic_title','links','field_tp_fclt_banner_image') }}
       </div>
     </div>
   {% endif %}

@@ -1,0 +1,213 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tp_faculty.field_tp_fclt_academic_title
+    - field.field.node.tp_faculty.field_tp_fclt_banner_image
+    - field.field.node.tp_faculty.field_tp_fclt_body
+    - field.field.node.tp_faculty.field_tp_fclt_contact_info
+    - field.field.node.tp_faculty.field_tp_fclt_cv
+    - field.field.node.tp_faculty.field_tp_fclt_links
+    - field.field.node.tp_faculty.field_tp_fclt_photo
+    - field.field.node.tp_faculty.field_tp_fclt_publications
+    - field.field.node.tp_faculty.field_tp_fclt_social
+    - field.field.node.tp_faculty.field_tp_fclt_teaser_image
+    - field.field.node.tp_faculty.field_tp_fclt_video
+    - image.style.tp_person_photo
+    - node.type.tp_faculty
+  module:
+    - entity_reference_revisions
+    - field_group
+    - file
+    - image
+    - link
+    - text
+    - user
+    - video_embed_field
+third_party_settings:
+  field_group:
+    group_tp_fclt_details:
+      children:
+        - group_tp_fclt_cv
+        - group_tp_fclt_social
+        - group_tp_fclt_contact_info
+        - group_tp_fclt_publications
+        - group_tp_fclt_links
+      parent_name: ''
+      weight: 4
+      format_type: accordion
+      format_settings:
+        id: ''
+        classes: ''
+        effect: bounceslide
+      label: Details
+      region: content
+    group_tp_fclt_cv:
+      children:
+        - field_tp_fclt_cv
+      parent_name: group_tp_fclt_details
+      weight: 12
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: CV
+      region: content
+    group_tp_fclt_social:
+      children:
+        - field_tp_fclt_social
+      parent_name: group_tp_fclt_details
+      weight: 13
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Social Media'
+      region: content
+    group_tp_fclt_contact_info:
+      children:
+        - field_tp_fclt_contact_info
+      parent_name: group_tp_fclt_details
+      weight: 14
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Contact information'
+      region: content
+    group_tp_fclt_publications:
+      children:
+        - field_tp_fclt_publications
+      parent_name: group_tp_fclt_details
+      weight: 15
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: Publications
+      region: content
+    group_tp_fclt_links:
+      children:
+        - field_tp_fclt_links
+      parent_name: group_tp_fclt_details
+      weight: 16
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'External links'
+      region: content
+id: node.tp_faculty.default
+targetEntityType: node
+bundle: tp_faculty
+mode: default
+content:
+  field_tp_fclt_academic_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tp_fclt_banner_image:
+    weight: 6
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tp_fclt_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tp_fclt_contact_info:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tp_fclt_cv:
+    weight: 4
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_tp_fclt_links:
+    weight: 8
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_fclt_photo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: tp_person_photo
+      image_link: file
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tp_fclt_publications:
+    weight: 7
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_fclt_social:
+    type: entity_reference_revisions_entity_view
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_tp_fclt_video:
+    weight: 3
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tp_fclt_teaser_image: true

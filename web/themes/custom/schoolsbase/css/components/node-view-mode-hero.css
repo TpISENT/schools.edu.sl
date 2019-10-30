@@ -2,45 +2,45 @@
  * @file
  * Visual styles for Schools Base Theme's node in hero view.
  */
-.node--view-mode-mt-hero {
+.node--view-mode-tp-hero {
   margin-bottom: 40px;
 }
-.hero__section .node--view-mode-mt-hero {
+.hero__section .node--view-mode-tp-hero {
   margin-top: 20px;
 }
-.node--view-mode-mt-hero h2.node__title {
+.node--view-mode-tp-hero h2.node__title {
   font-size: 56px;
 }
-.node--view-mode-mt-hero .node__meta {
+.node--view-mode-tp-hero .node__meta {
   margin-bottom: 20px;
 }
-.node--view-mode-mt-hero .field--name-field-mt-pst-body {
+.node--view-mode-tp-hero .field--name-field-tp-pst-body {
   margin-bottom: 15px;
 }
-.node--view-mode-mt-hero .field--name-field-mt-pst-body > p:last-child {
+.node--view-mode-tp-hero .field--name-field-tp-pst-body > p:last-child {
   padding-bottom: 0;
 }
-.node--view-mode-mt-hero .profile {
+.node--view-mode-tp-hero .profile {
   display: inline-block;
 }
-.node--view-mode-mt-hero .profile .field--name-user-picture {
+.node--view-mode-tp-hero .profile .field--name-user-picture {
   float: none;
   margin-right: 0;
   margin-bottom: 0;
 }
-.node--view-mode-mt-hero .field--name-user-picture img {
+.node--view-mode-tp-hero .field--name-user-picture img {
   border-radius: 100%;
   max-width: 40px;
   margin-right: 10px;
 }
-.node--view-mode-mt-hero .node__submitted {
+.node--view-mode-tp-hero .node__submitted {
   font-weight: 700;
   font-size: 16px;
 }
-.node--view-mode-mt-hero .node__submitted a {
+.node--view-mode-tp-hero .node__submitted a {
   font-weight: 700; 
 }
-.node--view-mode-mt-hero .slideshow-image__caption {
+.node--view-mode-tp-hero .slideshow-image__caption {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -54,22 +54,22 @@
   max-width: 70%;
   z-index: 20;
 }
-.node--view-mode-mt-hero .field--name-field-mt-pst-slideshow-text {
+.node--view-mode-tp-hero .field--name-field-tp-pst-slideshow-text {
   font-size: 14px;
   color: #000000;
 }
-.node--view-mode-mt-hero .field--name-field-mt-pst-slideshow-text h5 {
+.node--view-mode-tp-hero .field--name-field-tp-pst-slideshow-text h5 {
   margin-top: 0;
   margin-bottom: 5px;
   color: #000000;
 }
-.node--view-mode-mt-hero .field--name-field-mt-pst-slideshow-text p:last-child {
+.node--view-mode-tp-hero .field--name-field-tp-pst-slideshow-text p:last-child {
   padding-bottom: 0;
 }
-.node--view-mode-mt-hero .node__comments-count {
+.node--view-mode-tp-hero .node__comments-count {
   font-size: 12px;
   color: #575757;
 }
-.region--light-typography .node--view-mode-mt-hero .node__comments-count {
+.region--light-typography .node--view-mode-tp-hero .node__comments-count {
   color: #ffffff;
 }

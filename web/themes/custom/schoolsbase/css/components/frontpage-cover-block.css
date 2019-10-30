@@ -2,14 +2,14 @@
  * @file
  * Visual styles for Schools Base Theme's background image block.
  */
-.container-fluid .field--mt-frontpage-cover-block {
+.container-fluid .field--tp-frontpage-cover-block {
   margin: 0 -15px;
 }
-.field--mt-frontpage-cover-block .block {
+.field--tp-frontpage-cover-block .block {
   padding-bottom: 25px;
   position: relative;
 }
-.region--no-paddings .field--mt-frontpage-cover-block .block {
+.region--no-paddings .field--tp-frontpage-cover-block .block {
   padding-bottom: 0;
 }
 .container .container {
@@ -49,7 +49,7 @@
 .frontpage-cover-block__section h1 {
   text-transform: uppercase;
 }
-.cta-button.mt-button {
+.cta-button.tp-button {
   font-size: 16px;
   font-weight: 400;
   padding: 5px 60px 5px 5px;
@@ -70,8 +70,8 @@
   text-align: center;
   position: relative;
 }
-.cta-button.mt-button:hover,
-.cta-button.mt-button:focus {
+.cta-button.tp-button:hover,
+.cta-button.tp-button:focus {
   text-decoration: none;
 }
 @media (max-width: 991px) {

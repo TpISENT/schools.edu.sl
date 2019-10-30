@@ -5,8 +5,8 @@
 
 /* image */
 @media (max-width: 575px) {
-  .mt-style-sharp.mt-style-image-global .node--type-article .field--type-image,
-  .mt-style-image-sharp .node--type-article .field--type-image {
+  .tp-style-sharp.tp-style-image-global .node--type-article .field--type-image,
+  .tp-style-image-sharp .node--type-article .field--type-image {
     margin-right: -15px;
     margin-left: -15px;
   }
@@ -97,7 +97,7 @@
 }
 
 /*article subheader body*/
-.node--type-article .node__main-content .field--name-field-mt-subheader-body p {
+.node--type-article .node__main-content .field--name-field-tp-subheader-body p {
   font-size: 30px;
   color: #2a2a2a;
   line-height: 1.1;

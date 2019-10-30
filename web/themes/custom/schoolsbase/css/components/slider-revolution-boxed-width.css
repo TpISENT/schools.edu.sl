@@ -3,7 +3,7 @@
  * Visual styles for Schools Base Theme's slider revolution boxed width.
  */
 @media (max-width: 575px) {
-  .view-mt-slideshow-boxed-width {
+  .view-tp-slideshow-boxed-width {
     margin: 0 -15px;
   }
 }

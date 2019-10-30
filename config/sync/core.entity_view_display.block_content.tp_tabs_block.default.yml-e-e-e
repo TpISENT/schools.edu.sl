@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_tabs_block
+    - field.field.block_content.tp_tabs_block.field_tp_block_reference
+id: block_content.tp_tabs_block.default
+targetEntityType: block_content
+bundle: tp_tabs_block
+mode: default
+content:
+  field_tp_block_reference:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

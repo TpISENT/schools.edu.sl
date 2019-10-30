@@ -2,88 +2,88 @@
  * @file
  * Visual styles for Schools Base Theme's node in teaser tile view.
  */
-.node--view-mode-mt-teaser-tile-text {
+.node--view-mode-tp-teaser-tile-text {
   margin-bottom: 20px;
 }
-.node--view-mode-mt-teaser-tile-text .node__header {
+.node--view-mode-tp-teaser-tile-text .node__header {
   padding-bottom: 0;
 }
-.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0 0 5px;
   padding: 0;
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile-text .promoted-label + .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-teaser-tile-text .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-teaser-tile-text .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-teaser-tile-text .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0 0 0 10px;
   padding: 0;
   display: inline-block;
   line-height: 1.35;
   vertical-align: text-top;
 }
-.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term:before,
-.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item:before {
+.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item:before {
   content: "";
 }
-.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
-.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
+.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
   font-size: 14px;
 }
-.region--dark-typography .node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
-.region--dark-typography .node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
+.region--dark-typography .node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
   color: #707070;
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
-.node--type-mt-product.node--view-mode-mt-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
+.node--type-tp-product.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--type-tp-product.node--view-mode-tp-teaser-tile-text .field--entity-reference-target-type-taxonomy-term.field__item a {
   background-color: #ffffff;
   color: #707070;
 }
-.node--view-mode-mt-teaser-tile-text .node__meta {
+.node--view-mode-tp-teaser-tile-text .node__meta {
   text-transform: capitalize;
   margin-bottom: 5px;
 }
-.region--dark-typography .node--view-mode-mt-teaser-tile-text .node__meta {
+.region--dark-typography .node--view-mode-tp-teaser-tile-text .node__meta {
   color: #707070;
 }
-.node--view-mode-mt-teaser-tile-text .node__meta-item {
+.node--view-mode-tp-teaser-tile-text .node__meta-item {
   display: inline-block;
   margin-bottom: 5px;
 }
-.node--view-mode-mt-teaser-tile-text .node__meta-tags {
+.node--view-mode-tp-teaser-tile-text .node__meta-tags {
   margin-bottom: 0;
 }
-.node--view-mode-mt-teaser-tile-text .node__meta-item:after {
+.node--view-mode-tp-teaser-tile-text .node__meta-item:after {
   content: "/";
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile-text .node__meta-item:last-child:after {
+.node--view-mode-tp-teaser-tile-text .node__meta-item:last-child:after {
   content: "";
 }
-.node--view-mode-mt-teaser-tile-text .profile {
+.node--view-mode-tp-teaser-tile-text .profile {
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile-text .profile .field--name-user-picture {
+.node--view-mode-tp-teaser-tile-text .profile .field--name-user-picture {
   float: none;
   margin-right: 0;
   margin-bottom: 0;
 }
-.node--view-mode-mt-teaser-tile-text .field--name-user-picture img {
+.node--view-mode-tp-teaser-tile-text .field--name-user-picture img {
   border-radius: 100%;
   max-width: 40px;
   margin-right: 10px;
 }
-.node--view-mode-mt-teaser-tile-text .field--name-field-mt-crs-tutors .field__item {
+.node--view-mode-tp-teaser-tile-text .field--name-field-tp-crs-tutors .field__item {
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile-text .field--name-field-mt-crs-tutors .field__item:after {
+.node--view-mode-tp-teaser-tile-text .field--name-field-tp-crs-tutors .field__item:after {
   content: ",";
 }
-.node--view-mode-mt-teaser-tile-text .field--name-field-mt-crs-tutors .field__item:last-child:after {
+.node--view-mode-tp-teaser-tile-text .field--name-field-tp-crs-tutors .field__item:last-child:after {
   content: "";
 }
-.node--view-mode-mt-teaser-tile-text .node__start-date,
-.node--view-mode-mt-teaser-tile .node__start-date,
+.node--view-mode-tp-teaser-tile-text .node__start-date,
+.node--view-mode-tp-teaser-tile .node__start-date,
 .node--view-mode-teaser .node__start-date {
   width: 100px;
   background-color: #333;
@@ -91,28 +91,28 @@
   max-height: 100px;
   padding: 8px 0;
 }
-.node--view-mode-mt-teaser-tile-text .node__start-date span,
-.node--view-mode-mt-teaser-tile .node__start-date span,
+.node--view-mode-tp-teaser-tile-text .node__start-date span,
+.node--view-mode-tp-teaser-tile .node__start-date span,
 .node--view-mode-teaser .node__start-date span {
   display: block;
   text-align: center;
 }
-.node--view-mode-mt-teaser-tile-text .node__start-date-day,
-.node--view-mode-mt-teaser-tile .node__start-date-day,
+.node--view-mode-tp-teaser-tile-text .node__start-date-day,
+.node--view-mode-tp-teaser-tile .node__start-date-day,
 .node--view-mode-teaser .node__start-date-day {
   font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
 }
-.node--view-mode-mt-teaser-tile-text .node__start-date-month,
-.node--view-mode-mt-teaser-tile .node__start-date-month,
+.node--view-mode-tp-teaser-tile-text .node__start-date-month,
+.node--view-mode-tp-teaser-tile .node__start-date-month,
 .node--view-mode-teaser .node__start-date-month {
   font-size: 18px;
   line-height: 1.5;
   margin-top: -4px;
 }
-.node--view-mode-mt-teaser-tile-text .node__start-date-time,
-.node--view-mode-mt-teaser-tile .node__start-date-time,
+.node--view-mode-tp-teaser-tile-text .node__start-date-time,
+.node--view-mode-tp-teaser-tile .node__start-date-time,
 .node--view-mode-teaser .node__start-date-time {
   font-size: 14px;
   line-height: 1.5;

@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Schools Base Theme's override for field_mt_video.
+ * Schools Base Theme's override for field_tp_video.
  *
  * To override output, copy the "field.html.twig" from the templates directory
  * to your theme's directory and customize it, just like customizing other
@@ -51,8 +51,8 @@
     label_display == 'visually_hidden' ? 'visually-hidden',
   ]
 %}
-{{ attach_library('schoolsbase/field-mt-video') }}
-{% if view_mode == "full" or view_mode == "mt_teaser_tile_video" %}
+{{ attach_library('schoolsbase/field-tp-video') }}
+{% if view_mode == "full" or view_mode == "tp_teaser_tile_video" %}
   {{ attach_library('schoolsbase/magnific-popup-field-video-init') }}
 {% endif %}
 {% if label_hidden %}

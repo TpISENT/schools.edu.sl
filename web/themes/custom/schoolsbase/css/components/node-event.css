@@ -2,7 +2,7 @@
  * @file
  * Visual styles for Schools Base Theme's event content type.
  */
-.node--type-mt-event .node__date {
+.node--type-tp-event .node__date {
   width: 100px;
   background-color: #333;
   color: #fff;
@@ -10,20 +10,20 @@
   margin-bottom: 30px;
   display: inline-block;
 }
-.node--type-mt-event .node__date--sameday {
+.node--type-tp-event .node__date--sameday {
   width: 120px;
 }
-.node--type-mt-event .node__date-day {
+.node--type-tp-event .node__date-day {
   font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
 }
-.node--type-mt-event .node__date-month {
+.node--type-tp-event .node__date-month {
   font-size: 18px;
   line-height: 1.5;
   margin-top: -4px;
 }
-.node--type-mt-event .node__date-time {
+.node--type-tp-event .node__date-time {
   font-size: 14px;
   line-height: 1.5;
   opacity: 0.85;
@@ -36,7 +36,7 @@
 .node__side {
   font-size: 14px;
 }
-.field--name-field-mt-evnt-location .geolocation-map-container {
+.field--name-field-tp-evnt-location .geolocation-map-container {
   max-height: 250px;
 }
 @media (min-width: 768px) {
@@ -47,7 +47,7 @@
     text-align: right;
     margin-top: 5px;
   }
-  .field--name-field-mt-evnt-location .geolocation-map-container {
+  .field--name-field-tp-evnt-location .geolocation-map-container {
     max-height: none;
   }
 }

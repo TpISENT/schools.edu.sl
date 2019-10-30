@@ -7,18 +7,18 @@
   clear: both;
 }
 .view-latest-items .views-field-field-image,
-.view-latest-items .views-field-field-mt-prd-image,
-.view-latest-items .views-field-field-mt-srv-image {
+.view-latest-items .views-field-field-tp-prd-image,
+.view-latest-items .views-field-field-tp-srv-image {
   width: 100px;
   margin-right: 16px;
   float: left;
 }
 .view-latest-items .views-field-field-image ~ .views-field-title,
 .view-latest-items .views-field-field-image ~ .views-field-body,
-.view-latest-items .views-field-field-mt-prd-image ~ .views-field-title,
-.view-latest-items .views-field-field-mt-prd-image ~ .views-field-field-mt-prd-body,
-.view-latest-items .views-field-field-mt-srv-image ~ .views-field-title,
-.view-latest-items .views-field-field-mt-srv-image ~ .views-field-field-mt-srv-body,
+.view-latest-items .views-field-field-tp-prd-image ~ .views-field-title,
+.view-latest-items .views-field-field-tp-prd-image ~ .views-field-field-tp-prd-body,
+.view-latest-items .views-field-field-tp-srv-image ~ .views-field-title,
+.view-latest-items .views-field-field-tp-srv-image ~ .views-field-field-tp-srv-body,
 .view-latest-items .views-field-field-image ~ .views-field-created {
   margin-left: 116px;
 }
@@ -40,13 +40,13 @@
   text-decoration: none;
 }
 .view-latest-items .views-field-body,
-.view-latest-items .views-field-field-mt-prd-body,
-.view-latest-items .views-field-field-mt-srv-body {
+.view-latest-items .views-field-field-tp-prd-body,
+.view-latest-items .views-field-field-tp-srv-body {
   line-height: 1.5;
 }
 .view-latest-items .views-field-body p,
-.view-latest-items .views-field-field-mt-prd-body p,
-.view-latest-items .views-field-field-mt-srv-body p {
+.view-latest-items .views-field-field-tp-prd-body p,
+.view-latest-items .views-field-field-tp-srv-body p {
   padding: 0;
 }
 .view-latest-items .views-field-created {
@@ -57,16 +57,16 @@
 }
 @media (min-width:992px) {
   .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image,
-  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-prd-image,
-  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-srv-image {
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-tp-prd-image,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-tp-srv-image {
     display: none;
   }
   .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-title,
   .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-body,
-  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-prd-image ~ .views-field-title,
-  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-prd-image ~ .views-field-field-mt-prd-body,
-  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-srv-image ~ .views-field-title,
-  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-mt-srv-image ~ .views-field-field-mt-srv-body,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-tp-prd-image ~ .views-field-title,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-tp-prd-image ~ .views-field-field-tp-prd-body,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-tp-srv-image ~ .views-field-title,
+  .layout-two-sidebars .sidebar .view-latest-items .views-field-field-tp-srv-image ~ .views-field-field-tp-srv-body,
   .layout-two-sidebars .sidebar .view-latest-items .views-field-field-image ~ .views-field-created {
     margin-left: 0;
   }

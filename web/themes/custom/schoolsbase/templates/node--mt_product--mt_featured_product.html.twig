@@ -42,13 +42,13 @@
             </div>
           {% endif %}
         </header>
-        {{ content.field_mt_prd_subtitle }}
+        {{ content.field_tp_prd_subtitle }}
       </div>
       {% block node_side %}
-        {% if content.field_mt_prd_image|render %}
+        {% if content.field_tp_prd_image|render %}
           <div class="col-md-5">
             <div class="node__side-content clearfix">
-              {{ content.field_mt_prd_image }}
+              {{ content.field_tp_prd_image }}
             </div>
           </div>
         {% endif %}
@@ -56,13 +56,13 @@
       {% block content %}
         {{ attach_library('schoolsbase/node-view-mode-featured-products') }}
         <div class="
-          {% if content.field_mt_prd_image|render %}
+          {% if content.field_tp_prd_image|render %}
             col-md-7
           {% else %}
             col-md-12
           {% endif %}">
           <div{{ content_attributes.addClass('node__main-content', 'clearfix') }}>
-            {{ content|without('comment', 'field_mt_prd_image', 'links', 'field_mt_prd_subtitle') }}
+            {{ content|without('comment', 'field_tp_prd_image', 'links', 'field_tp_prd_subtitle') }}
           </div>
         </div>
       {% endblock %}

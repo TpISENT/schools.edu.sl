@@ -18,17 +18,17 @@
 <article{{ attributes.addClass(classes) }}>
   <div class="row">
     <div class="col-lg-8">
-      {% if content.field_mt_pst_image|render %}
-        {{ content.field_mt_pst_image }}
+      {% if content.field_tp_pst_image|render %}
+        {{ content.field_tp_pst_image }}
       {% endif %}
     </div>
     <div class="col-lg-4">
 
       {% trans %}
-        <div class="promoted-label mt-style-custom-all">Promoted</div>
+        <div class="promoted-label tp-style-custom-all">Promoted</div>
       {% endtrans %}
 
-      {% if display_submitted or content.field_mt_pst_category|render %}
+      {% if display_submitted or content.field_tp_pst_category|render %}
         <div class="node__meta ml-2">
           {% if display_submitted %}
             {% set createdDate = node.getCreatedTime|date('j M Y') %}
@@ -36,9 +36,9 @@
               {{ createdDate }}
             </span>
           {% endif %}
-          {% if content.field_mt_pst_category|render %}
+          {% if content.field_tp_pst_category|render %}
             <div class="node__meta-item node__meta-tags">
-              {{ content.field_mt_pst_category }}
+              {{ content.field_tp_pst_category }}
             </div>
           {% endif %}
         </div>
@@ -46,15 +46,15 @@
 
       {{ title_prefix }}
       {% if not page %}
-        <h2{{ title_attributes.addClass("mt-0 node__title") }}>
+        <h2{{ title_attributes.addClass("tp-0 node__title") }}>
           <a href="{{ url }}" rel="bookmark">{{ label }}</a>
         </h2>
       {% endif %}
       {{ title_suffix }}
 
-      {% if content|without('field_mt_pst_image', 'field_mt_pst_category')|render %}
+      {% if content|without('field_tp_pst_image', 'field_tp_pst_category')|render %}
         <div {{ content_attributes.addClass('node__content') }}>
-          {{ content|without('field_mt_pst_image', 'field_mt_pst_category') }}
+          {{ content|without('field_tp_pst_image', 'field_tp_pst_category') }}
         </div>
       {% endif %}
 

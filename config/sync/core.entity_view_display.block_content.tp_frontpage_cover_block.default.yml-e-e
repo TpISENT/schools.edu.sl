@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_frontpage_cover_block
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_background_image
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_badge
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_block_height
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_cta_button
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_image_button
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_subtitle
+    - field.field.block_content.tp_frontpage_cover_block.field_tp_fpcb_title
+id: block_content.tp_frontpage_cover_block.default
+targetEntityType: block_content
+bundle: tp_frontpage_cover_block
+mode: default
+content:
+  field_tp_fpcb_title:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_tp_fpcb_background_image: true
+  field_tp_fpcb_badge: true
+  field_tp_fpcb_block_height: true
+  field_tp_fpcb_cta_button: true
+  field_tp_fpcb_image_button: true
+  field_tp_fpcb_subtitle: true

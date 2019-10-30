@@ -51,33 +51,33 @@
     {% block content %}
       <div class="feature-item mb-4">
         <div class="row">
-          {% if content.field_mt_feature_image|render %}
+          {% if content.field_tp_feature_image|render %}
             <div class="col-md-6">
               <div class="feature-item__image">
-                {% if paragraph.field_mt_feature_link['0'].url %}
+                {% if paragraph.field_tp_feature_link['0'].url %}
                   <div class="overlay-container">
                     <span class="overlay overlay--colored">
-                      <a class="overlay-target-link" href="{{ paragraph.field_mt_feature_link['0'].url }}"></a>
+                      <a class="overlay-target-link" href="{{ paragraph.field_tp_feature_link['0'].url }}"></a>
                     </span>
-                    {{ content.field_mt_feature_image }}
+                    {{ content.field_tp_feature_image }}
                   </div>
                 {% else %}
-                  {{ content.field_mt_feature_image }}
+                  {{ content.field_tp_feature_image }}
                 {% endif %}
               </div>
             </div>
           {% endif %}
-          <div class="{{ (content.field_mt_feature_image|render) ? 'col-md-6' : 'col-12' }}">
-            {% if paragraph.field_mt_feature_title.value|render %}
-              {% if paragraph.field_mt_feature_link['0'].url %}
-                <h2 class="feature-item__title"><a href="{{ paragraph.field_mt_feature_link['0'].url }}">{{ paragraph.field_mt_feature_title.value }}</a></h2>
+          <div class="{{ (content.field_tp_feature_image|render) ? 'col-md-6' : 'col-12' }}">
+            {% if paragraph.field_tp_feature_title.value|render %}
+              {% if paragraph.field_tp_feature_link['0'].url %}
+                <h2 class="feature-item__title"><a href="{{ paragraph.field_tp_feature_link['0'].url }}">{{ paragraph.field_tp_feature_title.value }}</a></h2>
               {% else %}
-                <h2 class="feature-item__title">{{ paragraph.field_mt_feature_title.value }}</h2>
+                <h2 class="feature-item__title">{{ paragraph.field_tp_feature_title.value }}</h2>
               {% endif %}
             {% endif %}
-            {{ content|without('field_mt_feature_link', 'field_mt_feature_title', 'field_mt_feature_image') }}
-            {% if paragraph.field_mt_feature_link['0'].url and paragraph.field_mt_feature_link.title %}
-              <div class="feature-item__link"><a class="mt-button" href="{{ paragraph.field_mt_feature_link['0'].url }}">{{ paragraph.field_mt_feature_link.title }}</a></div>
+            {{ content|without('field_tp_feature_link', 'field_tp_feature_title', 'field_tp_feature_image') }}
+            {% if paragraph.field_tp_feature_link['0'].url and paragraph.field_tp_feature_link.title %}
+              <div class="feature-item__link"><a class="tp-button" href="{{ paragraph.field_tp_feature_link['0'].url }}">{{ paragraph.field_tp_feature_link.title }}</a></div>
             {% endif %}
           </div>
         </div>

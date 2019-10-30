@@ -2,11 +2,11 @@
  * @file
  * Visual styles for Schools Base Theme's department content type.
  */
-.node--view-mode-full .mt-department-media-area .field,
-.field--name-field-mt-dpt-image .image-listing-item {
+.node--view-mode-full .tp-department-media-area .field,
+.field--name-field-tp-dpt-image .image-listing-item {
   margin-bottom: 30px;
 }
-.node--view-mode-full .field--name-field-mt-dpt-subheader-body {
+.node--view-mode-full .field--name-field-tp-dpt-subheader-body {
   font-size: 22px;
   color: #6c6c6c;
 }

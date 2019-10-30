@@ -2,112 +2,112 @@
  * @file
  * Styles for Schools Base Theme's buttons.
  */
-.mt-style-sharp input.form-text,
-.mt-style-sharp input.form-tel,
-.mt-style-sharp input.form-email,
-.mt-style-sharp input.form-url,
-.mt-style-sharp input.form-search,
-.mt-style-sharp input.form-file,
-.mt-style-sharp input.form-number,
-.mt-style-sharp input.form-color,
-.mt-style-sharp input.form-date,
-.mt-style-sharp input.form-time,
-.mt-style-sharp textarea,
-.mt-style-sharp select,
-.mt-style-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
+.tp-style-sharp input.form-text,
+.tp-style-sharp input.form-tel,
+.tp-style-sharp input.form-email,
+.tp-style-sharp input.form-url,
+.tp-style-sharp input.form-search,
+.tp-style-sharp input.form-file,
+.tp-style-sharp input.form-number,
+.tp-style-sharp input.form-color,
+.tp-style-sharp input.form-date,
+.tp-style-sharp input.form-time,
+.tp-style-sharp textarea,
+.tp-style-sharp select,
+.tp-style-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
-.mt-style-oval input.form-text,
-.mt-style-oval input.form-tel,
-.mt-style-oval input.form-email,
-.mt-style-oval input.form-url,
-.mt-style-oval input.form-search,
-.mt-style-oval input.form-file,
-.mt-style-oval input.form-number,
-.mt-style-oval input.form-color,
-.mt-style-oval input.form-date,
-.mt-style-oval input.form-time,
-.mt-style-oval select,
-.mt-style-oval .block-mailchimp-signup .form-actions input[type="submit"] {
+.tp-style-oval input.form-text,
+.tp-style-oval input.form-tel,
+.tp-style-oval input.form-email,
+.tp-style-oval input.form-url,
+.tp-style-oval input.form-search,
+.tp-style-oval input.form-file,
+.tp-style-oval input.form-number,
+.tp-style-oval input.form-color,
+.tp-style-oval input.form-date,
+.tp-style-oval input.form-time,
+.tp-style-oval select,
+.tp-style-oval .block-mailchimp-signup .form-actions input[type="submit"] {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
 }
-.mt-style-oval textarea {
+.tp-style-oval textarea {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-.mt-style-rounded input.form-text,
-.mt-style-rounded input.form-tel,
-.mt-style-rounded input.form-email,
-.mt-style-rounded input.form-url,
-.mt-style-rounded input.form-search,
-.mt-style-rounded input.form-file,
-.mt-style-rounded input.form-number,
-.mt-style-rounded input.form-color,
-.mt-style-rounded input.form-date,
-.mt-style-rounded input.form-time,
-.mt-style-rounded textarea,
-.mt-style-rounded select,
-.mt-style-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
+.tp-style-rounded input.form-text,
+.tp-style-rounded input.form-tel,
+.tp-style-rounded input.form-email,
+.tp-style-rounded input.form-url,
+.tp-style-rounded input.form-search,
+.tp-style-rounded input.form-file,
+.tp-style-rounded input.form-number,
+.tp-style-rounded input.form-color,
+.tp-style-rounded input.form-date,
+.tp-style-rounded input.form-time,
+.tp-style-rounded textarea,
+.tp-style-rounded select,
+.tp-style-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-.mt-style-form-sharp input.form-text,
-.mt-style-form-sharp input.form-tel,
-.mt-style-form-sharp input.form-email,
-.mt-style-form-sharp input.form-url,
-.mt-style-form-sharp input.form-search,
-.mt-style-form-sharp input.form-file,
-.mt-style-form-sharp input.form-number,
-.mt-style-form-sharp input.form-color,
-.mt-style-form-sharp input.form-date,
-.mt-style-form-sharp input.form-time,
-.mt-style-form-sharp textarea,
-.mt-style-form-sharp select,
-.mt-style-form-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
+.tp-style-form-sharp input.form-text,
+.tp-style-form-sharp input.form-tel,
+.tp-style-form-sharp input.form-email,
+.tp-style-form-sharp input.form-url,
+.tp-style-form-sharp input.form-search,
+.tp-style-form-sharp input.form-file,
+.tp-style-form-sharp input.form-number,
+.tp-style-form-sharp input.form-color,
+.tp-style-form-sharp input.form-date,
+.tp-style-form-sharp input.form-time,
+.tp-style-form-sharp textarea,
+.tp-style-form-sharp select,
+.tp-style-form-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
-.mt-style-form-oval input.form-text,
-.mt-style-form-oval input.form-tel,
-.mt-style-form-oval input.form-email,
-.mt-style-form-oval input.form-url,
-.mt-style-form-oval input.form-search,
-.mt-style-form-oval input.form-file,
-.mt-style-form-oval input.form-number,
-.mt-style-form-oval input.form-color,
-.mt-style-form-oval input.form-date,
-.mt-style-form-oval input.form-time,
-.mt-style-form-oval select,
-.mt-style-form-oval .block-mailchimp-signup .form-actions input[type="submit"] {
+.tp-style-form-oval input.form-text,
+.tp-style-form-oval input.form-tel,
+.tp-style-form-oval input.form-email,
+.tp-style-form-oval input.form-url,
+.tp-style-form-oval input.form-search,
+.tp-style-form-oval input.form-file,
+.tp-style-form-oval input.form-number,
+.tp-style-form-oval input.form-color,
+.tp-style-form-oval input.form-date,
+.tp-style-form-oval input.form-time,
+.tp-style-form-oval select,
+.tp-style-form-oval .block-mailchimp-signup .form-actions input[type="submit"] {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
 }
-.mt-style-form-oval textarea {
+.tp-style-form-oval textarea {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-.mt-style-form-rounded input.form-text,
-.mt-style-form-rounded input.form-tel,
-.mt-style-form-rounded input.form-email,
-.mt-style-form-rounded input.form-url,
-.mt-style-form-rounded input.form-search,
-.mt-style-form-rounded input.form-file,
-.mt-style-form-rounded input.form-number,
-.mt-style-form-rounded input.form-color,
-.mt-style-form-rounded input.form-date,
-.mt-style-form-rounded input.form-time,
-.mt-style-form-rounded textarea,
-.mt-style-form-rounded select,
-.mt-style-form-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
+.tp-style-form-rounded input.form-text,
+.tp-style-form-rounded input.form-tel,
+.tp-style-form-rounded input.form-email,
+.tp-style-form-rounded input.form-url,
+.tp-style-form-rounded input.form-search,
+.tp-style-form-rounded input.form-file,
+.tp-style-form-rounded input.form-number,
+.tp-style-form-rounded input.form-color,
+.tp-style-form-rounded input.form-date,
+.tp-style-form-rounded input.form-time,
+.tp-style-form-rounded textarea,
+.tp-style-form-rounded select,
+.tp-style-form-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;

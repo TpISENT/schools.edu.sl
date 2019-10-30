@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_tab.field_tp_tab_content
+    - field.field.paragraph.tp_tab.field_tp_tab_title
+    - paragraphs.paragraphs_type.tp_tab
+  module:
+    - text
+id: paragraph.tp_tab.default
+targetEntityType: paragraph
+bundle: tp_tab
+mode: default
+content:
+  field_tp_tab_content:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  created: true
+  field_tp_tab_title: true
+  uid: true

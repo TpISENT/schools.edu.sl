@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tp_team_member.field_tp_tmm_body
+    - field.field.node.tp_team_member.field_tp_tmm_facebook_account
+    - field.field.node.tp_team_member.field_tp_tmm_featured
+    - field.field.node.tp_team_member.field_tp_tmm_linkedin_account
+    - field.field.node.tp_team_member.field_tp_tmm_member_photo
+    - field.field.node.tp_team_member.field_tp_tmm_member_photo_wide
+    - field.field.node.tp_team_member.field_tp_tmm_subheader_body
+    - field.field.node.tp_team_member.field_tp_tmm_subtitle
+    - field.field.node.tp_team_member.field_tp_tmm_twitter_account
+    - field.field.node.tp_team_member.field_tp_tmm_youtube_account
+    - image.style.tp_member_photo
+    - node.type.tp_team_member
+  module:
+    - image
+    - text
+    - user
+id: node.tp_team_member.teaser
+targetEntityType: node
+bundle: tp_team_member
+mode: teaser
+content:
+  field_tp_tmm_body:
+    type: text_summary_or_trimmed
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_tp_tmm_member_photo:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: tp_member_photo
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_tp_tmm_facebook_account: true
+  field_tp_tmm_featured: true
+  field_tp_tmm_linkedin_account: true
+  field_tp_tmm_member_photo_wide: true
+  field_tp_tmm_subheader_body: true
+  field_tp_tmm_subtitle: true
+  field_tp_tmm_twitter_account: true
+  field_tp_tmm_youtube_account: true
+  links: true

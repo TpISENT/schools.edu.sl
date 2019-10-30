@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_if_block
+    - field.field.block_content.tp_if_block.field_tp_if
+  module:
+    - entity_reference_revisions
+id: block_content.tp_if_block.default
+targetEntityType: block_content
+bundle: tp_if_block
+mode: default
+content:
+  field_tp_if:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -2,61 +2,61 @@
  * @file
  * Visual styles for Schools Base Theme's node in teaser tile view.
  */
-.node--view-mode-mt-metro-tile {
+.node--view-mode-tp-metro-tile {
   margin-bottom: 16px;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-  .node--view-mode-mt-metro-tile {
+  .node--view-mode-tp-metro-tile {
     margin-bottom: 11px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .node--view-mode-mt-metro-tile {
+  .node--view-mode-tp-metro-tile {
     margin-bottom: 8px;
   }
 }
-.view-mt-metro-tiles .view-content {
+.view-tp-metro-tiles .view-content {
   margin-left: -0.5%;
   margin-right: -0.5%;
 }
-.view-mt-metro-tiles .view-content:after {
+.view-tp-metro-tiles .view-content:after {
   display: block;
   clear: both;
   content: "";
 }
-.view-mt-metro-tiles .views-row {
+.view-tp-metro-tiles .views-row {
   float: left;
   width: 100%;
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
 @media (min-width: 768px) {
-  .view-mt-metro-tiles .views-row {
+  .view-tp-metro-tiles .views-row {
     width: 49%;
   }
 }
 @media (min-width: 992px) {
-  .view-mt-metro-tiles .views-row {
+  .view-tp-metro-tiles .views-row {
     width: 24%;
   }
 }
-.view-mt-metro-tiles .images-container {
+.view-tp-metro-tiles .images-container {
   margin-bottom: 0;
 }
 @media (min-width: 768px) {
-  .view-mt-metro-tiles .views-row.view--current-page--0:first-child,
-  .view-mt-metro-tiles .views-row.view--current-page--0:nth-child(2),
-  .view-mt-metro-tiles .views-row.view--current-page--0:nth-child(3),
-  .view-mt-metro-tiles .views-row.view--current-page--:first-child,
-  .view-mt-metro-tiles .views-row.view--current-page--:nth-child(2),
-  .view-mt-metro-tiles .views-row.view--current-page--:nth-child(3) {
+  .view-tp-metro-tiles .views-row.view--current-page--0:first-child,
+  .view-tp-metro-tiles .views-row.view--current-page--0:nth-child(2),
+  .view-tp-metro-tiles .views-row.view--current-page--0:nth-child(3),
+  .view-tp-metro-tiles .views-row.view--current-page--:first-child,
+  .view-tp-metro-tiles .views-row.view--current-page--:nth-child(2),
+  .view-tp-metro-tiles .views-row.view--current-page--:nth-child(3) {
     width: 49%;
   }
 }
-.node--view-mode-mt-metro-tile .metro-tile-container {
+.node--view-mode-tp-metro-tile .metro-tile-container {
   position: relative;
 }
-.node--view-mode-mt-metro-tile .metro-tile__caption {
+.node--view-mode-tp-metro-tile .metro-tile__caption {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -69,35 +69,35 @@
   width: 80%;
   max-width: 80%;
 }
-.node--type-mt-product.node--view-mode-mt-metro-tile .metro-tile__caption {
+.node--type-tp-product.node--view-mode-tp-metro-tile .metro-tile__caption {
   padding: 12px 16px;
   width: 90%;
   max-width: 90%;
 }
-.node--view-mode-mt-metro-tile .metro-tile__caption--space-right {
+.node--view-mode-tp-metro-tile .metro-tile__caption--space-right {
   min-height: 100px;
   padding-right: 120px;
 }
-.node--view-mode-mt-metro-tile:hover .metro-tile__caption {
+.node--view-mode-tp-metro-tile:hover .metro-tile__caption {
   padding-bottom: 40px;
 }
-.node--view-mode-mt-metro-tile:hover .metro-tile__caption--space-right {
+.node--view-mode-tp-metro-tile:hover .metro-tile__caption--space-right {
   padding-bottom: 20px;
 }
-.node--view-mode-mt-metro-tile .field--name-field-mt-crs-tutors .field__item {
+.node--view-mode-tp-metro-tile .field--name-field-tp-crs-tutors .field__item {
   display: inline-block;
 }
-.node--view-mode-mt-metro-tile .field--name-field-mt-crs-tutors .field__item:after {
+.node--view-mode-tp-metro-tile .field--name-field-tp-crs-tutors .field__item:after {
   content: ",";
 }
-.node--view-mode-mt-metro-tile .field--name-field-mt-crs-tutors .field__item:last-child:after {
+.node--view-mode-tp-metro-tile .field--name-field-tp-crs-tutors .field__item:last-child:after {
   content: "";
 }
-.node--view-mode-mt-metro-tile .metro-tile__caption a {
+.node--view-mode-tp-metro-tile .metro-tile__caption a {
   color: #333333;
   text-decoration: none;
 }
-.node--view-mode-mt-metro-tile .metro-tile__price {
+.node--view-mode-tp-metro-tile .metro-tile__price {
   font-size: 22px;
   font-weight: 700;
   color: #333333;
@@ -105,30 +105,30 @@
   opacity: 0.7;
   margin-left: 15px;
 }
-.node--view-mode-mt-metro-tile .metro-tile__caption .node__submitted-date,
-.node--view-mode-mt-metro-tile .metro-tile__caption .node__start-date {
+.node--view-mode-tp-metro-tile .metro-tile__caption .node__submitted-date,
+.node--view-mode-tp-metro-tile .metro-tile__caption .node__start-date {
   font-size: 14px;
   color: #727272;
 }
-.node--view-mode-mt-metro-tile .metro-tile__caption .field--name-field-mt-evnt-tags {
+.node--view-mode-tp-metro-tile .metro-tile__caption .field--name-field-tp-evnt-tags {
   display: inline-block;
 }
-.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-metro-tile .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0;
   padding: 0;
   color: #727272;
   font-size: 14px;
 }
-.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term:before,
-.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item:before {
+.node--view-mode-tp-metro-tile .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-tp-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item:before {
   content: "";
 }
-.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
-.node--view-mode-mt-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+.node--view-mode-tp-metro-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-tp-metro-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
   font-size: 14px;
   color: #727272;
 }
-.node--type-mt-showcase.node--view-mode-mt-metro-tile .image-and-date-container .node__submitted-date {
+.node--type-tp-showcase.node--view-mode-tp-metro-tile .image-and-date-container .node__submitted-date {
   font-size: 14px;
 }

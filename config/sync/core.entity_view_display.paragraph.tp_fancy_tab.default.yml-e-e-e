@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_fancy_tab.field_tp_fancy_block_reference
+    - field.field.paragraph.tp_fancy_tab.field_tp_fancy_subtitle
+    - field.field.paragraph.tp_fancy_tab.field_tp_fancy_title
+    - paragraphs.paragraphs_type.tp_fancy_tab
+id: paragraph.tp_fancy_tab.default
+targetEntityType: paragraph
+bundle: tp_fancy_tab
+mode: default
+content:
+  field_tp_fancy_block_reference:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  created: true
+  field_tp_fancy_subtitle: true
+  field_tp_fancy_title: true
+  uid: true

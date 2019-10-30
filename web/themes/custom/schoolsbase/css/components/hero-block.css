@@ -2,74 +2,74 @@
  * @file
  * Visual styles for Schools Base Theme's hero block.
  */
-.field--name-field-mt-hero-title {
+.field--name-field-tp-hero-title {
   font-size: 72px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 @media (min-width: 992px) {
-  .field--name-field-mt-hero-title {
+  .field--name-field-tp-hero-title {
     min-height: 185px;
   }
 }
-.field--name-field-mt-hero-body {
+.field--name-field-tp-hero-body {
   font-size: 18px;
   margin-bottom: 35px;
 }
-.field--name-field-mt-hero-teaser {
+.field--name-field-tp-hero-teaser {
   margin-bottom: 15px;
 }
-.field--name-field-mt-hero-social-icon {
+.field--name-field-tp-hero-social-icon {
   margin-bottom: 50px;
 }
-.field--name-field-mt-hero-teaser {
+.field--name-field-tp-hero-teaser {
   margin-top: 20px;
 }
-.field--name-field-mt-fa-icon-icon .fa-lg {
+.field--name-field-tp-fa-icon-icon .fa-lg {
   font-size: 22px;
 }
-.paragraph--type--mt-fa-icon {
+.paragraph--type--tp-fa-icon {
   padding: 5px 0;
 }
-.headings-wide-spacing-enabled .field--name-field-mt-hero-link a {
+.headings-wide-spacing-enabled .field--name-field-tp-hero-link a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
 @media (max-width: 575px) {
-  .mt-style-sharp.mt-style-image-global .field--name-field-mt-hero-image,
-  .mt-style-image-sharp .field--name-field-mt-hero-image {
+  .tp-style-sharp.tp-style-image-global .field--name-field-tp-hero-image,
+  .tp-style-image-sharp .field--name-field-tp-hero-image {
     margin: 0 -15px;
   }
 }
 
 /*stacked layout*/
-.mt-hero--stacked-layout .field--name-field-mt-hero-body {
+.tp-hero--stacked-layout .field--name-field-tp-hero-body {
   margin-bottom: 20px;
 }
-.mt-hero--stacked-layout .field--name-field-mt-hero-link {
+.tp-hero--stacked-layout .field--name-field-tp-hero-link {
   margin-bottom: 50px;
 }
 @media (max-width: 991px) {
-  .mt-hero--stacked-layout .field--name-field-mt-hero-title {
+  .tp-hero--stacked-layout .field--name-field-tp-hero-title {
     font-size: 36px;
   }
-  .mt-hero--stacked-layout .field--name-field-mt-hero-title .typed-cursor {
+  .tp-hero--stacked-layout .field--name-field-tp-hero-title .typed-cursor {
     font-size: 36px;
   }
-  .mt-hero--stacked-layout .field--name-field-mt-hero-body {
+  .tp-hero--stacked-layout .field--name-field-tp-hero-body {
     font-size: 15px;
     margin-bottom: 20px;
   }
-  .mt-hero--stacked-layout .field--name-field-mt-hero-link {
+  .tp-hero--stacked-layout .field--name-field-tp-hero-link {
     margin-bottom: 20px;
   }
-  .field--name-field-mt-hero-teaser {
+  .field--name-field-tp-hero-teaser {
     margin-top: 0;
   }
 }
 @media (min-width: 1200px) {
-  .mt-hero-teaser-field--items-1 .field__label {
+  .tp-hero-teaser-field--items-1 .field__label {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
@@ -81,13 +81,13 @@
   }
 }
 @media (max-width: 767px) {
-  .mt-hero--stacked-layout .mt-hero-side {
+  .tp-hero--stacked-layout .tp-hero-side {
     display: none;
   }
 }
 
 /*overlaid layout*/
-.mt-hero--overlaid-layout {
+.tp-hero--overlaid-layout {
   position: relative;
 }
 .hero-caption {
@@ -123,13 +123,13 @@
     max-width: 550px;
     padding: 30px;
   }
-  .mt-hero--overlaid-layout .field--name-field-mt-hero-title {
+  .tp-hero--overlaid-layout .field--name-field-tp-hero-title {
     font-size: 36px;
   }
-  .mt-hero--overlaid-layout .field--name-field-mt-hero-title .typed-cursor {
+  .tp-hero--overlaid-layout .field--name-field-tp-hero-title .typed-cursor {
     font-size: 36px;
   }
-  .mt-hero--overlaid-layout .field--name-field-mt-hero-body {
+  .tp-hero--overlaid-layout .field--name-field-tp-hero-body {
     font-size: 15px;
     margin-bottom: 20px;
   }

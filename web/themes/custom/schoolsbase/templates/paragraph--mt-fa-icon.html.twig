@@ -48,14 +48,14 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {% if paragraph.field_mt_fa_icon_link['0'].url %}
-        <a target="_blank" href="{{ paragraph.field_mt_fa_icon_link['0'].url }}">
-          {{ content.field_mt_fa_icon_icon }}
+      {% if paragraph.field_tp_fa_icon_link['0'].url %}
+        <a target="_blank" href="{{ paragraph.field_tp_fa_icon_link['0'].url }}">
+          {{ content.field_tp_fa_icon_icon }}
         </a>
       {% else %}
-        {{ content.field_mt_fa_icon_icon }}
+        {{ content.field_tp_fa_icon_icon }}
       {% endif %}
-      {{ content|without('field_mt_fa_icon_link', 'field_mt_fa_icon_icon') }}
+      {{ content|without('field_tp_fa_icon_link', 'field_tp_fa_icon_icon') }}
     {% endblock %}
   </div>
 {% endblock paragraph %}

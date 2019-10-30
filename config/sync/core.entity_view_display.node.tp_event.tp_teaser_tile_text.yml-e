@@ -1,0 +1,49 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tp_teaser_tile_text
+    - field.field.node.tp_event.field_tp_evnt_banner_carousel
+    - field.field.node.tp_event.field_tp_evnt_body
+    - field.field.node.tp_event.field_tp_evnt_date
+    - field.field.node.tp_event.field_tp_evnt_image
+    - field.field.node.tp_event.field_tp_evnt_location
+    - field.field.node.tp_event.field_tp_evnt_tags
+    - field.field.node.tp_event.field_tp_evnt_teaser_image
+    - field.field.node.tp_event.field_tp_evnt_video
+    - node.type.tp_event
+  module:
+    - datetime_range
+    - text
+    - user
+id: node.tp_event.tp_teaser_tile_text
+targetEntityType: node
+bundle: tp_event
+mode: tp_teaser_tile_text
+content:
+  field_tp_evnt_body:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_tp_evnt_date:
+    weight: 0
+    label: hidden
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+hidden:
+  field_tp_evnt_banner_carousel: true
+  field_tp_evnt_image: true
+  field_tp_evnt_location: true
+  field_tp_evnt_tags: true
+  field_tp_evnt_teaser_image: true
+  field_tp_evnt_video: true
+  links: true
