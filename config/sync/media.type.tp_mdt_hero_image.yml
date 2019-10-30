@@ -1,0 +1,13 @@
+uuid: eb657406-76b0-41b0-a8e9-97aca149a223
+langcode: en
+status: true
+dependencies: {  }
+id: tp_mdt_hero_image
+label: 'Hero Image'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_2
+field_map: {  }
