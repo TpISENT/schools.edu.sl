@@ -1,0 +1,28 @@
+uuid: de9b5052-51b8-4944-bd73-e24a7ea983a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_events
+    - node.type.tpevent
+    - node.type.tpschool
+id: node.tpschool.field_tp_events
+field_name: field_tp_events
+entity_type: node
+bundle: tpschool
+label: Events
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tpevent: tpevent
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

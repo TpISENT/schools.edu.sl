@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: TpCourse
+name: 'Academic Course'
 type: tpcourse
-description: ''
+description: 'Use <em>Academic Course</em> to add a new Academic Course page.  In higher education in Sierra Leone, a course/subject is a unit of teaching that typically lasts one academic term or year, is led by one or more instructors (teachers or professors), and has a fixed roster of students. A course is usually an individual subject'
 help: ''
 new_revision: true
 preview_mode: 1

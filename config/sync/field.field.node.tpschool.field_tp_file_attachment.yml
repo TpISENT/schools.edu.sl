@@ -1,0 +1,27 @@
+uuid: 8b608a41-73b2-4afd-b94c-7a20354c60d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_file_attachment
+    - node.type.tpschool
+  module:
+    - file
+id: node.tpschool.field_tp_file_attachment
+field_name: field_tp_file_attachment
+entity_type: node
+bundle: tpschool
+label: 'File Attachment'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,19 @@
+uuid: 07e9fdc9-124d-4c09-8ad4-dbd5355eb4e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_tp_apply
+field_name: field_tp_apply
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

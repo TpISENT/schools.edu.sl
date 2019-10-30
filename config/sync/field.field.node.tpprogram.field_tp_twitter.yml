@@ -1,0 +1,23 @@
+uuid: 14c6fa38-bbde-440b-b343-3aef118f85f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_twitter
+    - node.type.tpprogram
+  module:
+    - link
+id: node.tpprogram.field_tp_twitter
+field_name: field_tp_twitter
+entity_type: node
+bundle: tpprogram
+label: Twitter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

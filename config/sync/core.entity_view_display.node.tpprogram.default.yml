@@ -4,44 +4,213 @@ status: true
 dependencies:
   config:
     - field.field.node.tpprogram.body
+    - field.field.node.tpprogram.field_image
     - field.field.node.tpprogram.field_meta_tags
+    - field.field.node.tpprogram.field_tags
+    - field.field.node.tpprogram.field_tp_address
+    - field.field.node.tpprogram.field_tp_apply
+    - field.field.node.tpprogram.field_tp_audience
+    - field.field.node.tpprogram.field_tp_banner_image
+    - field.field.node.tpprogram.field_tp_bg_video_youtube
+    - field.field.node.tpprogram.field_tp_category
+    - field.field.node.tpprogram.field_tp_curriculum
+    - field.field.node.tpprogram.field_tp_events
+    - field.field.node.tpprogram.field_tp_facebook
+    - field.field.node.tpprogram.field_tp_faculty_and_staff
+    - field.field.node.tpprogram.field_tp_file_attachment
+    - field.field.node.tpprogram.field_tp_linkedin
+    - field.field.node.tpprogram.field_tp_section
+    - field.field.node.tpprogram.field_tp_seo_meta_description
+    - field.field.node.tpprogram.field_tp_slideshow
+    - field.field.node.tpprogram.field_tp_slideshow_image
+    - field.field.node.tpprogram.field_tp_slideshow_text
+    - field.field.node.tpprogram.field_tp_twitter
+    - field.field.node.tpprogram.field_tp_youtube
     - field.field.node.tpprogram.field_yoast_seo
     - node.type.tpprogram
   module:
+    - address
+    - file
+    - image
+    - link
     - metatag
     - text
     - user
+    - yoast_seo
 id: node.tpprogram.default
 targetEntityType: node
 bundle: tpprogram
 mode: default
 content:
+  addtoany:
+    weight: 16
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_image:
+    weight: 8
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   field_meta_tags:
-    weight: 102
+    weight: 18
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
-  field_yoast_seo:
-    weight: 103
+  field_tags:
+    weight: 11
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_address:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_tp_apply:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_banner_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tp_bg_video_youtube:
+    weight: 9
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  links:
-    weight: 100
+  field_tp_curriculum:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_events:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_facebook:
+    weight: 12
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_faculty_and_staff:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_file_attachment:
+    weight: 6
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_tp_linkedin:
+    weight: 13
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_twitter:
+    weight: 14
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tp_youtube:
+    weight: 15
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_yoast_seo:
+    weight: 0
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: yoastseo_formatter
     region: content
+  links:
+    weight: 17
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
-  addtoany: true
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_section: true
+  field_tp_seo_meta_description: true
+  field_tp_slideshow: true
+  field_tp_slideshow_image: true
+  field_tp_slideshow_text: true

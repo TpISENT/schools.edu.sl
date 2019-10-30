@@ -1,0 +1,21 @@
+uuid: 6c934d39-6ef7-4561-9e1d-57e00aa56abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_year
+    - node.type.tp_curriculum
+  module:
+    - options
+id: node.tp_curriculum.field_tp_year
+field_name: field_tp_year
+entity_type: node
+bundle: tp_curriculum
+label: Year
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

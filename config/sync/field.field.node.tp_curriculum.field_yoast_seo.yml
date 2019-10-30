@@ -1,0 +1,27 @@
+uuid: 266ae2f9-7eba-4439-a774-f7664a96ffcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.tp_curriculum
+  module:
+    - yoast_seo
+id: node.tp_curriculum.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: tp_curriculum
+label: 'Real-time SEO'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    yoast_seo:
+      focus_keyword: ''
+      status: ''
+    status: ''
+    focus_keyword: ''
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

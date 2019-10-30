@@ -1,0 +1,29 @@
+uuid: b4173180-d4a4-4e5d-b4ce-ea4ff5c4ecee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_section
+    - node.type.tp_curriculum
+    - taxonomy.vocabulary.tp_section
+id: node.tp_curriculum.field_tp_section
+field_name: field_tp_section
+entity_type: node
+bundle: tp_curriculum
+label: Section
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tp_section: tp_section
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: tp_category
+field_type: entity_reference

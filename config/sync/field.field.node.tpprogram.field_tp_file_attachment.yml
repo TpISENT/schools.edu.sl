@@ -1,0 +1,27 @@
+uuid: 33b02ad9-c47b-492d-9876-a9c7c6c0eb0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_file_attachment
+    - node.type.tpprogram
+  module:
+    - file
+id: node.tpprogram.field_tp_file_attachment
+field_name: field_tp_file_attachment
+entity_type: node
+bundle: tpprogram
+label: 'File Attachment'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,28 @@
+uuid: a81e0af5-5586-4b29-af3e-8cb803eb5e93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_curriculum
+    - node.type.tp_curriculum
+    - node.type.tpprogram
+id: node.tpprogram.field_tp_curriculum
+field_name: field_tp_curriculum
+entity_type: node
+bundle: tpprogram
+label: Curriculum
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tp_curriculum: tp_curriculum
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

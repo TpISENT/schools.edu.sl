@@ -1,0 +1,8 @@
+uuid: ce5a1cfe-0bf0-4d62-8914-a2c0ec31d756
+langcode: en
+status: true
+dependencies: {  }
+id: blog
+label: Blog
+description: ''
+locked: false

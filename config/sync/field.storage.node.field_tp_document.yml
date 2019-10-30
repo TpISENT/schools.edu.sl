@@ -1,0 +1,20 @@
+uuid: 986a0958-72f0-4fe5-8732-fa277252b39d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_tp_document
+field_name: field_tp_document
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

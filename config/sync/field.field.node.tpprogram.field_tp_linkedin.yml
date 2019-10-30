@@ -1,0 +1,23 @@
+uuid: 9a4ddb82-d0d7-4d91-8481-e70fbbb06bc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_linkedin
+    - node.type.tpprogram
+  module:
+    - link
+id: node.tpprogram.field_tp_linkedin
+field_name: field_tp_linkedin
+entity_type: node
+bundle: tpprogram
+label: 'Linkedin Page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

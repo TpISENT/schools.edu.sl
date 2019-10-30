@@ -1,0 +1,48 @@
+uuid: 27a895f2-89eb-47a3-b419-9cb32ddc0b02
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tp_curriculum.body
+    - field.field.node.tp_curriculum.field_tp_audience
+    - field.field.node.tp_curriculum.field_tp_category
+    - field.field.node.tp_curriculum.field_tp_course
+    - field.field.node.tp_curriculum.field_tp_programs
+    - field.field.node.tp_curriculum.field_tp_section
+    - field.field.node.tp_curriculum.field_tp_semester
+    - field.field.node.tp_curriculum.field_tp_seo_meta_description
+    - field.field.node.tp_curriculum.field_tp_year
+    - field.field.node.tp_curriculum.field_yoast_seo
+    - node.type.tp_curriculum
+  module:
+    - user
+id: node.tp_curriculum.teaser
+targetEntityType: node
+bundle: tp_curriculum
+mode: teaser
+content:
+  field_tp_seo_meta_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_course: true
+  field_tp_programs: true
+  field_tp_section: true
+  field_tp_semester: true
+  field_tp_year: true
+  field_yoast_seo: true

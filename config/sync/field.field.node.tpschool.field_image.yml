@@ -11,7 +11,7 @@ id: node.tpschool.field_image
 field_name: field_image
 entity_type: node
 bundle: tpschool
-label: Image
+label: 'In-page Image(s)'
 description: ''
 required: false
 translatable: true

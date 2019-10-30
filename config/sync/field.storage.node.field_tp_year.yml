@@ -1,0 +1,39 @@
+uuid: cc4ad8bf-f4c1-4141-8d2b-27523e69d566
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tp_year
+field_name: field_tp_year
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Year one'
+      label: 'Year one'
+    -
+      value: 'Year two'
+      label: 'Year two'
+    -
+      value: 'Year three'
+      label: 'Year three'
+    -
+      value: 'Year Four'
+      label: 'Year Four'
+    -
+      value: 'Year Five'
+      label: 'Year Five'
+    -
+      value: 'Year Six'
+      label: 'Year Six'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

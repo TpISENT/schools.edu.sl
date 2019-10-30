@@ -1,0 +1,23 @@
+uuid: 15b44341-968e-4e4f-bdc0-14df45611454
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_facebook
+    - node.type.tpprogram
+  module:
+    - link
+id: node.tpprogram.field_tp_facebook
+field_name: field_tp_facebook
+entity_type: node
+bundle: tpprogram
+label: Facebook
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

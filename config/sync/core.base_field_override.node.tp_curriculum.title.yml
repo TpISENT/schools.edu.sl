@@ -1,0 +1,18 @@
+uuid: 8fc85062-8ff3-4a4f-82b7-5d25b83de95c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tp_curriculum
+id: node.tp_curriculum.title
+field_name: title
+entity_type: node
+bundle: tp_curriculum
+label: 'SEO Meta Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

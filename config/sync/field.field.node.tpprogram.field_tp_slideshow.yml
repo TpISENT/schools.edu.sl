@@ -1,0 +1,23 @@
+uuid: 54c1008b-46af-481e-bd30-336ce064db28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_slideshow
+    - node.type.tpprogram
+id: node.tpprogram.field_tp_slideshow
+field_name: field_tp_slideshow
+entity_type: node
+bundle: tpprogram
+label: 'Promote to front page slideshow'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -1,0 +1,28 @@
+uuid: 5f1cb55c-ac60-4250-8685-77b82409861d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_video_galleries
+    - node.type.tpschool
+    - node.type.tpvideos
+id: node.tpschool.field_tp_video_galleries
+field_name: field_tp_video_galleries
+entity_type: node
+bundle: tpschool
+label: 'Video galleries'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tpvideos: tpvideos
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

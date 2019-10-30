@@ -1,0 +1,28 @@
+uuid: 7f5fb341-d1c9-4200-9567-ebdde1e575ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_publications
+    - node.type.tppublication
+    - node.type.tpschool
+id: node.tpschool.field_tp_publications
+field_name: field_tp_publications
+entity_type: node
+bundle: tpschool
+label: Publications
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tppublication: tppublication
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

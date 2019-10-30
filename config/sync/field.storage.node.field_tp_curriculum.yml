@@ -1,0 +1,19 @@
+uuid: 44178435-d9bf-4e7b-8f8d-05549bb0f7de
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_tp_curriculum
+field_name: field_tp_curriculum
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

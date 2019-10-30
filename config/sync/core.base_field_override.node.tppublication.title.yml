@@ -1,0 +1,18 @@
+uuid: a28906e0-2f26-4585-a6c9-a2a8ba8d6188
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tppublication
+id: node.tppublication.title
+field_name: title
+entity_type: node
+bundle: tppublication
+label: 'SEO Meta Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

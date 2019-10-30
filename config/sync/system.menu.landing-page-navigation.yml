@@ -1,0 +1,8 @@
+uuid: 2e064e9c-f8e8-477b-9838-3a74382ba2fc
+langcode: en
+status: true
+dependencies: {  }
+id: landing-page-navigation
+label: 'Landing page navigation'
+description: ''
+locked: false

@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'School Listing'
 type: tp_listing
-description: ''
+description: 'Use <em>School Listing</em> to add a new school page to create an online directory of schools. '
 help: ''
 new_revision: true
 preview_mode: 1

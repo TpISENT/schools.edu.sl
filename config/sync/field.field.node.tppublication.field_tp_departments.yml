@@ -1,0 +1,28 @@
+uuid: 6174238f-ad3e-4159-9cb5-378b20bc2a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_departments
+    - node.type.tpdepartment
+    - node.type.tppublication
+id: node.tppublication.field_tp_departments
+field_name: field_tp_departments
+entity_type: node
+bundle: tppublication
+label: Departments
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tpdepartment: tpdepartment
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

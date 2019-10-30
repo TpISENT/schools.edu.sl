@@ -1,0 +1,28 @@
+uuid: c06a1a3c-0f37-4e75-ad7c-fa83a3fab928
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_faculty_and_staff
+    - node.type.tpfaculty
+    - node.type.tpprogram
+id: node.tpprogram.field_tp_faculty_and_staff
+field_name: field_tp_faculty_and_staff
+entity_type: node
+bundle: tpprogram
+label: 'Faculty and Staff'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tpfaculty: tpfaculty
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

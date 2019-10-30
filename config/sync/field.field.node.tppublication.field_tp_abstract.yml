@@ -1,0 +1,19 @@
+uuid: 4469dbf6-b025-48ac-af0c-fbd9f4f2dd7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_abstract
+    - node.type.tppublication
+id: node.tppublication.field_tp_abstract
+field_name: field_tp_abstract
+entity_type: node
+bundle: tppublication
+label: Abstract
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

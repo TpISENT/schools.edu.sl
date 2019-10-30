@@ -5,26 +5,49 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.tppublication.body
+    - field.field.node.tppublication.field_meta_tags
+    - field.field.node.tppublication.field_tags
+    - field.field.node.tppublication.field_tp_abstract
+    - field.field.node.tppublication.field_tp_audience
+    - field.field.node.tppublication.field_tp_category
+    - field.field.node.tppublication.field_tp_departments
+    - field.field.node.tppublication.field_tp_document
+    - field.field.node.tppublication.field_tp_faculty_and_staff
+    - field.field.node.tppublication.field_tp_section
+    - field.field.node.tppublication.field_tp_seo_meta_description
+    - field.field.node.tppublication.field_tp_sources
+    - field.field.node.tppublication.field_yoast_seo
     - node.type.tppublication
   module:
-    - text
     - user
 id: node.tppublication.teaser
 targetEntityType: node
 bundle: tppublication
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
+  field_tp_abstract:
+    type: basic_string
+    weight: 0
     region: content
-  links:
-    weight: 100
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+  links:
+    weight: 1
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_meta_tags: true
+  field_tags: true
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_departments: true
+  field_tp_document: true
+  field_tp_faculty_and_staff: true
+  field_tp_section: true
+  field_tp_seo_meta_description: true
+  field_tp_sources: true
+  field_yoast_seo: true

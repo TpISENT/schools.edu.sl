@@ -1,0 +1,40 @@
+uuid: af37c6c0-adad-405b-ab1f-d0fccd9054ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_address
+    - node.type.tpprogram
+  module:
+    - address
+id: node.tpprogram.field_tp_address
+field_name: field_tp_address
+entity_type: node
+bundle: tpprogram
+label: Address
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    country_code: SL
+    langcode: ''
+    given_name: ''
+    family_name: ''
+    organization: ''
+    address_line1: ''
+    address_line2: ''
+    locality: ''
+    additional_name: null
+    postal_code: null
+    sorting_code: null
+    dependent_locality: null
+    administrative_area: null
+default_value_callback: ''
+settings:
+  available_countries:
+    SL: SL
+  langcode_override: ''
+  field_overrides: {  }
+  fields: {  }
+field_type: address

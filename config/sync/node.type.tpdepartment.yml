@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: TpDepartment
+name: Department
 type: tpdepartment
-description: ''
+description: 'Use <em>Department</em> to add a new Department page.  An academic department is a division of a university or school faculty devoted to a particular academic discipline'
 help: ''
 new_revision: true
 preview_mode: 1

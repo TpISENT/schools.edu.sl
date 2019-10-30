@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: TpBlog
+name: Blog
 type: tpblog
-description: ''
+description: 'Use <em>Blog</em> to add a new Blog post. A blog post is an informational page consisting of discrete, often informal diary-style text entries.  Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page'
 help: ''
 new_revision: true
 preview_mode: 1

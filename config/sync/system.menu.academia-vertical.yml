@@ -1,0 +1,8 @@
+uuid: ff67f155-42a3-430e-bda9-b2ec1207d047
+langcode: en
+status: true
+dependencies: {  }
+id: academia-vertical
+label: 'Academia Vertical'
+description: ''
+locked: false

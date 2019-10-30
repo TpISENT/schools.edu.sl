@@ -1,0 +1,85 @@
+uuid: 166f8056-7096-46d7-9a93-b613a613b80d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tp_curriculum.body
+    - field.field.node.tp_curriculum.field_tp_audience
+    - field.field.node.tp_curriculum.field_tp_category
+    - field.field.node.tp_curriculum.field_tp_course
+    - field.field.node.tp_curriculum.field_tp_programs
+    - field.field.node.tp_curriculum.field_tp_section
+    - field.field.node.tp_curriculum.field_tp_semester
+    - field.field.node.tp_curriculum.field_tp_seo_meta_description
+    - field.field.node.tp_curriculum.field_tp_year
+    - field.field.node.tp_curriculum.field_yoast_seo
+    - node.type.tp_curriculum
+  module:
+    - options
+    - text
+    - user
+    - yoast_seo
+id: node.tp_curriculum.default
+targetEntityType: node
+bundle: tp_curriculum
+mode: default
+content:
+  addtoany:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: above
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tp_course:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_programs:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tp_semester:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_tp_year:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_yoast_seo:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: yoastseo_formatter
+    region: content
+  links:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tp_audience: true
+  field_tp_category: true
+  field_tp_section: true
+  field_tp_seo_meta_description: true

@@ -1,0 +1,23 @@
+uuid: c87c3699-44f2-466e-99c9-a2d898a013b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_apply
+    - node.type.tpprogram
+  module:
+    - link
+id: node.tpprogram.field_tp_apply
+field_name: field_tp_apply
+entity_type: node
+bundle: tpprogram
+label: Apply
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
