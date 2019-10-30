@@ -35,6 +35,8 @@ module:
   filter: 0
   focal_point: 0
   fontawesome: 0
+  geolocation: 0
+  geolocation_google_places_api: 0
   google_analytics: 0
   google_analytics_reports: 0
   google_analytics_reports_api: 0
