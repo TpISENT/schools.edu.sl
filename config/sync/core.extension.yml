@@ -54,6 +54,8 @@ module:
   menu_ui: 0
   metatag: 0
   metatag_views: 0
+  mt_cookieconsent: 0
+  mt_countdown: 0
   node: 0
   obfuscate_email: 0
   options: 0
@@ -74,6 +76,7 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  tvi: 0
   twig_field_value: 0
   update: 0
   user: 0
