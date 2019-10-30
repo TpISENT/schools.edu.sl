@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tp_metro_tile
+label: 'Metro Tile'
+targetEntityType: node
+cache: true

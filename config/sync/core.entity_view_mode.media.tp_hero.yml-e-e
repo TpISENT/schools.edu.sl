@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.tp_hero
+label: Hero
+targetEntityType: media
+cache: true

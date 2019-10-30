@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tp_listing_item
+label: 'Listing Item'
+targetEntityType: node
+cache: true

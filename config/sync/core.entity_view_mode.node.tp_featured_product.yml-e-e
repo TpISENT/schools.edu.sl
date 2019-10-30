@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tp_featured_product
+label: 'Featured Product'
+targetEntityType: node
+cache: true
