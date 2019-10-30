@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_collapsible_block
+label: 'Collapsible Block'
+revision: 0
+description: 'Use this custom block type to display other blocks in a collapse, using the corresponding Bootstrap feature.'

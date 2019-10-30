@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_nodes_slideshow_block
+label: 'Nodes Slideshow block'
+revision: 0
+description: 'Use this custom block type to display nodes in a slideshow.'

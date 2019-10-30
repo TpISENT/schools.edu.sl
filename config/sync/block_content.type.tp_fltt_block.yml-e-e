@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_fltt_block
+label: 'Featured Linked Text Tiles block'
+revision: 0
+description: 'Use this custom block type to create blocks that display featured linked text tiles.'

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_hero_block
+label: 'Hero Block'
+revision: 0
+description: ''

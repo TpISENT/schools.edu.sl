@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_image_with_overlaid_text
+label: 'Ιmage with overlaid text'
+revision: 0
+description: ''

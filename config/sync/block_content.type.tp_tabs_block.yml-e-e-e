@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_tabs_block
+label: 'Tabs block'
+revision: 0
+description: 'Use this custom block type to display other blocks in a tabbed design, using the corresponding Bootstrap feature.'

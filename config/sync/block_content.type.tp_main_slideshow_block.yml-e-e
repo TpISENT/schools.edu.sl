@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_main_slideshow_block
+label: 'Main Slideshow Block'
+revision: 0
+description: 'Use this custom block type to create main slideshow blocks.'

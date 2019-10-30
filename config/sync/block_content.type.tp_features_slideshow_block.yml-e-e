@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_features_slideshow_block
+label: 'Features Slideshow Block'
+revision: 0
+description: 'Use this custom block type to display features in a slideshow.'

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_frontpage_cover_block
+label: 'Front page cover block'
+revision: 0
+description: ''

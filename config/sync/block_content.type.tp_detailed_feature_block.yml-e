@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_detailed_feature_block
+label: 'Detailed Feature Block'
+revision: 0
+description: ''

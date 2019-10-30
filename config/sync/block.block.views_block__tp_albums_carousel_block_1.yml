@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tp_albums_carousel
+  module:
+    - views
+  theme:
+    - minimalplus
+id: views_block__tp_albums_carousel_block_1
+theme: minimalplus
+region: hidden_blocks_collection
+weight: -45
+provider: null
+plugin: 'views_block:tp_albums_carousel-block_1'
+settings:
+  id: 'views_block:tp_albums_carousel-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

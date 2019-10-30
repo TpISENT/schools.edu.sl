@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_how_it_works
+label: 'How it works'
+revision: 0
+description: ''
