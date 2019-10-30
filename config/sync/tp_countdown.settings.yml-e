@@ -1,0 +1,17 @@
+theme_select: block
+title: 'Now on: 30% on all courses'
+prompt_message: 'Sign up and take advantage of our special pricing'
+target_url: 'https://www.morethanthemes.com/'
+dismiss_text: 'Sign Up'
+days_to: 'Special price ends in'
+predefined_palettes: '0'
+background: '#ffffff'
+title_color: '#333333'
+message_color: '#333333'
+notes_color: '#333333'
+button_background: '#ffffff'
+button_colour: '#000000'
+expiration_date: '2020-09-21 21:17:00'
+button_color: '#333333'
+inject_in_the_body: 1
+hint_text: ''

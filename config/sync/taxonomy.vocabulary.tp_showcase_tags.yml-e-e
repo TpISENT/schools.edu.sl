@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Showcase Tags'
+vid: tp_showcase_tags
+description: ''
+weight: 0

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Tags'
+vid: tp_event_tags
+description: ''
+weight: 0

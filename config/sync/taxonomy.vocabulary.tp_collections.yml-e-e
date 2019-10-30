@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Categories'
+vid: tp_collections
+description: ''
+weight: 0
