@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Visual styles for PrinceOfWales's albums carousel.
+ */
+.tpsl-carousel-albums {
+  padding: 0 70px;
+  margin-bottom: 100px;
+}
+.tpsl-carousel-albums .tpsl-carousel-item {
+  margin: 10px;
+}

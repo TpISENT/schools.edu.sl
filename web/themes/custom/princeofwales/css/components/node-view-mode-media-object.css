@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Visual styles for PrinceOfWales's node in media object view.
+ */
+.node--view-mode-tpsl-media-object .field--name-field-tpsl-prd-image {
+  margin-right: 20px;
+}
+.node--view-mode-tpsl-media-object .node__title {
+  margin-bottom: 15px;
+}
+.node--view-mode-tpsl-media-object .field--name-field-tpsl-prd-body {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Visual styles for tpsl-collapse field in PrinceOfWales.
+ */
+.field--name-field-tpsl-prd-content-collapses {
+  margin: 30px 0 20px;
+}
+.field--name-field-tpsl-prd-content-collapses .collapse-group.collapse-group--style-2 .card-header--trigger-icon .card-title a {
+  padding-left: 0;
+}

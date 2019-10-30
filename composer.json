@@ -51,7 +51,7 @@
         "drupal/entity_reference_layout": "^1.0@alpha",
         "drupal/entityqueue": "^1.0@beta",
         "drupal/facets": "^1.4",
-        "drupal/field_group": "^1.0",
+        "drupal/field_group": "^3.0",
         "drupal/flexible_layout": "^1.0@beta",
         "drupal/flickity": "^2.2",
         "drupal/focal_point": "^1.2",

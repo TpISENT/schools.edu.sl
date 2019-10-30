@@ -1,0 +1,71 @@
+/**
+ * @file
+ * Visual styles for PrinceOfWales's related nodes carousel.
+ */
+.tpsl-carousel-related-nodes .tpsl-carousel-item {
+  margin: 15px;
+}
+@media (max-width: 991px) {
+  .tpsl-carousel-related-nodes .tpsl-carousel-item {
+    margin: 8px;
+  }
+}
+
+/* overlay */
+.view-tpsl-carousel .tpsl-carousel-item > .overlay-container {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.view-tpsl-carousel {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.view-tpsl-carousel .owl-nav {
+  height: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+}
+.view-tpsl-carousel .owl-nav .owl-prev {
+  left: -50px;
+  margin-left: 0;
+}
+.view-tpsl-carousel .owl-nav .owl-next {
+  right: -50px;
+  margin-right: 0;
+}
+.view-tpsl-carousel .node--view-mode-tpsl-media-object .field--name-field-tpsl-prd-image {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+.view-tpsl-carousel .node--view-mode-tpsl-media-object .link--alternative {
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .view-tpsl-carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .view-tpsl-carousel .owl-nav {
+    display: none;
+  }
+  .view-tpsl-carousel .node--view-mode-tpsl-media-object .media {
+    display: block;
+  }
+  .view-tpsl-carousel .node--view-mode-tpsl-media-object .field--name-field-tpsl-prd-body {
+    display: none;
+  }
+  .view-tpsl-carousel .node--view-mode-tpsl-media-object .media-body .link--alternative {
+    display: none;
+  }
+  .view-tpsl-carousel .node--view-mode-tpsl-media-object .field--name-field-tpsl-prd-image {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Use this CSS file to override components CSS rules
+ */
+
+/* products views - layout switcher */
+#block-princeofwales-productslayoutswithergridactive,
+#block-princeofwales-productslayoutswitcherlistactive {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,166 @@
+/**
+ * @file
+ * Visual styles for PrinceOfWales's node in teaser tile view.
+ */
+.node--view-mode-tpsl-teaser-tile {
+  margin-bottom: 60px;
+}
+.node--view-mode-tpsl-teaser-tile .promoted-label {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  display: inline-block;
+  padding: 4px 8px 3px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.node--view-mode-tpsl-teaser-tile .node__header {
+  padding-bottom: 0;
+}
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-srv-teaser-image,
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-prd-teaser-image,
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-alb-image,
+.node--view-mode-tpsl-teaser-tile .field--name-field-image {
+  margin-bottom: 15px;
+}
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-shw-image {
+  margin-bottom: 20px;
+}
+.node--view-mode-tpsl-teaser-tile .field--name-field-image .images-container,
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-srv-teaser-image .images-container,
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-prd-teaser-image .images-container,
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-alb-image .images-container,
+.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-shw-image .images-container {
+  margin-bottom: 0;
+}
+.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0 0 5px;
+  padding: 0;
+  display: inline-block;
+}
+.node--view-mode-tpsl-teaser-tile .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tpsl-teaser-tile .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  line-height: 1.35;
+  vertical-align: text-top;
+}
+@media (min-width: 1200px) {
+  .node--view-mode-tpsl-teaser-tile.node--sticky h2.node__title {
+    margin: 0 0 20px;
+  }
+  .node--view-mode-tpsl-teaser-tile.node--sticky .field--name-field-tpsl-srv-body,
+  .node--view-mode-tpsl-teaser-tile.node--sticky .field--name-field-tpsl-alb-body,
+  .node--view-mode-tpsl-teaser-tile.node--sticky .field--name-field-tpsl-shw-body {
+    margin-bottom: 10px;
+  }
+}
+.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+  font-size: 14px;
+}
+.region--dark-typography .node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+  color: #707070;
+}
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+  background-color: #ffffff;
+  color: #707070;
+}
+
+/* article node */
+.node--view-mode-tpsl-teaser-tile .node__meta-item .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tpsl-teaser-tile .node__meta-item .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin-bottom: 0;
+}
+.node--view-mode-tpsl-teaser-tile .node__meta-item .field--name-field-tags {
+  display: inline-block;
+}
+.node--view-mode-tpsl-teaser-tile .node__meta {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.region--dark-typography .node--view-mode-tpsl-teaser-tile .node__meta {
+  color: #707070;
+}
+.node--view-mode-tpsl-teaser-tile .node__meta-item {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.node--view-mode-tpsl-teaser-tile .node__meta-tags {
+  margin-bottom: 0;
+}
+.node--view-mode-tpsl-teaser-tile .node__meta-item:after {
+  content: "/";
+  display: inline-block;
+}
+.node--view-mode-tpsl-teaser-tile .node__meta-item:last-child:after {
+  content: "";
+}
+
+/*product node*/
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .product-thumbnail-container {
+  position: relative;
+}
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-prd-tags a {
+  color: #ffffff;
+  padding: 5px 15px;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a:after {
+  content: "";
+}
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .product-thumbnail-container .field--name-field-tpsl-prd-tags {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
+  font-size: 0;
+}
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .field--name-field-tpsl-prd-tags .field__item {
+  margin: 0;
+}
+.node--type-tpsl-product.node--view-mode-tpsl-teaser-tile .product-thumbnail-container .field--name-field-tpsl-prd-tags .field__item:last-child {
+  margin-left: 3px;
+}
+.teaser-tile__price .field--name-field-tpsl-prd-price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin-left: 15px;
+}
+
+/*showcase node*/
+.node--type-tpsl-showcase.node--view-mode-tpsl-teaser-tile .image-and-date-container {
+  position: relative;
+}
+.node--type-tpsl-showcase.node--view-mode-tpsl-teaser-tile .image-and-date-container .node__submitted-date {
+  position: absolute;
+  background-color: #ffffff;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 0;
+  padding: 10px;
+  color: #333333;
+  text-align: center;
+}
+.node--type-tpsl-showcase.node--view-mode-tpsl-teaser-tile .image-and-date-container .node__submitted-date .day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.node--type-tpsl-showcase.node--view-mode-tpsl-teaser-tile .image-and-date-container .node__submitted-date .month-year {
+  font-size: 14px;
+  font-weight: 500;
+}
