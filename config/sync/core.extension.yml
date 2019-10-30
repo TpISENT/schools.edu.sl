@@ -54,8 +54,8 @@ module:
   menu_ui: 0
   metatag: 0
   metatag_views: 0
-  mt_cookieconsent: 0
-  mt_countdown: 0
+  tp_cookieconsent: 0
+  tp_countdown: 0
   node: 0
   obfuscate_email: 0
   options: 0

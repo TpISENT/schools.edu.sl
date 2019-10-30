@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains tp_cookieconsent.module.
+ */
+
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function tp_cookieconsent_theme() {
+  // Theme for tp_cookieconsent block.
+  $themes['tp_cookieconsent'] = [
+    'template' => 'tp_cookieconsent',
+    'variables' => [
+      'data' => NULL,
+    ],
+  ];
+
+  return $themes;
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function tp_cookieconsent_page_attachments(array &$attachments) {
+
+  $config = \Drupal::config('tp_cookieconsent.settings');
+  // Attach library.
+  $attachments['#attached']['library'][] = 'tp_cookieconsent/tp_cookieconsent';
+  // Set data to drupal settings.
+  $attachments['#attached']['drupalSettings']['tp_cookieconsent']['theme_select'] = $config->get('theme_select');
+  $attachments['#attached']['drupalSettings']['tp_cookieconsent']['alert_message'] = $config->get('alert_message');
+  $attachments['#attached']['drupalSettings']['tp_cookieconsent']['target_url'] = $config->get('target_url');
+
+}

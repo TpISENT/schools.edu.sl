@@ -1,0 +1,13 @@
+tp_cookieconsent:
+  version: 1.x
+  css:
+    theme:
+      //cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css: {preprocess: false, type: external, minified: true}
+      css/tp_cookieconsent.css: {}
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js: {preprocess: false, type: external, minified: true}
+    js/tp_cookieconsent.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

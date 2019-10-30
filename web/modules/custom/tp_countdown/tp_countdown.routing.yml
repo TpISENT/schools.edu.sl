@@ -1,0 +1,15 @@
+tp_countdown.settings:
+  path: 'admin/config/tp_countdown'
+  defaults:
+    _form: '\Drupal\tp_countdown\Form\MTCountDownSettingsForm'
+    _title: 'Count Down Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+tp_countdown.admin_index:
+  path: '/admin/config/count_down'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Count Down'
+  requirements:
+    _permission: 'access administration pages'

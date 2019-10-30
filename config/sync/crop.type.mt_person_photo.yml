@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 label: 'Person Photo'
-id: mt_person_photo
+id: tp_person_photo
 description: ''
 aspect_ratio: '1:1'
 soft_limit_width: 690

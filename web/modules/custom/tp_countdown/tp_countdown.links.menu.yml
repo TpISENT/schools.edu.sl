@@ -1,0 +1,13 @@
+tp_countdown.settings_menu:
+  title: 'Count Down'
+  parent: system.admin_config
+  description: ''
+  route_name: tp_countdown.admin_index
+  weight: 0
+
+tp_countdown.settings_page:
+  title: 'Count Down settings'
+  parent: tp_countdown.settings_menu
+  description: 'Configure the content and layout of the MtT Count Down module.'
+  route_name: tp_countdown.settings
+  weight: 1
