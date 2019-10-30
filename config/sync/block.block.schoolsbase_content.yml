@@ -1,0 +1,22 @@
+uuid: fa8c3927-97a8-42e8-97f7-4972133198ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: gQtT9zGiiUEuUHFG0FazOv70t0eZVNSMaroFZFTwV3U
+id: schoolsbase_content
+theme: schoolsbase
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

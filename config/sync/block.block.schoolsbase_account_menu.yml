@@ -1,0 +1,27 @@
+uuid: 40a3f04d-c266-4d03-acf5-90a4348d45ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: '-h4IQjk3BT7Rr-IExyqcJtLx6Z6orCFeHILkboQDBTQ'
+id: schoolsbase_account_menu
+theme: schoolsbase
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

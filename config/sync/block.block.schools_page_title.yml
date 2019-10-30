@@ -1,0 +1,20 @@
+uuid: 0551eb20-ed74-4cd7-bbf9-1b4e568be9b4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - schools
+_core:
+  default_config_hash: og03Uy74GDfynF2xUe8cr3pqXivp9TtHd9ifsvzsvI0
+id: schools_page_title
+theme: schools
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

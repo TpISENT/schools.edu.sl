@@ -1,0 +1,27 @@
+uuid: 9ac87f58-21dd-4fd2-a51a-8f97503f718a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - schools
+_core:
+  default_config_hash: G9c-CKmasSRiPyYENQhFbu9k-p_7CNMJ4GW7cF7IMBU
+id: schools_tools
+theme: schools
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

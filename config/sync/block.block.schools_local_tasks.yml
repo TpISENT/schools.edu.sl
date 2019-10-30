@@ -1,0 +1,22 @@
+uuid: 24301523-660e-40f4-8e61-a81b66757810
+langcode: en
+status: true
+dependencies:
+  theme:
+    - schools
+_core:
+  default_config_hash: pIIFnxLq2RHMnbX9Xfz9_3ERNlkFEog_J5ekO1DO_gY
+id: schools_local_tasks
+theme: schools
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

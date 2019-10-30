@@ -1,0 +1,20 @@
+uuid: 5d461cba-6541-4370-9db9-93d287380e67
+langcode: en
+status: true
+dependencies:
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: SXqLfSVERUh1-6gTvrN8l6fc3akpcl7_HRgnVEUnSv4
+id: schoolsbase_page_title
+theme: schoolsbase
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

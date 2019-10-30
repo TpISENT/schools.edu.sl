@@ -1,0 +1,20 @@
+uuid: 1db67ce1-a3b2-497a-af83-c19c40c35ae1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: M9EOKo9u5WRHSqd_128iVDynDf3jOvWQLMBZiLWKICs
+id: schoolsbase_local_actions
+theme: schoolsbase
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

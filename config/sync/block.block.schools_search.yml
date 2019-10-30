@@ -1,0 +1,22 @@
+uuid: f111fb91-e628-4970-af1f-a2f849909e7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - schools
+_core:
+  default_config_hash: S4rjyaMsJGpXxQIOyau_KG51aH0wVRMU4K_7rWDbuuU
+id: schools_search
+theme: schools
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

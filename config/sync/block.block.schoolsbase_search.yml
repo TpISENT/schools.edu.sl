@@ -1,0 +1,22 @@
+uuid: f3ea558e-96e2-42a9-84e9-cfc3def2b7f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: r0hovjmenc9arefdteN5yifcl7-_KWH-o0ipq7HWroM
+id: schoolsbase_search
+theme: schoolsbase
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

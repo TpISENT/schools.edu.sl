@@ -1,0 +1,22 @@
+uuid: f9ef1109-ecda-4976-9ada-060b1d81ef82
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: R4JEQUWNS3Z5ZnlxUcDZY8szjIVW9wFfxI7PpXjpwjY
+id: schoolsbase_help
+theme: schoolsbase
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 9a5780c0-56c3-4701-a956-a4154fe04717
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: gikMYcB17SYysbcfptHH96ukuwbiUvTip_8NENdT6SU
+id: schoolsbase_branding
+theme: schoolsbase
+region: header_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

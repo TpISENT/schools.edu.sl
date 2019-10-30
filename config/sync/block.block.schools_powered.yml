@@ -1,0 +1,22 @@
+uuid: a6890345-57b6-4f52-b561-d04a1f7760dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - schools
+_core:
+  default_config_hash: 6rCHUt4SWyAzLFXQymZlRwwzYTG82jrtmSzLNU-gWUA
+id: schools_powered
+theme: schools
+region: footer_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

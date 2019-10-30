@@ -1,0 +1,22 @@
+uuid: 2888a1a7-c17e-4e53-8593-1ae93d1f6b1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - schools
+_core:
+  default_config_hash: yn9meJIHvVe2DVBi6HqrztT-n_T_DqRu6t0S6Yw5YHQ
+id: schools_content
+theme: schools
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

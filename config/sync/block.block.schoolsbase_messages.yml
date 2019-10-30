@@ -1,0 +1,22 @@
+uuid: 2b4f52a3-dbd1-4a92-9d8a-345a4261d3bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - schoolsbase
+_core:
+  default_config_hash: Y_6G_7DUCNvWGYv6r1YG5xnx-tkUMBUF4kSLcN5HYis
+id: schoolsbase_messages
+theme: schoolsbase
+region: system_messages
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

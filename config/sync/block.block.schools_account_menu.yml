@@ -1,0 +1,27 @@
+uuid: b2810074-2c61-42ee-9038-990ec664c143
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - schools
+_core:
+  default_config_hash: R1JSCkuehrFrvs-8X7wUv2Hgyx7TYD9OzFQDSw5MvcU
+id: schools_account_menu
+theme: schools
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 5d722715-a37d-4890-8a19-c972b159987b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - schools
+_core:
+  default_config_hash: WIxJcrca9wBrSo8tBnD7RNIskI4sq4fhIsbzzHJOi5Y
+id: schools_help
+theme: schools
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
