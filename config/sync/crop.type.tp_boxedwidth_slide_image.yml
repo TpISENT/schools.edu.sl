@@ -1,0 +1,12 @@
+uuid: 9639dc31-3727-4aab-b3a5-6408abb721be
+langcode: en
+status: true
+dependencies: {  }
+label: 'Boxedwidth Slide Image'
+id: tp_boxedwidth_slide_image
+description: ''
+aspect_ratio: '1140:650'
+soft_limit_width: 1140
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

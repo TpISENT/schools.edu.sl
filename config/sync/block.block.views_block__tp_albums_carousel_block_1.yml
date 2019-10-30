@@ -1,5 +1,6 @@
+uuid: 5ee074b3-31f0-4c65-9073-77fe7f88e8bc
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.tp_albums_carousel
@@ -9,7 +10,7 @@ dependencies:
     - minimalplus
 id: views_block__tp_albums_carousel_block_1
 theme: minimalplus
-region: hidden_blocks_collection
+region: ''
 weight: -45
 provider: null
 plugin: 'views_block:tp_albums_carousel-block_1'

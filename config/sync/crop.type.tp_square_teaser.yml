@@ -1,0 +1,12 @@
+uuid: 41fe66bb-1bad-49ee-aaa9-59388a3252b2
+langcode: en
+status: true
+dependencies: {  }
+label: 'Square teaser'
+id: tp_square_teaser
+description: ''
+aspect_ratio: '330:330'
+soft_limit_width: 330
+soft_limit_height: 330
+hard_limit_width: null
+hard_limit_height: null

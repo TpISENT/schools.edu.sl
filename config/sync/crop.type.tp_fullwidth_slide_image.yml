@@ -1,0 +1,12 @@
+uuid: d4abc22e-0c72-4531-9844-279ce1076ce3
+langcode: en
+status: true
+dependencies: {  }
+label: 'Fullwidth Slide Image'
+id: tp_fullwidth_slide_image
+description: ''
+aspect_ratio: '1920:650'
+soft_limit_width: 1920
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

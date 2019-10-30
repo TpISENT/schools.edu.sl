@@ -1,0 +1,12 @@
+uuid: 89060f56-2308-4092-94e7-4aeef756d4a1
+langcode: en
+status: true
+dependencies: {  }
+label: 'Large teaser'
+id: tp_large_teaser
+description: ''
+aspect_ratio: '1110:600'
+soft_limit_width: 1110
+soft_limit_height: 600
+hard_limit_width: null
+hard_limit_height: null

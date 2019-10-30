@@ -1,0 +1,12 @@
+uuid: c0474c70-0ae0-4442-9e33-06feeab6b30d
+langcode: en
+status: true
+dependencies: {  }
+label: 'Hero Image'
+id: tp_ct_hero_image
+description: ''
+aspect_ratio: '1920:1080'
+soft_limit_width: 1920
+soft_limit_height: 1080
+hard_limit_width: null
+hard_limit_height: null

@@ -1,0 +1,12 @@
+uuid: c27d93ef-f1d8-4fd2-bbc5-84a2dabe209c
+langcode: en
+status: true
+dependencies: {  }
+label: 'Testimonial Image'
+id: tp_testimonial_image
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: 750
+soft_limit_height: 750
+hard_limit_width: null
+hard_limit_height: null

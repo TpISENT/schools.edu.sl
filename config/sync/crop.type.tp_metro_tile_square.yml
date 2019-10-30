@@ -1,0 +1,12 @@
+uuid: 571bc220-652e-4c0a-9a6c-89d8347cd5d4
+langcode: en
+status: true
+dependencies: {  }
+label: 'Metro Tile Square'
+id: tp_metro_tile_square
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: 840
+soft_limit_height: 840
+hard_limit_width: null
+hard_limit_height: null

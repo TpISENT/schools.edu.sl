@@ -1,0 +1,12 @@
+uuid: 9e6c74e0-6c3a-41d6-94c8-939a8f9ca019
+langcode: en
+status: true
+dependencies: {  }
+label: 'Team Member Photo (Landscape)'
+id: tp_team_member_photo_landscape
+description: ''
+aspect_ratio: '1300:650'
+soft_limit_width: 1300
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

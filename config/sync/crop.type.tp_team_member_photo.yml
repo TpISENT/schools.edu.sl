@@ -1,0 +1,12 @@
+uuid: 50feb70a-e5c3-49bb-8c6d-74320ec7ee79
+langcode: en
+status: true
+dependencies: {  }
+label: 'Team Member Photo'
+id: tp_team_member_photo
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: 1300
+soft_limit_height: 1300
+hard_limit_width: null
+hard_limit_height: null
