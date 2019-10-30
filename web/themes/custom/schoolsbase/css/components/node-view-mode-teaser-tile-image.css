@@ -1,0 +1,98 @@
+/**
+ * @file
+ * Visual styles for Press+'s node in teaser tile view.
+ */
+.node--view-mode-mt-teaser-tile-image {
+  margin-bottom: 30px;
+}
+.node--view-mode-mt-teaser-tile-image .teaser-tile-image-container {
+  position: relative;
+}
+.node--view-mode-mt-teaser-tile-image .teaser-tile-image-container .images-container {
+  margin-bottom: 0;
+}
+.node--view-mode-mt-teaser-tile-image .teaser-tile-image__caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 80%;
+  max-width: 80%;
+}
+.node--view-mode-mt-teaser-tile-image:hover .teaser-tile-image__caption {
+  padding-bottom: 40px;
+}
+.node--view-mode-mt-teaser-tile-image .teaser-tile-image__caption a {
+  color: #333333;
+  text-decoration: none;
+}
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin: 0;
+  padding: 0;
+}
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term.field__item:before {
+  content: "";
+}
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term.field__item a {
+  font-size: 14px;
+  color: #707070;
+  padding: 0.1em 0.06em 0.1em 0;
+}
+.node--view-mode-mt-teaser-tile-image .field--entity-reference-target-type-taxonomy-term:not(.field--label-above)::after {
+  content: "";
+}
+
+/* post node */
+.node--view-mode-mt-teaser-tile-image .node__meta-item .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-mt-teaser-tile-image .node__meta-item .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin-bottom: 0;
+}
+.node--view-mode-mt-teaser-tile-image .node__meta-item .field--name-field-tags,
+.node--view-mode-mt-teaser-tile-image .node__meta-item .field--name-field-pst-category {
+  display: inline-block;
+}
+.node--view-mode-mt-teaser-tile-image .node__meta {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.region--dark-typography .node--view-mode-mt-teaser-tile-image .node__meta {
+  color: #707070;
+}
+.node--view-mode-mt-teaser-tile-image .node__meta-item {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.node--view-mode-mt-teaser-tile-image .node__meta-tags {
+  margin-bottom: 0;
+}
+.node--view-mode-mt-teaser-tile-image .node__meta-item:after {
+  content: "/";
+}
+.node--view-mode-mt-teaser-tile-image .node__meta-item:last-child:after {
+  content: "";
+}
+
+/* Move caption below image in mobile views */
+@media (max-width: 767px) {
+  .node--view-mode-mt-teaser-tile-image .teaser-tile-image__caption h4 {
+    font-size: 20px;
+  }
+  .node--view-mode-mt-teaser-tile-image:hover .teaser-tile-image__caption {
+    padding-bottom: 20px;
+  }
+}
+
+/* Hide category in mobile views */
+@media (max-width: 991px) {
+  .teaser-tile-image__caption .field--entity-reference-target-type-taxonomy-term {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for Schools Base Theme's product content type slide view.
+ */
+.node--view-mode-mt-slide-view .node__title {
+  margin-bottom: 30px;
+}
+.node--view-mode-mt-slide-view .field.field--name-field-mt-srv-body {
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+}

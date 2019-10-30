@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Schools Base Theme's theme implementation to display post progress indicator of Post node.
+ */
+#}
+
+{% extends "page.html.twig" %}
+{% block reading_progress_indicator %}
+  {% if post_progress %}
+    {{ attach_library('schoolsbase/post-progress') }}
+    <div class="post-progress">
+      <div class="post-progress__bar"></div>
+    </div>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Visual styles for Schools Base Theme's slider revolution full-screen.
+ */
+.slideshow-internal .tp-caption__title {
+  color: #ffffff;
+  padding: 1em;
+  font-size: 50px;
+}
+@media (max-width: 5757px) {
+  .slideshow-internal-container .container > .row > .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

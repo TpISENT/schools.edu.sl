@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Visual styles for Schools's slider revolution boxed width.
+ */
+@media (max-width: 575px) {
+  .view-tpsl-slideshow-boxed-width {
+    margin: 0 -15px;
+  }
+}

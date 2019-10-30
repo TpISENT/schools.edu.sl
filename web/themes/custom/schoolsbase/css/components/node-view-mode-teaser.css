@@ -1,0 +1,168 @@
+/**
+ * @file
+ * Visual styles for Schools Base Theme's node in teaser tile view.
+ */
+.node--view-mode-teaser {
+  margin-bottom: 60px;
+}
+.node--view-mode-teaser .promoted-label {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  padding: 2px 8px 2px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.node--view-mode-teaser .node__title {
+  font-size: 30px;
+  margin-top: 0px;
+}
+.node--view-mode-teaser .node__header {
+  padding-bottom: 0;
+}
+.node--view-mode-teaser .field--name-field-mt-dpt-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-crs-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-evnt-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-srv-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-prd-teaser-image,
+.node--view-mode-teaser .field--name-field-mt-alb-image,
+.node--view-mode-teaser .field--name-field-mt-shw-image,
+.node--view-mode-teaser .field--name-field-mt-pst-image,
+.node--view-mode-teaser .field--name-field-image {
+  margin-bottom: 20px;
+}
+.node--view-mode-teaser .field--name-field-mt-evnt-date,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors {
+  margin-bottom: 10px;
+}
+.node--view-mode-teaser .field--name-field-mt-crs-tutors .field__item {
+  display: inline-block;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0;
+}
+.node--view-mode-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item,
+.node--view-mode-teaser .promoted-label + .field--name-field-mt-crs-tutors,
+.node--view-mode-teaser .promoted-label + .field--name-field-mt-crs-tutors.field__item {
+  margin: -1px 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  line-height: 1.35;
+  vertical-align: text-top;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item:before,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors:before,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item:before {
+  content: "";
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors .field__item a,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item a {
+  padding: 2px 8px;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 12px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:focus,
+.region--dark-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:focus,
+.region--dark-typography .node--view-mode-teaser .field--name-field-mt-crs-tutors .field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item a:hover,
+.region--dark-typography .node--view-mode-teaser .field--name-field-mt-crs-tutors .field__item a:focus,
+.region--dark-typography .node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item a:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+.region--light-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--light-typography .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a,
+.region--light-typography .node--view-mode-teaser .field--name-field-mt-crs-tutors .field__item a,
+.region--light-typography .node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item a {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term .field__item a:after,
+.node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term.field__item a:after,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors .field__item a:after,
+.node--view-mode-teaser .field--name-field-mt-crs-tutors.field__item a:after {
+  content: "";
+}
+
+.node--view-mode-teaser .field--name-field-mt-dpt-body,
+.node--view-mode-teaser .field--name-field-mt-evnt-body,
+.node--view-mode-teaser .field--name-field-mt-crs-body,
+.node--view-mode-teaser .field--name-field-mt-prd-body,
+.node--view-mode-teaser .field--name-field-mt-srv-body,
+.node--view-mode-teaser .field--name-field-mt-shw-body,
+.node--view-mode-teaser .field--name-field-mt-alb-body {
+  margin-bottom: 15px;
+}
+.node--view-mode-teaser .field--name-field-mt-dpt-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-evnt-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-crs-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-prd-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-srv-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-shw-body p:last-child,
+.node--view-mode-teaser .field--name-field-mt-alb-body p:last-child {
+  padding-bottom: 0px;
+}
+.node--view-mode-teaser .image-and-date-container {
+  position: relative;
+}
+.node--view-mode-teaser .image-and-date-container .node__submitted-date {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px;
+  color: #333333;
+  text-align: center;
+}
+.node--view-mode-teaser .image-and-date-container .node__submitted-date .day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.node--view-mode-teaser .image-and-date-container .node__submitted-date .month-year {
+  font-size: 14px;
+  font-weight: 500;
+}
+.node--view-mode-teaser .image-and-date-container .node__start-date {
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  width: 100px;
+  background-color: #333;
+  color: #fff;
+  height: 100%;
+  max-height: 100px;
+  padding-top: 6px;
+}
+.node--view-mode-teaser .image-and-date-container .node__start-date span {
+  display: block;
+  text-align: center;
+}
+.node--view-mode-teaser .image-and-date-container .node__start-date-day {
+  font-size: 30px;
+  line-height: 1.2;
+}
+.node--view-mode-teaser .image-and-date-container .node__start-date-month {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.node--view-mode-teaser .image-and-date-container .node__start-date-time {
+  font-size: 14px;
+  line-height: 1.5;
+}

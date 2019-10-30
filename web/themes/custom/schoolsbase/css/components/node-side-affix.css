@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Styles for Magazine+'s node side affix.
+ */
+#affix.affix {
+  position: fixed;
+  width: 90px;
+}
+#affix.affix > div:first-child {
+  padding-top: 15px;
+}
+#affix.affix .share-links {
+  margin-top: 0;
+}
+#affix.affix-bottom {
+  position: absolute;
+  width: 90px;
+}
+@media (min-width: 768px) {
+  .layout-no-sidebars .node--type-mt-post #affix.affix {
+    width: 150px;
+  }
+  .layout-no-sidebars .node--type-mt-post #affix.affix-bottom {
+    width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .layout-no-sidebars .node--type-mt-post #affix.affix {
+    width: 180px;
+  }
+  .layout-no-sidebars .node--type-mt-post #affix.affix-bottom {
+    width: 180px;
+  }
+}

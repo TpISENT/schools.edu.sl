@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Schools Base Theme's theme implementation to display a Service node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block content %}
+  {{ attach_library('schoolsbase/node-album') }}
+  {{ content }}
+{% endblock %}

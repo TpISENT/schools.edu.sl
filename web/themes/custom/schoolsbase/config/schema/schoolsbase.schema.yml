@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Schools Base Theme theme.
+
+schoolsbase.settings:
+  type: theme_settings
+  label: 'Schools Base Theme settings'

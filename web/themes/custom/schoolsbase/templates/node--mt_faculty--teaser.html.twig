@@ -1,0 +1,58 @@
+{% extends "node.html.twig" %}
+{#
+/**
+ * @file
+ * Schools Base Theme's theme implementation to display a Faculty node in teaser view mode.
+ */
+#}
+
+{% block meta_area %}
+  {% if display_submitted %}
+    <div class="node__meta">
+      {{ author_picture }}
+      <span{{ author_attributes.addClass('node__submitted-info') }}>
+        {% trans %}
+          <span class="node__submitted-info-text">By</span> {{ author_name }} on 
+          <span class="node__submitted-date">
+            {{ date }}
+          </span>
+        {% endtrans %}
+      </span>
+      {{ metadata }}
+    </div>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {{ attach_library('schoolsbase/node-faculty') }}
+  <div class="row content-top mb-5">
+    {% if content.field_mt_fclt_teaser_image|render and not node.field_mt_fclt_teaser_image.isEmpty() %}
+      <div class="col-sm-4">
+        <div class="photo-container mb-4 mb-sm-0">
+          {{ content.field_mt_fclt_teaser_image }}
+        </div>
+      </div>
+    {% endif %}
+    {% if content.field_mt_fclt_teaser_image|render and not node.field_mt_fclt_teaser_image.isEmpty() %}
+      <div class="col-sm-8 pl-sm-3">
+    {% else %}
+      <div class="col-sm-12">
+    {% endif %}
+      {{ title_prefix }}
+        <h2{{ title_attributes.addClass('node__title mt-0') }}>
+          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+      {{ title_suffix }}
+      {{ content.field_mt_fclt_academic_title }}
+      {{ content.field_mt_fclt_body }}
+      {{ content.links }}
+    </div>
+  </div>
+  {% if content|without('field_mt_fclt_teaser_image','field_mt_fclt_body','field_mt_fclt_academic_title','links','field_mt_fclt_banner_image')|render %}
+    <div class="row content">
+      <div class="col-12 col-xl-8">
+        {{ content|without('field_mt_fclt_teaser_image','field_mt_fclt_body','field_mt_fclt_academic_title','links','field_mt_fclt_banner_image') }}
+      </div>
+    </div>
+  {% endif %}
+{% endblock %}

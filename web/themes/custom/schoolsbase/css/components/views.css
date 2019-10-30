@@ -1,0 +1,87 @@
+/**
+ * @file
+ * Visual styles for Schools Base Theme's views.
+ */
+.views-field-title a {
+  display: block;
+}
+
+/*more links*/
+.headings-wide-spacing-enabled .view > .more-link a {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.col-12 .view > .more-link {
+  text-align: center;
+  margin-top: 10px;
+}
+.col-12 .view.view-mt-metro-tiles > .more-link {
+  margin-top: 40px;
+}
+.col-12 .view > .more-link a {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 40px 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 2px;
+  border-style: solid;
+  margin: 0 0 10px 0;
+  text-align: center;
+  text-transform: none;
+}
+.col-12 .view > .more-link a:hover,
+.col-12 .view > .more-link a:focus {
+  background-color: transparent;
+}
+.col-12 .view > .more-link a:before,
+.col-12 .view > .more-link a:hover:before,
+.col-12 .view > .more-link a:focus:before {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+.col-12 .view > .more-link a:after,
+.col-12 .view > .more-link a:hover:after,
+.col-12 .view > .more-link a:focus:after {
+  content: "";
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+.col-12 .view > .more-link a:hover,
+.col-12 .view > .more-link a:focus {
+  color: #ffffff;
+}
+.col-12 .view.view-mt-showcases-metro-tiles > .more-link {
+  margin-top: 40px;
+}
+.region--light-typography .col-12 .view > .more-link a {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+.region--light-typography .col-12 .view > .more-link a:hover,
+.region--light-typography .col-12 .view > .more-link a:focus {
+  background-color: #ffffff;
+  color: #424242;
+  border-color: #ffffff;
+}
+
+/*more links @sidebars and footer regions*/
+.footer__section .view > .more-link a {
+  margin: 10px 0 0;
+  text-transform: none;
+}
+
+/*clear grid floats*/
+.view.row .view-content:before,
+.view.row .view-content:after {
+  display: table;
+  content: " ";
+}
+.view.row .view-content:after {
+  clear: both;
+}

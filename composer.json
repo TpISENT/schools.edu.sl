@@ -65,6 +65,7 @@
         "drupal/google_analytics_reports": "^3.0@beta",
         "drupal/google_map_field": "^1.5",
         "drupal/gutenberg": "^1.6",
+        "drupal/image_widget_crop": "^2.2",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/key": "^1.10",
         "drupal/layout_builder_restrictions": "^2.2",

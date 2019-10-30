@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Visual styles for Schools Base Theme's node field component.
+ */
+.node--view-mode-full .field {
+  margin-bottom: 40px;
+}
+.node--view-mode-full .field p:last-child {
+  padding-bottom: 0;
+}
+.node--view-mode-full .field .field {
+  margin-bottom: 0;
+}
+
+/* Referenced node teaser view mode withing full node */
+.node--view-mode-full .field .node--view-mode-teaser .field {
+  margin-bottom: 15px;
+}

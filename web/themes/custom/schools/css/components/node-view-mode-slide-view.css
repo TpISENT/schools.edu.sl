@@ -1,0 +1,8 @@
+/**
+ * @file
+ * Visual styles for Schools's product content type slide view.
+ */
+.node--view-mode-tpsl-slide-view .node__title {
+  margin-bottom: 30px;
+}
+

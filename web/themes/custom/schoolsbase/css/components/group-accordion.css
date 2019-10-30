@@ -1,0 +1,157 @@
+/* jQuery 2 Accordion default styles */
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 1px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  min-height: 0; /* support: IE7 */
+  font-size: 100%;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+  border-top: 0;
+  overflow: auto;
+}
+
+/* Accordion */
+.field-group-accordion-wrapper {
+  margin: 0 0 25px 0;
+  border-width: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+/* accordion header */
+.ui-accordion .ui-accordion-header {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 19px 65px 19px 20px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #707070;
+  color: #333333;
+  background-color: #ffffff;
+}
+.ui-accordion .ui-accordion-header:focus {
+  outline: none;
+}
+.ui-accordion .ui-accordion-header a:focus {
+  color: #333333;
+}
+.ui-accordion .ui-accordion-header:first-child {
+  border-top-width: 0;
+}
+.ui-state-default {
+  border-radius: 0;
+  background-image: none;
+  background-color: #e4e4e4;
+  font-weight: 700;
+  border: none;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited,
+.ui-state-default:hover a,
+.ui-state-default:hover a:link,
+.ui-state-default:hover a:visited {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  color: #333333;
+}
+
+/*ui-accordion-header-collapsed*/
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: auto;
+  margin-top: 0;
+  width: 55px;
+  text-align: center;
+}
+.ui-state-default .ui-icon {
+  background-image: none;
+  text-indent: 0;
+}
+.ui-state-default .ui-icon:after {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #333333;
+  background-color: #ffffff;
+  top: 50%;
+  right: 20px;
+  margin-top: -15px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  line-height: 30px;
+  content: "\f00d";
+}
+.ui-state-default.ui-accordion-header-collapsed .ui-icon:after {
+  content: "\f067";
+}
+
+/* accordion content */
+.ui-accordion .ui-accordion-content {
+  padding: 0px 20px 20px;
+  border-radius: 0;
+}
+.ui-widget-content {
+  border: none;
+  color: #333333;
+}
+
+/* Valid for referenced rendered nodes??? */
+.ui-widget-content .field-item:last-child .node.node-teaser {
+  margin-bottom: 10px;
+  padding: 0;
+  border-bottom: none;
+}
+.ui-widget-content .field-item .node.node-teaser {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.ui-widget-content .node.node-teaser ul.links {
+  display: block;
+  margin: 10px 0 0 0;
+}
+.ui-widget-content .node.node-teaser ul.links li {
+  padding: 0;
+}
+.ui-widget-content .node header {
+  padding: 0 0 10px 0;
+}
+.ui-widget-content .node h2 {
+  font-size: 19px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+.ui-widget-content .node h2 a {
+  color: #1e1e1e;
+}
+
+/* Reset bottom margin of contained fields */
+.ui-accordion .ui-accordion-content .field:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,56 @@
+{#
+/**
+ * @file
+ * Schools Base Theme's theme implementation to display a event node in teaser tile text view mode.
+ */
+#}
+{% extends "node.html.twig" %}
+{% block node_side_first %}
+  {% if content.field_mt_evnt_date|render and content.field_mt_evnt_date['0'] %}
+    <div class="node__side-section">
+      <div class="node__start-date mt-style-custom-all">
+        <span class="node__start-date-day">
+          {{ content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("d") }}
+        </span>
+        <span class="node__start-date-month">
+          {{ content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("M") }}
+        </span>
+        <span class="node__start-date-time">
+          {{ content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("H:i") }}
+        </span>
+      </div>
+    </div>
+  {% endif %}
+{% endblock %}
+{% block meta_area %}
+
+  {% if display_submitted %}
+    {{ metadata }}
+    {{ node.createdtime|format_date('custom', 'M d, Y') }}
+  {% endif %}
+
+  {{ title_prefix }}
+  <h4{{ title_attributes.addClass('node__title mt-0') }}>
+    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+  </h4>
+  {{ title_suffix }}
+
+{% endblock %}
+{% block content %}
+  {{ attach_library('schoolsbase/node-view-mode-teaser-tile-text') }}
+  {% if content|render %}
+    <div class="node__main-content-section">
+      {{ content|without('field_mt_evnt_date', 'links') }}
+    </div>
+  {% endif %}
+  {% if display_submitted %}
+    <footer class="node__meta mb-0">
+      {{ author_picture }}
+      <span{{ author_attributes.addClass('node__submitted') }}>
+        {{ author_name }}
+        {{ metadata }}
+      </span>
+    </footer>
+  {% endif %}
+  {{ content.links }}
+{% endblock %}
