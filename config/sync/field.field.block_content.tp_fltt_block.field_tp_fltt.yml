@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_fltt_block
+    - field.storage.block_content.field_tp_fltt
+    - paragraphs.paragraphs_type.tp_featured_linked_text_tile
+  module:
+    - entity_reference_revisions
+id: block_content.tp_fltt_block.field_tp_fltt
+field_name: field_tp_fltt
+entity_type: block_content
+bundle: tp_fltt_block
+label: 'Featured Linked Text Tile'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      tp_featured_linked_text_tile: tp_featured_linked_text_tile
+    target_bundles_drag_drop:
+      tp_collapse:
+        weight: 7
+        enabled: false
+      tp_fancy_linked_image:
+        weight: 8
+        enabled: false
+      tp_fancy_tab:
+        weight: 9
+        enabled: false
+      tp_featured_linked_text_tile:
+        enabled: true
+        weight: 10
+      tp_media_tab:
+        weight: 11
+        enabled: false
+      tp_tab:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

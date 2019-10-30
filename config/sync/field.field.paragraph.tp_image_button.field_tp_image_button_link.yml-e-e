@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tp_image_button_link
+    - paragraphs.paragraphs_type.tp_image_button
+  module:
+    - link
+id: paragraph.tp_image_button.field_tp_image_button_link
+field_name: field_tp_image_button_link
+entity_type: paragraph
+bundle: tp_image_button
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

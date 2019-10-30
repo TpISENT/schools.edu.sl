@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_frontpage_cover_block
+    - field.storage.block_content.field_tp_fpcb_block_height
+id: block_content.tp_frontpage_cover_block.field_tp_fpcb_block_height
+field_name: field_tp_fpcb_block_height
+entity_type: block_content
+bundle: tp_frontpage_cover_block
+label: 'Block Height [px]'
+description: 'Set block height in px or leave it empty for auto height'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

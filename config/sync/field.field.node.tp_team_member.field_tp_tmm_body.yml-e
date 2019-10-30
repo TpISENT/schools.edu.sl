@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_tmm_body
+    - node.type.tp_team_member
+  module:
+    - text
+id: node.tp_team_member.field_tp_tmm_body
+field_name: field_tp_tmm_body
+entity_type: node
+bundle: tp_team_member
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

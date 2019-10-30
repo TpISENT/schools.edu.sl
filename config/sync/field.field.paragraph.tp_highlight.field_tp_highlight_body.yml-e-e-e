@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tp_highlight_body
+    - paragraphs.paragraphs_type.tp_highlight
+  module:
+    - text
+id: paragraph.tp_highlight.field_tp_highlight_body
+field_name: field_tp_highlight_body
+entity_type: paragraph
+bundle: tp_highlight
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

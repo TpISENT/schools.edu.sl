@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_fclt_contact_info
+    - node.type.tp_faculty
+  module:
+    - text
+id: node.tp_faculty.field_tp_fclt_contact_info
+field_name: field_tp_fclt_contact_info
+entity_type: node
+bundle: tp_faculty
+label: 'Contact information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

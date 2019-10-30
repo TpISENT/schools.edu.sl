@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tp_detailed_feature_body
+    - paragraphs.paragraphs_type.tp_detailed_feature
+  module:
+    - text
+id: paragraph.tp_detailed_feature.field_tp_detailed_feature_body
+field_name: field_tp_detailed_feature_body
+entity_type: paragraph
+bundle: tp_detailed_feature
+label: Body
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

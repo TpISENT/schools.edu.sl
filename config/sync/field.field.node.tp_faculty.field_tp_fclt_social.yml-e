@@ -1,0 +1,87 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_fclt_social
+    - node.type.tp_faculty
+    - paragraphs.paragraphs_type.tp_fa_icon
+  module:
+    - entity_reference_revisions
+id: node.tp_faculty.field_tp_fclt_social
+field_name: field_tp_fclt_social
+entity_type: node
+bundle: tp_faculty
+label: 'Social Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      tp_fa_icon: tp_fa_icon
+    target_bundles_drag_drop:
+      tp_additional_feature:
+        weight: 21
+        enabled: false
+      tp_collapse:
+        weight: 22
+        enabled: false
+      tp_detailed_feature:
+        weight: 23
+        enabled: false
+      tp_dropdown:
+        weight: 24
+        enabled: false
+      tp_fancy_linked_image:
+        weight: 25
+        enabled: false
+      tp_fancy_tab:
+        weight: 26
+        enabled: false
+      tp_fa_icon:
+        enabled: true
+        weight: 27
+      tp_feature:
+        weight: 28
+        enabled: false
+      tp_featured_linked_text_tile:
+        weight: 29
+        enabled: false
+      tp_highlight:
+        weight: 30
+        enabled: false
+      tp_how_it_works_item:
+        weight: 31
+        enabled: false
+      tp_icon_features:
+        weight: 32
+        enabled: false
+      tp_image_button:
+        weight: 33
+        enabled: false
+      tp_main_slideshow_slide:
+        weight: 34
+        enabled: false
+      tp_map_location:
+        weight: 35
+        enabled: false
+      tp_media_tab:
+        weight: 36
+        enabled: false
+      tp_prd_specification:
+        weight: 37
+        enabled: false
+      tp_tab:
+        weight: 38
+        enabled: false
+      tp_timeline_item:
+        weight: 39
+        enabled: false
+      tp_video_gallery_slide:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

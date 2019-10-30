@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_evnt_tags
+    - node.type.tp_event
+    - taxonomy.vocabulary.tp_event_tags
+id: node.tp_event.field_tp_evnt_tags
+field_name: field_tp_evnt_tags
+entity_type: node
+bundle: tp_event
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tp_event_tags: tp_event_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

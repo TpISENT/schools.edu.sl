@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tp_fancy_block_reference
+    - paragraphs.paragraphs_type.tp_fancy_tab
+id: paragraph.tp_fancy_tab.field_tp_fancy_block_reference
+field_name: field_tp_fancy_block_reference
+entity_type: paragraph
+bundle: tp_fancy_tab
+label: 'Block Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

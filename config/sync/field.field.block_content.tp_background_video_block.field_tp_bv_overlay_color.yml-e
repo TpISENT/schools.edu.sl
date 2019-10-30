@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_background_video_block
+    - field.storage.block_content.field_tp_bv_overlay_color
+  module:
+    - options
+id: block_content.tp_background_video_block.field_tp_bv_overlay_color
+field_name: field_tp_bv_overlay_color
+entity_type: block_content
+bundle: tp_background_video_block
+label: 'Background Video Overlay Color'
+description: 'From the drop-down menu, select the color you prefer.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'region--light-typography region--black-background'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

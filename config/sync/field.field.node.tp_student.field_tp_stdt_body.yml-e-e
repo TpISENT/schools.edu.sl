@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_stdt_body
+    - node.type.tp_student
+  module:
+    - text
+id: node.tp_student.field_tp_stdt_body
+field_name: field_tp_stdt_body
+entity_type: node
+bundle: tp_student
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

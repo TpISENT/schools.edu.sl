@@ -1,0 +1,78 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_frontpage_cover_block
+    - field.storage.block_content.field_tp_fpcb_image_button
+    - paragraphs.paragraphs_type.tp_image_button
+  module:
+    - entity_reference_revisions
+id: block_content.tp_frontpage_cover_block.field_tp_fpcb_image_button
+field_name: field_tp_fpcb_image_button
+entity_type: block_content
+bundle: tp_frontpage_cover_block
+label: 'Image Buttons'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      tp_image_button: tp_image_button
+    target_bundles_drag_drop:
+      tp_additional_feature:
+        weight: 18
+        enabled: false
+      tp_collapse:
+        weight: 19
+        enabled: false
+      tp_dropdown:
+        weight: 20
+        enabled: false
+      tp_fancy_linked_image:
+        weight: 21
+        enabled: false
+      tp_fancy_tab:
+        weight: 22
+        enabled: false
+      tp_feature:
+        weight: 23
+        enabled: false
+      tp_featured_linked_text_tile:
+        weight: 24
+        enabled: false
+      tp_highlight:
+        weight: 25
+        enabled: false
+      tp_how_it_works_item:
+        weight: 26
+        enabled: false
+      tp_icon_features:
+        weight: 27
+        enabled: false
+      tp_image_button:
+        enabled: true
+        weight: 28
+      tp_main_slideshow_slide:
+        weight: 29
+        enabled: false
+      tp_map_location:
+        weight: 30
+        enabled: false
+      tp_media_tab:
+        weight: 31
+        enabled: false
+      tp_tab:
+        weight: 32
+        enabled: false
+      tp_timeline_item:
+        weight: 33
+        enabled: false
+      tp_video_gallery_slide:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_main_slideshow_block
+    - field.storage.block_content.field_tp_ms_effect
+  module:
+    - options
+id: block_content.tp_main_slideshow_block.field_tp_ms_effect
+field_name: field_tp_ms_effect
+entity_type: block_content
+bundle: tp_main_slideshow_block
+label: 'Slideshow Effect'
+description: 'From the drop-down menu, select the slideshow effect you prefer.'
+required: false
+translatable: false
+default_value:
+  -
+    value: fade
+default_value_callback: ''
+settings: {  }
+field_type: list_string

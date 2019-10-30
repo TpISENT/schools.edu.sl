@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_collapsible_block
+    - field.storage.block_content.field_tp_cb_state
+  module:
+    - options
+id: block_content.tp_collapsible_block.field_tp_cb_state
+field_name: field_tp_cb_state
+entity_type: block_content
+bundle: tp_collapsible_block
+label: 'Collapse initial state'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: expanded
+default_value_callback: ''
+settings: {  }
+field_type: list_string

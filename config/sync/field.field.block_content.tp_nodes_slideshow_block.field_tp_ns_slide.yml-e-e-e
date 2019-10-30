@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_nodes_slideshow_block
+    - field.storage.block_content.field_tp_ns_slide
+    - node.type.tp_product
+    - node.type.tp_service
+id: block_content.tp_nodes_slideshow_block.field_tp_ns_slide
+field_name: field_tp_ns_slide
+entity_type: block_content
+bundle: tp_nodes_slideshow_block
+label: 'Node Slide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tp_product: tp_product
+      tp_service: tp_service
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: tp_product
+field_type: entity_reference

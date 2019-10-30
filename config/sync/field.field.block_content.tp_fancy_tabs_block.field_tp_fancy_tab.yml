@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_fancy_tabs_block
+    - field.storage.block_content.field_tp_fancy_tab
+    - paragraphs.paragraphs_type.tp_fancy_tab
+  module:
+    - entity_reference_revisions
+id: block_content.tp_fancy_tabs_block.field_tp_fancy_tab
+field_name: field_tp_fancy_tab
+entity_type: block_content
+bundle: tp_fancy_tabs_block
+label: 'Fancy Tab'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      tp_fancy_tab: tp_fancy_tab
+    target_bundles_drag_drop:
+      tp_fancy_tab:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

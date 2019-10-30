@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_background_image_block
+    - field.storage.block_content.field_tp_block_reference
+id: block_content.tp_background_image_block.field_tp_block_reference
+field_name: field_tp_block_reference
+entity_type: block_content
+bundle: tp_background_image_block
+label: 'Block Reference'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

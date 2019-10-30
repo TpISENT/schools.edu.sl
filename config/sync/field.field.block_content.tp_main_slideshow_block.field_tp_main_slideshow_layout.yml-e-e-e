@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_main_slideshow_block
+    - field.storage.block_content.field_tp_main_slideshow_layout
+  module:
+    - options
+id: block_content.tp_main_slideshow_block.field_tp_main_slideshow_layout
+field_name: field_tp_main_slideshow_layout
+entity_type: block_content
+bundle: tp_main_slideshow_block
+label: 'Slideshow Layout'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: fullwidth
+default_value_callback: ''
+settings: {  }
+field_type: list_string

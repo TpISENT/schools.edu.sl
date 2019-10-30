@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_prd_content_tabs
+    - node.type.tp_product
+    - paragraphs.paragraphs_type.tp_tab
+  module:
+    - entity_reference_revisions
+id: node.tp_product.field_tp_prd_content_tabs
+field_name: field_tp_prd_content_tabs
+entity_type: node
+bundle: tp_product
+label: Tabs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      tp_tab: tp_tab
+    target_bundles_drag_drop:
+      tp_additional_feature:
+        weight: 14
+        enabled: false
+      tp_collapse:
+        weight: 15
+        enabled: false
+      tp_dropdown:
+        weight: 16
+        enabled: false
+      tp_fancy_linked_image:
+        weight: 17
+        enabled: false
+      tp_fancy_tab:
+        weight: 18
+        enabled: false
+      tp_featured_linked_text_tile:
+        weight: 19
+        enabled: false
+      tp_highlight:
+        weight: 20
+        enabled: false
+      tp_icon_features:
+        weight: 21
+        enabled: false
+      tp_main_slideshow_slide:
+        weight: 22
+        enabled: false
+      tp_map_location:
+        weight: 23
+        enabled: false
+      tp_media_tab:
+        weight: 24
+        enabled: false
+      tp_tab:
+        enabled: true
+        weight: 25
+      tp_video_gallery_slide:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_collapsible_block
+    - field.storage.block_content.field_tp_cb_trigger_position
+  module:
+    - options
+id: block_content.tp_collapsible_block.field_tp_cb_trigger_position
+field_name: field_tp_cb_trigger_position
+entity_type: block_content
+bundle: tp_collapsible_block
+label: 'Trigger Position'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: bottom
+default_value_callback: ''
+settings: {  }
+field_type: list_string
