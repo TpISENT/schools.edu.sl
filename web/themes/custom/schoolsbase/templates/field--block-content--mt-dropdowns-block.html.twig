@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the dropdowns powered custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_tabs_block()
+ * @see schoolsbase_preprocess_field__block_content__tp_tabs_block()
  */
 #}
 {%
@@ -12,7 +12,7 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'field--mt-dropdowns-block',
+    'field--tp-dropdowns-block',
     'clearfix',
   ]
 %}
@@ -30,11 +30,11 @@
     <div class="btn-group">
       <div class="dropdown">
         <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {% if item.content['#paragraph'].field_mt_dropdown_fa_icon_active['0'].icon_name %}
-            <i class="expanded-icon {{ item.content['#paragraph'].field_mt_dropdown_fa_icon_active['0'].style }} fa-{{ item.content['#paragraph'].field_mt_dropdown_fa_icon_active['0'].icon_name }}"></i>
+          {% if item.content['#paragraph'].field_tp_dropdown_fa_icon_active['0'].icon_name %}
+            <i class="expanded-icon {{ item.content['#paragraph'].field_tp_dropdown_fa_icon_active['0'].style }} fa-{{ item.content['#paragraph'].field_tp_dropdown_fa_icon_active['0'].icon_name }}"></i>
           {% endif %}
-          {% if item.content['#paragraph'].field_mt_dropdown_fa_icon['0'].icon_name %}
-            <i class="collapsed-icon {{ item.content['#paragraph'].field_mt_dropdown_fa_icon['0'].style }} fa-{{ item.content['#paragraph'].field_mt_dropdown_fa_icon['0'].icon_name }}"></i>
+          {% if item.content['#paragraph'].field_tp_dropdown_fa_icon['0'].icon_name %}
+            <i class="collapsed-icon {{ item.content['#paragraph'].field_tp_dropdown_fa_icon['0'].style }} fa-{{ item.content['#paragraph'].field_tp_dropdown_fa_icon['0'].icon_name }}"></i>
           {% endif %}
         </button>
         <div class="dropdown-menu dropdown-menu-right">

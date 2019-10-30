@@ -2,35 +2,35 @@
  * @file
  * Visual styles for Schools Base Theme's recent comments.
  */
-.view-mt-recent-comments .views-field-subject a {
+.view-tp-recent-comments .views-field-subject a {
   font-weight: 500;
 }
-.region--light-typography .view-mt-recent-comments .views-field-subject a {
+.region--light-typography .view-tp-recent-comments .views-field-subject a {
   text-decoration: none;
 }
-.region--light-typography .view-mt-recent-comments .views-field-subject a:hover,
-.region--light-typography .view-mt-recent-comments .views-field-subject a:focus {
+.region--light-typography .view-tp-recent-comments .views-field-subject a:hover,
+.region--light-typography .view-tp-recent-comments .views-field-subject a:focus {
   opacity: 0.8;
 }
-.view-mt-recent-comments .views-field-name {
+.view-tp-recent-comments .views-field-name {
   display: block;
   margin-bottom: 0px;
 }
-.view-mt-recent-comments .views-field-name a {
+.view-tp-recent-comments .views-field-name a {
   text-transform: capitalize;
 }
-.region--light-typography .view-mt-recent-comments .views-field-name {
+.region--light-typography .view-tp-recent-comments .views-field-name {
   color: rgba(255, 255, 255, 0.7);
 }
-.user-logged-in .region--light-typography .view-mt-recent-comments .views-field-name a {
+.user-logged-in .region--light-typography .view-tp-recent-comments .views-field-name a {
   color: rgba(255, 255, 255, 0.7);
 }
-.view-mt-recent-comments .views-field-subject a {
+.view-tp-recent-comments .views-field-subject a {
   padding: 6px 0 7px 0px;
   line-height: 150%;
   display: block;
 }
-.view-mt-recent-comments .views-field-subject a:before {
+.view-tp-recent-comments .views-field-subject a:before {
   content: "\f086";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;

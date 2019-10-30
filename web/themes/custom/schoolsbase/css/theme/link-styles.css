@@ -3,7 +3,7 @@
  * Styles for Schools Base Theme's links.
  */
 /* animated icon */
-.mt-link-style-animated-icon .mt-link-stylable {
+.tp-link-style-animated-icon .tp-link-stylable {
   margin: 0 0 10px 0px;
   display: inline-block;
   background-color: transparent;
@@ -14,10 +14,10 @@
   position: relative;
   padding-left: 25px;
 }
-.mt-link-style-animated-icon .mt-link-stylable:hover {
+.tp-link-style-animated-icon .tp-link-stylable:hover {
   padding-left: 40px;
 }
-.mt-link-style-animated-icon .mt-link-stylable:before {
+.tp-link-style-animated-icon .tp-link-stylable:before {
   width: 15px;
   height: 1px;
   content: "";
@@ -30,32 +30,32 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.mt-link-style-animated-icon .mt-link-stylable:hover:before {
+.tp-link-style-animated-icon .tp-link-stylable:hover:before {
   width: 30px;
 }
-.mt-link-style-animated-icon .region--dark-typography .mt-link-stylable {
+.tp-link-style-animated-icon .region--dark-typography .tp-link-stylable {
   color: #333333;
 }
-.mt-link-style-animated-icon .region--dark-typography .mt-link-stylable:before {
+.tp-link-style-animated-icon .region--dark-typography .tp-link-stylable:before {
   background-color: #333333;
 }
-.mt-link-style-animated-icon .region--light-typography .mt-link-stylable {
+.tp-link-style-animated-icon .region--light-typography .tp-link-stylable {
   color: #ffffff;
 }
-.mt-link-style-animated-icon .region--light-typography .mt-link-stylable:before {
+.tp-link-style-animated-icon .region--light-typography .tp-link-stylable:before {
   background-color: #ffffff;
 }
 
 /* animated underline 1 */
-.mt-link-style-animated-underline-1 .mt-link-stylable {
+.tp-link-style-animated-underline-1 .tp-link-stylable {
   padding-bottom: 8px;
   position: relative;
   text-decoration: none;
 }
-.mt-link-style-animated-underline-1 .mt-link-stylable:hover {
+.tp-link-style-animated-underline-1 .tp-link-stylable:hover {
   text-decoration: none;
 }
-.mt-link-style-animated-underline-1 .mt-link-stylable:after {
+.tp-link-style-animated-underline-1 .tp-link-stylable:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -68,24 +68,24 @@
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-.mt-link-style-animated-underline-1 .region--light-typography .mt-link-stylable:after {
+.tp-link-style-animated-underline-1 .region--light-typography .tp-link-stylable:after {
   background-color: #ffffff;
 }
-.mt-link-style-animated-underline-1 .mt-link-stylable:hover:after {
+.tp-link-style-animated-underline-1 .tp-link-stylable:hover:after {
   left: -3%;
   width: 106%;
 }
 
 /* animated underline 2 */
-.mt-link-style-animated-underline-2 .mt-link-stylable {
+.tp-link-style-animated-underline-2 .tp-link-stylable {
   padding-bottom: 8px;
   position: relative;
   text-decoration: none;
 }
-.mt-link-style-animated-underline-2 .mt-link-stylable:hover {
+.tp-link-style-animated-underline-2 .tp-link-stylable:hover {
   text-decoration: none;
 }
-.mt-link-style-animated-underline-2 .mt-link-stylable:after {
+.tp-link-style-animated-underline-2 .tp-link-stylable:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -99,10 +99,10 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.mt-link-style-animated-underline-2 .region--light-typography .mt-link-stylable:after {
+.tp-link-style-animated-underline-2 .region--light-typography .tp-link-stylable:after {
   background-color: #ffffff;
 }
-.mt-link-style-animated-underline-2 .mt-link-stylable:hover:after {
+.tp-link-style-animated-underline-2 .tp-link-stylable:hover:after {
   width: 100%;
   -webkit-animation-name: borderIn;
   animation-name: borderIn;
@@ -149,16 +149,16 @@
 }
 
 /* animated background 1 */
-.mt-link-style-animated-background-1 .mt-link-stylable {
+.tp-link-style-animated-background-1 .tp-link-stylable {
   position: relative;
   text-decoration: none;
 }
-.mt-link-style-animated-background-1 .mt-link-stylable:hover,
-.mt-link-style-animated-background-1 .mt-link-stylable:focus {
+.tp-link-style-animated-background-1 .tp-link-stylable:hover,
+.tp-link-style-animated-background-1 .tp-link-stylable:focus {
   color: #ffffff;
   text-decoration: none;
 }
-.mt-link-style-animated-background-1 .mt-link-stylable:before {
+.tp-link-style-animated-background-1 .tp-link-stylable:before {
   content: "";
   z-index: -1;
   position: absolute;
@@ -172,30 +172,30 @@
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-.mt-link-style-animated-background-1 .mt-link-stylable:hover:before,
-.mt-link-style-animated-background-1 .mt-link-stylable:focus:before {
+.tp-link-style-animated-background-1 .tp-link-stylable:hover:before,
+.tp-link-style-animated-background-1 .tp-link-stylable:focus:before {
   height: 100%;
   top: 0;
 }
-.mt-link-style-animated-background-1 .region--light-typography .mt-link-stylable:before {
+.tp-link-style-animated-background-1 .region--light-typography .tp-link-stylable:before {
   background-color: #ffffff;
 }
-.mt-link-style-animated-background-1 .region--light-typography .mt-link-stylable:hover,
-.mt-link-style-animated-background-1 .region--light-typography .mt-link-stylable:focus {
+.tp-link-style-animated-background-1 .region--light-typography .tp-link-stylable:hover,
+.tp-link-style-animated-background-1 .region--light-typography .tp-link-stylable:focus {
   color: #333333;
 }
 
 /* animated background 2 */
-.mt-link-style-animated-background-2 .mt-link-stylable {
+.tp-link-style-animated-background-2 .tp-link-stylable {
   position: relative;
   text-decoration: none;
 }
-.mt-link-style-animated-background-2 .mt-link-stylable:hover,
-.mt-link-style-animated-background-2 .mt-link-stylable:focus {
+.tp-link-style-animated-background-2 .tp-link-stylable:hover,
+.tp-link-style-animated-background-2 .tp-link-stylable:focus {
   color: #ffffff;
   text-decoration: none;
 }
-.mt-link-style-animated-background-2 .mt-link-stylable:after {
+.tp-link-style-animated-background-2 .tp-link-stylable:after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -210,8 +210,8 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.mt-link-style-animated-background-2 .mt-link-stylable:hover:after,
-.mt-link-style-animated-background-2 .mt-link-stylable:focus:after {
+.tp-link-style-animated-background-2 .tp-link-stylable:hover:after,
+.tp-link-style-animated-background-2 .tp-link-stylable:focus:after {
   width: 104%;
   -webkit-animation-name: backgroundIn;
   animation-name: backgroundIn;
@@ -220,11 +220,11 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.mt-link-style-animated-background-2 .region--light-typography .mt-link-stylable:after {
+.tp-link-style-animated-background-2 .region--light-typography .tp-link-stylable:after {
   background-color: #ffffff;
 }
-.mt-link-style-animated-background-2 .region--light-typography .mt-link-stylable:hover,
-.mt-link-style-animated-background-2 .region--light-typography .mt-link-stylable:focus {
+.tp-link-style-animated-background-2 .region--light-typography .tp-link-stylable:hover,
+.tp-link-style-animated-background-2 .region--light-typography .tp-link-stylable:focus {
   color: #333333;
 }
 @-webkit-keyframes backgroundIn {
@@ -265,16 +265,16 @@
 }
 
 /* animated background 3 */
-.mt-link-style-animated-background-3 .mt-link-stylable {
+.tp-link-style-animated-background-3 .tp-link-stylable {
   position: relative;
   text-decoration: none;
 }
-.mt-link-style-animated-background-3 .mt-link-stylable:hover,
-.mt-link-style-animated-background-3 .mt-link-stylable:focus {
+.tp-link-style-animated-background-3 .tp-link-stylable:hover,
+.tp-link-style-animated-background-3 .tp-link-stylable:focus {
   color: #ffffff;
   text-decoration: none;
 }
-.mt-link-style-animated-background-3 .mt-link-stylable:before {
+.tp-link-style-animated-background-3 .tp-link-stylable:before {
   content: "";
   z-index: -1;
   position: absolute;
@@ -288,14 +288,14 @@
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-.mt-link-style-animated-background-3 .mt-link-stylable:hover:before,
-.mt-link-style-animated-background-3 .mt-link-stylable:focus:before {
+.tp-link-style-animated-background-3 .tp-link-stylable:hover:before,
+.tp-link-style-animated-background-3 .tp-link-stylable:focus:before {
   height: 100%;
 }
-.mt-link-style-animated-background-3 .region--light-typography .mt-link-stylable:before {
+.tp-link-style-animated-background-3 .region--light-typography .tp-link-stylable:before {
   background-color: #ffffff;
 }
-.mt-link-style-animated-background-3 .region--light-typography .mt-link-stylable:hover,
-.mt-link-style-animated-background-3 .region--light-typography .mt-link-stylable:focus {
+.tp-link-style-animated-background-3 .region--light-typography .tp-link-stylable:hover,
+.tp-link-style-animated-background-3 .region--light-typography .tp-link-stylable:focus {
   color: #333333;
 }

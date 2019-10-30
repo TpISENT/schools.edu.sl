@@ -51,46 +51,46 @@
   {{ title_suffix }}
   {% block content %}
     <div{{ content_attributes.addClass('content') }}>
-    {% if content['#block_content'].field_mt_hero_layout.value == "stacked" %}
-      <div class="mt-hero--stacked-layout">
-        {% if (content.field_mt_hero_title|render or content.field_mt_hero_body|render or content.field_mt_hero_link|render) and (content.field_mt_hero_teaser|render or content.field_mt_hero_social_icon|render) %}
+    {% if content['#block_content'].field_tp_hero_layout.value == "stacked" %}
+      <div class="tp-hero--stacked-layout">
+        {% if (content.field_tp_hero_title|render or content.field_tp_hero_body|render or content.field_tp_hero_link|render) and (content.field_tp_hero_teaser|render or content.field_tp_hero_social_icon|render) %}
           <div class="row">
-            {% if content.field_mt_hero_title|render or content.field_mt_hero_body|render or content.field_mt_hero_link|render %}
-              <div class="{{ (content.field_mt_hero_teaser|render or content.field_mt_hero_social_icon|render) ? 'col-xl-7' : 'col-12' }}">
-                {{ content.field_mt_hero_title }}
-                {{ content.field_mt_hero_body }}
-                {{ content.field_mt_hero_link }}
+            {% if content.field_tp_hero_title|render or content.field_tp_hero_body|render or content.field_tp_hero_link|render %}
+              <div class="{{ (content.field_tp_hero_teaser|render or content.field_tp_hero_social_icon|render) ? 'col-xl-7' : 'col-12' }}">
+                {{ content.field_tp_hero_title }}
+                {{ content.field_tp_hero_body }}
+                {{ content.field_tp_hero_link }}
               </div>
             {% endif %}
-            {% if content.field_mt_hero_teaser|render or content.field_mt_hero_social_icon|render %}
-              <div class="{{ (content.field_mt_hero_title|render or content.field_mt_hero_body|render) ? 'col-xl-4 ml-xl-auto' : 'col-12' }} mt-hero-side mt-hero-teaser-field--items-{{ content['#block_content'].field_mt_hero_teaser.getvalue | length }}">
-                {{ content.field_mt_hero_teaser }}
-                {% if (content['#block_content'].field_mt_hero_teaser.getvalue | length) == '1' %}
+            {% if content.field_tp_hero_teaser|render or content.field_tp_hero_social_icon|render %}
+              <div class="{{ (content.field_tp_hero_title|render or content.field_tp_hero_body|render) ? 'col-xl-4 ml-xl-auto' : 'col-12' }} tp-hero-side tp-hero-teaser-field--items-{{ content['#block_content'].field_tp_hero_teaser.getvalue | length }}">
+                {{ content.field_tp_hero_teaser }}
+                {% if (content['#block_content'].field_tp_hero_teaser.getvalue | length) == '1' %}
                   <div class="row">
                     <div class="col-xl-6 ml-xl-auto">
-                      {{ content.field_mt_hero_social_icon }}
+                      {{ content.field_tp_hero_social_icon }}
                     </div>
                   </div>
                 {% else %}
-                  {{ content.field_mt_hero_social_icon }}
+                  {{ content.field_tp_hero_social_icon }}
                 {% endif %}
               </div>
             {% endif %}
           </div>
         {% endif %}
       </div>
-      {{ content|without('field_mt_hero_title', 'field_mt_hero_body', 'field_mt_hero_teaser', 'field_mt_hero_social_icon', 'field_mt_hero_layout', 'field_mt_hero_link') }}
+      {{ content|without('field_tp_hero_title', 'field_tp_hero_body', 'field_tp_hero_teaser', 'field_tp_hero_social_icon', 'field_tp_hero_layout', 'field_tp_hero_link') }}
     {% else %}
-      <div class="mt-hero--overlaid-layout">
-        {% if content.field_mt_hero_title|render or content.field_mt_hero_body|render or content.field_mt_hero_link|render %}
-          <div class="hero-caption mt-style-custom-tr region--default-background">
-            {{ content.field_mt_hero_title }}
-            {{ content.field_mt_hero_body }}
-            {{ content.field_mt_hero_link }}
+      <div class="tp-hero--overlaid-layout">
+        {% if content.field_tp_hero_title|render or content.field_tp_hero_body|render or content.field_tp_hero_link|render %}
+          <div class="hero-caption tp-style-custom-tr region--default-background">
+            {{ content.field_tp_hero_title }}
+            {{ content.field_tp_hero_body }}
+            {{ content.field_tp_hero_link }}
           </div>
         {% endif %}
-        {{ content.field_mt_hero_image }}
-        {{ content|without('field_mt_hero_title', 'field_mt_hero_body', 'field_mt_hero_teaser', 'field_mt_hero_social_icon', 'field_mt_hero_layout', 'field_mt_hero_image', 'field_mt_hero_link') }}
+        {{ content.field_tp_hero_image }}
+        {{ content|without('field_tp_hero_title', 'field_tp_hero_body', 'field_tp_hero_teaser', 'field_tp_hero_social_icon', 'field_tp_hero_layout', 'field_tp_hero_image', 'field_tp_hero_link') }}
       </div>
     {% endif %}
     </div>

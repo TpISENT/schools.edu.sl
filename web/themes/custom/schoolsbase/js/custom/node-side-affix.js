@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
 
     //The internal banner element is rendered after it is ready so initially it does not have height that can calculated
     //Therefore we manually add the height when we know it or we wait a few seconds to when its height is not known
-    if ($(".view-mt-internal-banner").length>0) {
+    if ($(".view-tp-internal-banner").length>0) {
       var pageWidth = $("#page>.container").outerWidth();
       if (pageWidth == 1170) {
         affixTop = affixTop + 610;

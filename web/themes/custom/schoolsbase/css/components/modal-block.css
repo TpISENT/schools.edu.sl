@@ -5,7 +5,7 @@
 .modal-open .slideout-panel {
   position: static;
 }
-.block-type--mt-modal .modal-content {
+.block-type--tp-modal .modal-content {
   border-radius: 0;
   border: none;
   background-color: transparent;
@@ -16,7 +16,7 @@
 .modal-backdrop.show {
   opacity: 1;
 }
-.block-type--mt-modal .modal-icon-button {
+.block-type--tp-modal .modal-icon-button {
   -webkit-appearance: none;
   border-width: 0;
   display: block;
@@ -24,13 +24,13 @@
   margin-top: 3px;
   font-size: 18px;
 }
-.block-type--mt-modal .modal-icon-button:not(.mt-button) {
+.block-type--tp-modal .modal-icon-button:not(.tp-button) {
   background-color: transparent;
 }
-.block-type--mt-modal .modal-icon-button.mt-button {
+.block-type--tp-modal .modal-icon-button.tp-button {
   border-width: 1px;
 }
-.block-type--mt-modal button.close {
+.block-type--tp-modal button.close {
   position: absolute;
   top: 50px;
   right: 50px;

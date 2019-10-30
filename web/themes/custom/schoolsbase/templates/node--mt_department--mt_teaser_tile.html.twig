@@ -17,20 +17,20 @@
 {{ attach_library('schoolsbase/node-view-mode-teaser-tile') }}
 <article{{ attributes.addClass(classes) }}>
 
-  {% if content.field_mt_dpt_teaser_image|render %}
-    {{ content.field_mt_dpt_teaser_image }}
+  {% if content.field_tp_dpt_teaser_image|render %}
+    {{ content.field_tp_dpt_teaser_image }}
   {% endif %}
 
   {{ title_prefix }}
   {% if not page %}
-    <h4{{ title_attributes.addClass("mt-0 node__title") }}>
+    <h4{{ title_attributes.addClass("tp-0 node__title") }}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h4>
   {% endif %}
   {{ title_suffix }}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('field_mt_dpt_teaser_image', 'field_mt_dpt_body') }}
+    {{ content|without('field_tp_dpt_teaser_image', 'field_tp_dpt_body') }}
   </div>
 
 </article>

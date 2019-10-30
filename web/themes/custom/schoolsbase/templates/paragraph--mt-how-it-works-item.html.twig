@@ -51,13 +51,13 @@
     {% block content %}
       <div class="how-it-works-item">
         <div class="how-it-works__header">
-          {% if paragraph.field_mt_hiw_link['0'].url %}
-            <h5><a href="{{ paragraph.field_mt_hiw_link['0'].url }}">{{ paragraph.field_mt_hiw_title.value }}</a></h5>
+          {% if paragraph.field_tp_hiw_link['0'].url %}
+            <h5><a href="{{ paragraph.field_tp_hiw_link['0'].url }}">{{ paragraph.field_tp_hiw_title.value }}</a></h5>
           {% else %}
-            <h5>{{ paragraph.field_mt_hiw_title.value }}</h5>
+            <h5>{{ paragraph.field_tp_hiw_title.value }}</h5>
           {% endif %}
         </div>
-        {{ content|without('field_mt_hiw_title', 'field_mt_hiw_link') }}
+        {{ content|without('field_tp_hiw_title', 'field_tp_hiw_link') }}
       </div>
     {% endblock %}
   </div>

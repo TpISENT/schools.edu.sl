@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the main slideshow custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_main_slideshow_block()
+ * @see schoolsbase_preprocess_field__block_content__tp_main_slideshow_block()
  */
 #}
 {{ attach_library('schoolsbase/main-slideshow-block-init') }}
@@ -13,7 +13,7 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'field--mt-main-slideshow-block',
+    'field--tp-main-slideshow-block',
     'clearfix',
   ]
 %}
@@ -28,20 +28,20 @@
     <h3{{ title_attributes.addClass(title_classes) }}>{{ label }}</h3>
   {% endif %}
   <div class="main-slideshow-block rev_slider_wrapper"
-    data-attribute-mt-layout="{{ field_mt_main_slideshow_layout_value }}"
-    data-attribute-mt-autoheight="{{ field_mt_main_slideshow_autoheight }}"
-    data-attribute-mt-initial-height="{{ field_mt_ms_initial_height_value }}"
-    data-attribute-mt-effect-duration="{{ field_mt_ms_effect_duration_value }}"
-    data-attribute-mt-bullets-enable="{{ field_mt_ms_bullets_enable }}"
-    data-attribute-mt-tabs-enable="{{ field_mt_ms_tabs_enable }}"
-    data-attribute-mt-touch-swipe-nav="{{ field_mt_ms_touch_swipe_nav_value }}"
-    data-attribute-mt-bullets-position="{{ field_mt_ms_bullets_position_value }}"
-    data-attribute-mt-background-opacity="{{ field_mt_ms_background_opacity_value }}"
-    data-attribute-mt-ignore-header="{{ field_mt_ms_ignore_header_height_value }}">
+    data-attribute-tp-layout="{{ field_tp_main_slideshow_layout_value }}"
+    data-attribute-tp-autoheight="{{ field_tp_main_slideshow_autoheight }}"
+    data-attribute-tp-initial-height="{{ field_tp_ms_initial_height_value }}"
+    data-attribute-tp-effect-duration="{{ field_tp_ms_effect_duration_value }}"
+    data-attribute-tp-bullets-enable="{{ field_tp_ms_bullets_enable }}"
+    data-attribute-tp-tabs-enable="{{ field_tp_ms_tabs_enable }}"
+    data-attribute-tp-touch-swipe-nav="{{ field_tp_ms_touch_swipe_nav_value }}"
+    data-attribute-tp-bullets-position="{{ field_tp_ms_bullets_position_value }}"
+    data-attribute-tp-background-opacity="{{ field_tp_ms_background_opacity_value }}"
+    data-attribute-tp-ignore-header="{{ field_tp_ms_ignore_header_height_value }}">
     <div class="rev_slider" data-version="5.4.5">
       <ul>
         {% for item in items %}
-          <li data-transition="{{ field_mt_ms_effect_value }}" data-slotamount="default"
+          <li data-transition="{{ field_tp_ms_effect_value }}" data-slotamount="default"
             {% if item.slide_title %}
                 data-title="{{ item.slide_title }}"
             {% endif %} 
@@ -62,7 +62,7 @@
             </div>
 
             {# Caption of Slide #}
-            <div class="tp-caption ms-transparent-background {{ item.slide_caption_color }} tp-caption--boxed text-left mt-style-custom-tl"
+            <div class="tp-caption ms-transparent-background {{ item.slide_caption_color }} tp-caption--boxed text-left tp-style-custom-tl"
               data-x="[right,right,right,right]"
               data-y="[bottom,bottom,bottom,bottom]"
               data-hoffset="[0,0,0,0]"
@@ -75,7 +75,7 @@
               data-transform_idle="o:1"
               data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1000;e:Power4.easeInOut;"
               data-transform_out="y:[100%];o:0;s:1000;e:Power2.easeInOut;"
-              data-attribute-mt-caption-opacity="{{ item.slide_caption_opacity }}">
+              data-attribute-tp-caption-opacity="{{ item.slide_caption_opacity }}">
               {% if item.slide_title and item.slide_first_link_url %}
                 <div class="tp-caption__title"><a href="{{ item.slide_first_link_url }}">{{ item.slide_title }}</a></div>
               {% else %}
@@ -87,7 +87,7 @@
               {% if item.slide_first_link_url %}
                 <div class="tp-caption__buttons-container d-sm-block d-none">
                   {% for slide_link in item.slide_links %}
-                    <a class="mt-button mt-button--outline mb-2" href="{{ slide_link.slide_link_url }}">{{ slide_link.slide_link_title }}</a>
+                    <a class="tp-button tp-button--outline mb-2" href="{{ slide_link.slide_link_url }}">{{ slide_link.slide_link_title }}</a>
                   {% endfor %}
                 </div>
               {% endif %}

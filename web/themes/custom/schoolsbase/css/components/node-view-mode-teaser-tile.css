@@ -2,10 +2,10 @@
  * @file
  * Visual styles for Schools Base Theme's node in teaser tile view.
  */
-.node--view-mode-mt-teaser-tile {
+.node--view-mode-tp-teaser-tile {
   margin-bottom: 60px;
 }
-.node--view-mode-mt-teaser-tile .promoted-label {
+.node--view-mode-tp-teaser-tile .promoted-label {
   background-color: #4d4d4d;
   color: #ffffff;
   display: inline-block;
@@ -14,47 +14,47 @@
   margin-bottom: 20px;
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile .node__header {
+.node--view-mode-tp-teaser-tile .node__header {
   padding-bottom: 0;
 }
-.node--view-mode-mt-teaser-tile .field--name-field-mt-fclt-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-stdt-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-evnt-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-crs-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-srv-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-prd-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-dpt-teaser-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-pst-image,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-alb-image,
-.node--view-mode-mt-teaser-tile .field--name-field-image {
+.node--view-mode-tp-teaser-tile .field--name-field-tp-fclt-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-stdt-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-evnt-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-crs-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-srv-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-prd-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-dpt-teaser-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-pst-image,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-alb-image,
+.node--view-mode-tp-teaser-tile .field--name-field-image {
   margin-bottom: 15px;
 }
-.node--view-mode-mt-teaser-tile .field--name-field-mt-shw-image {
+.node--view-mode-tp-teaser-tile .field--name-field-tp-shw-image {
   margin-bottom: 20px;
 }
-.node--view-mode-mt-teaser-tile .field--name-field-mt-fclt-academic-title,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-stdt-academic-title,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-evnt-date,
-.node--view-mode-mt-teaser-tile .field--name-field-mt-crs-tutors {
+.node--view-mode-tp-teaser-tile .field--name-field-tp-fclt-academic-title,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-stdt-academic-title,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-evnt-date,
+.node--view-mode-tp-teaser-tile .field--name-field-tp-crs-tutors {
   margin-bottom: 10px;
 }
-.node--view-mode-mt-teaser-tile .field--name-field-mt-crs-tutors .field__item {
+.node--view-mode-tp-teaser-tile .field--name-field-tp-crs-tutors .field__item {
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile .field--name-field-mt-crs-tutors .field__item:after {
+.node--view-mode-tp-teaser-tile .field--name-field-tp-crs-tutors .field__item:after {
   content: ",";
 }
-.node--view-mode-mt-teaser-tile .field--name-field-mt-crs-tutors .field__item:last-child:after {
+.node--view-mode-tp-teaser-tile .field--name-field-tp-crs-tutors .field__item:last-child:after {
   content: "";
 }
-.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0 0 5px;
   padding: 0;
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile .promoted-label + .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-teaser-tile .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-teaser-tile .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-teaser-tile .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0 0 0 10px;
   padding: 0;
   display: inline-block;
@@ -62,92 +62,92 @@
   vertical-align: text-top;
 }
 @media (min-width: 1200px) {
-  .node--view-mode-mt-teaser-tile.node--sticky h2.node__title {
+  .node--view-mode-tp-teaser-tile.node--sticky h2.node__title {
     margin: 0 0 20px;
   }
-  .node--view-mode-mt-teaser-tile.node--sticky .field--name-field-mt-srv-body,
-  .node--view-mode-mt-teaser-tile.node--sticky .field--name-field-mt-alb-body,
-  .node--view-mode-mt-teaser-tile.node--sticky .field--name-field-mt-shw-body {
+  .node--view-mode-tp-teaser-tile.node--sticky .field--name-field-tp-srv-body,
+  .node--view-mode-tp-teaser-tile.node--sticky .field--name-field-tp-alb-body,
+  .node--view-mode-tp-teaser-tile.node--sticky .field--name-field-tp-shw-body {
     margin-bottom: 10px;
   }
 }
-.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term:before,
-.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item:before {
+.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item:before {
   content: "";
 }
-.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
-.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
   font-size: 14px;
 }
-.region--dark-typography .node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
-.region--dark-typography .node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+.region--dark-typography .node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
   color: #707070;
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
-.node--type-mt-product.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--type-tp-product.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term.field__item a {
   background-color: #ffffff;
   color: #707070;
 }
 
 /* article node */
-.node--view-mode-mt-teaser-tile .node__meta-item .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-teaser-tile .node__meta-item .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-teaser-tile .node__meta-item .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-teaser-tile .node__meta-item .field--entity-reference-target-type-taxonomy-term.field__item {
   margin-bottom: 0;
 }
-.node--view-mode-mt-teaser-tile .node__meta-item .field--name-field-tags,
-.node--view-mode-mt-teaser-tile .node__meta-item .field--name-field-pst-category {
+.node--view-mode-tp-teaser-tile .node__meta-item .field--name-field-tags,
+.node--view-mode-tp-teaser-tile .node__meta-item .field--name-field-pst-category {
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile .node__meta {
+.node--view-mode-tp-teaser-tile .node__meta {
   text-transform: capitalize;
   margin-bottom: 5px;
 }
-.region--dark-typography .node--view-mode-mt-teaser-tile .node__meta {
+.region--dark-typography .node--view-mode-tp-teaser-tile .node__meta {
   color: #707070;
 }
-.node--view-mode-mt-teaser-tile .node__meta-item {
+.node--view-mode-tp-teaser-tile .node__meta-item {
   display: inline-block;
   margin-bottom: 5px;
 }
-.node--view-mode-mt-teaser-tile .node__meta-tags {
+.node--view-mode-tp-teaser-tile .node__meta-tags {
   margin-bottom: 0;
 }
-.node--view-mode-mt-teaser-tile .node__meta-item:after {
+.node--view-mode-tp-teaser-tile .node__meta-item:after {
   content: "/";
   display: inline-block;
 }
-.node--view-mode-mt-teaser-tile .node__meta-item:last-child:after {
+.node--view-mode-tp-teaser-tile .node__meta-item:last-child:after {
   content: "";
 }
 
 /*product node*/
-.node--type-mt-product.node--view-mode-mt-teaser-tile .product-thumbnail-container {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .product-thumbnail-container {
   position: relative;
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile .field--name-field-mt-prd-tags a {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .field--name-field-tp-prd-tags a {
   color: #ffffff;
   padding: 5px 15px;
   display: inline-block;
   font-size: 12px;
   text-transform: uppercase;
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a:after {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .field--entity-reference-target-type-taxonomy-term .field__item a:after {
   content: "";
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile .product-thumbnail-container .field--name-field-mt-prd-tags {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .product-thumbnail-container .field--name-field-tp-prd-tags {
   position: absolute;
   bottom: 0;
   right: 0;
   margin-bottom: 0;
   font-size: 0;
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile .field--name-field-mt-prd-tags .field__item {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .field--name-field-tp-prd-tags .field__item {
   margin: 0;
 }
-.node--type-mt-product.node--view-mode-mt-teaser-tile .product-thumbnail-container .field--name-field-mt-prd-tags .field__item:last-child {
+.node--type-tp-product.node--view-mode-tp-teaser-tile .product-thumbnail-container .field--name-field-tp-prd-tags .field__item:last-child {
   margin-left: 3px;
 }
-.teaser-tile__price .field--name-field-mt-prd-price {
+.teaser-tile__price .field--name-field-tp-prd-price {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
@@ -156,10 +156,10 @@
 }
 
 /* dates */
-.node--view-mode-mt-teaser-tile .image-and-date-container {
+.node--view-mode-tp-teaser-tile .image-and-date-container {
   position: relative;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__submitted-date {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__submitted-date {
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -167,17 +167,17 @@
   color: #333333;
   text-align: center;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__submitted-date .day {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__submitted-date .day {
   font-size: 35px;
   font-weight: 600;
   display: block;
   line-height: 1;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__submitted-date .month-year {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__submitted-date .month-year {
   font-size: 14px;
   font-weight: 500;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__start-date {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__start-date {
   position: absolute;
   bottom: 0;
   left: auto;
@@ -189,21 +189,21 @@
   max-height: 100px;
   padding-top: 8px;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__start-date span {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__start-date span {
   display: block;
   text-align: center;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__start-date-day {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__start-date-day {
   font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__start-date-month {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__start-date-month {
   font-size: 18px;
   line-height: 1.5;
   margin-top: -4px;
 }
-.node--view-mode-mt-teaser-tile .image-and-date-container .node__start-date-time {
+.node--view-mode-tp-teaser-tile .image-and-date-container .node__start-date-time {
   font-size: 14px;
   line-height: 1.5;
   opacity: 0.85;

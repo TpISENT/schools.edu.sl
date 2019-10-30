@@ -43,7 +43,7 @@
 .view-pricing-tables .pricing-table .views-field-title a:hover {
   text-decoration: none;
 }
-.view-pricing-tables .views-field-field-mt-prd-price {
+.view-pricing-tables .views-field-field-tp-prd-price {
   padding: 10px 0 20px 0;
   font-weight: 400;
   font-size: 40px;
@@ -54,10 +54,10 @@
   list-style: none;
   margin: 0;
 }
-.view-pricing-tables .views-row:not(.most-popular) .views-field-field-mt-prd-most-popular {
+.view-pricing-tables .views-row:not(.most-popular) .views-field-field-tp-prd-most-popular {
   display: none;
 }
-.views-field-field-mt-prd-most-popular {
+.views-field-field-tp-prd-most-popular {
   position: absolute;
   right: -5px;
   top: -5px;
@@ -67,7 +67,7 @@
   height: 120px;
   text-align: right;
 }
-.views-field-field-mt-prd-most-popular span {
+.views-field-field-tp-prd-most-popular span {
   font-size: 12px;
   color: #ffffff;
   text-align: center;
@@ -83,7 +83,7 @@
   height: 35px;
   padding: 6px 0;
 }
-.views-field-field-mt-prd-most-popular span::before {
+.views-field-field-tp-prd-most-popular span::before {
   content: "";
   position: absolute; left: 0px; top: 100%;
   z-index: -1;
@@ -92,7 +92,7 @@
   border-bottom: 3px solid transparent;
   border-top: 3px solid #2d6952;
 }
-.views-field-field-mt-prd-most-popular span::after {
+.views-field-field-tp-prd-most-popular span::after {
   content: "";
   position: absolute; right: 0px; top: 100%;
   z-index: -1;
@@ -108,8 +108,8 @@
   padding: 3px 0;
   margin:0;
 }
-.view-pricing-tables .pricing-table a.mt-button:hover,
-.view-pricing-tables .pricing-table a.mt-button:focus {
+.view-pricing-tables .pricing-table a.tp-button:hover,
+.view-pricing-tables .pricing-table a.tp-button:focus {
   background-color: transparent;
 }
 .view-pricing-tables .pricing-table-footer {
@@ -127,7 +127,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .view-pricing-tables .views-field-field-mt-prd-price {
+  .view-pricing-tables .views-field-field-tp-prd-price {
     font-size: 60px;
   }
 }

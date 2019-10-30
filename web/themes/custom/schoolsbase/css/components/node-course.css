@@ -3,11 +3,11 @@
  * Visual styles for Schools Base Theme's course content type.
  */
 
-.node--view-mode-full .mt-course-media-area .field,
-.field--name-field-mt-crs-image .image-listing-item {
+.node--view-mode-full .tp-course-media-area .field,
+.field--name-field-tp-crs-image .image-listing-item {
   margin-bottom: 30px;
 }
-.node--view-mode-full .field--name-field-mt-crs-subheader-body {
+.node--view-mode-full .field--name-field-tp-crs-subheader-body {
   font-size: 22px;
   color: #6c6c6c;
 }

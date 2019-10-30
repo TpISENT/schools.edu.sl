@@ -95,16 +95,16 @@
 
 {% set sameday = false %}
 
-{% if content.field_mt_evnt_date|render and content.field_mt_evnt_date['0'] %}
-  {% set start_day = content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("d") %}
-  {% set start_month = content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("M") %}
-  {% set start_year = content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("YY") %}
-  {% set start_time = content.field_mt_evnt_date['0']['start_date']['#attributes']['datetime']|date("H:i") %}
+{% if content.field_tp_evnt_date|render and content.field_tp_evnt_date['0'] %}
+  {% set start_day = content.field_tp_evnt_date['0']['start_date']['#attributes']['datetime']|date("d") %}
+  {% set start_month = content.field_tp_evnt_date['0']['start_date']['#attributes']['datetime']|date("M") %}
+  {% set start_year = content.field_tp_evnt_date['0']['start_date']['#attributes']['datetime']|date("YY") %}
+  {% set start_time = content.field_tp_evnt_date['0']['start_date']['#attributes']['datetime']|date("H:i") %}
 
-  {% set end_day = content.field_mt_evnt_date['0']['end_date']['#attributes']['datetime']|date("d") %}
-  {% set end_month = content.field_mt_evnt_date['0']['end_date']['#attributes']['datetime']|date("M") %}
-  {% set end_year = content.field_mt_evnt_date['0']['end_date']['#attributes']['datetime']|date("YY") %}
-  {% set end_time = content.field_mt_evnt_date['0']['end_date']['#attributes']['datetime']|date("H:i") %}
+  {% set end_day = content.field_tp_evnt_date['0']['end_date']['#attributes']['datetime']|date("d") %}
+  {% set end_month = content.field_tp_evnt_date['0']['end_date']['#attributes']['datetime']|date("M") %}
+  {% set end_year = content.field_tp_evnt_date['0']['end_date']['#attributes']['datetime']|date("YY") %}
+  {% set end_time = content.field_tp_evnt_date['0']['end_date']['#attributes']['datetime']|date("H:i") %}
 
   {% if start_year == end_year and start_month == end_month and start_day == end_day %}
     {% set sameday = true %}
@@ -113,14 +113,14 @@
 
 
 <article{{ attributes.addClass(classes) }}>
-  <div class="node__container row {{ (content.field_mt_evnt_location|render) ? ' node__container--fixed-height' : '' }}">
-    {% if (content.field_mt_evnt_date|render and content.field_mt_evnt_date['0']) or content.field_mt_evnt_address|render or content.field_mt_evnt_location|render %}
+  <div class="node__container row {{ (content.field_tp_evnt_location|render) ? ' node__container--fixed-height' : '' }}">
+    {% if (content.field_tp_evnt_date|render and content.field_tp_evnt_date['0']) or content.field_tp_evnt_address|render or content.field_tp_evnt_location|render %}
       <div class="node__side col-12 col-md-4">
         <div class="row">
-          {% if content.field_mt_evnt_date|render and content.field_mt_evnt_date['0']%}
+          {% if content.field_tp_evnt_date|render and content.field_tp_evnt_date['0']%}
             {% if sameday %}
               <div class="col-md-12 col-auto">
-                <div class="node__date node__date--sameday mt-style-custom-all">
+                <div class="node__date node__date--sameday tp-style-custom-all">
                   <div class="node__date-day text-center">
                     {{ start_day }}
                   </div>
@@ -134,7 +134,7 @@
               </div>
             {% else %}
               <div class="col-md-12 col-auto text-md-right text-left">
-                <div class="node__date mt-style-custom-all">
+                <div class="node__date tp-style-custom-all">
                   <div class="node__date-time text-center">{% trans %}Start{% endtrans %}</div>
                   <div class="node__date-day text-center">
                     {{ start_day }}
@@ -146,7 +146,7 @@
                     {{ start_time }}
                   </div>
                 </div>
-                <div class="node__date mt-style-custom-all">
+                <div class="node__date tp-style-custom-all">
                   <div class="node__date-time text-center">{% trans %}End{% endtrans %}</div>
                   <div class="node__date-day text-center">
                     {{ end_day }}
@@ -161,14 +161,14 @@
               </div>
             {% endif %}
           {% endif %}
-          {% if content.field_mt_evnt_address|render %}
+          {% if content.field_tp_evnt_address|render %}
             <div class="col-12 col-sm-6 col-md-12 pl-sm-0">
-              {{ content.field_mt_evnt_address }}
+              {{ content.field_tp_evnt_address }}
             </div>
           {% endif %}
-          {% if content.field_mt_evnt_location|render %}
+          {% if content.field_tp_evnt_location|render %}
             <div class="col-12">
-              {{ content.field_mt_evnt_location }}
+              {{ content.field_tp_evnt_location }}
             </div>
           {% endif %}
         </div>
@@ -202,7 +202,7 @@
       </header>
       {% block content %}
 
-        {{ content|without('field_mt_evnt_banner_carousel', 'field_mt_evnt_date', 'field_mt_evnt_address', 'field_mt_evnt_location') }}
+        {{ content|without('field_tp_evnt_banner_carousel', 'field_tp_evnt_date', 'field_tp_evnt_address', 'field_tp_evnt_location') }}
       {% endblock %}
     </div>
     {% block node_side %}

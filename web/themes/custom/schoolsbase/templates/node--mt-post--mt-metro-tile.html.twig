@@ -19,15 +19,15 @@
   <div class="metro-tile-container">
     {{ title_prefix }}
     {{ title_suffix }}
-    {% if content.field_mt_pst_image|render %}
+    {% if content.field_tp_pst_image|render %}
       {% block featured_post %}
-        {{ content.field_mt_pst_image }}
+        {{ content.field_tp_pst_image }}
       {% endblock %}
     {% endif %}
 
-    <div class="metro-tile__caption mt-style-custom-tl region--default-background">
-      {% if content.field_mt_pst_category|render %}
-        {{ content.field_mt_pst_category }}
+    <div class="metro-tile__caption tp-style-custom-tl region--default-background">
+      {% if content.field_tp_pst_category|render %}
+        {{ content.field_tp_pst_category }}
       {% endif %}
 
       {% if not page %}
@@ -48,7 +48,7 @@
     </div>
   </div>
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('field_mt_pst_image', 'field_mt_pst_category') }}
+    {{ content|without('field_tp_pst_image', 'field_tp_pst_category') }}
   </div>
 
 </article>

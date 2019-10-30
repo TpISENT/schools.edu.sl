@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the tabs powered custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_background_image_block()
+ * @see schoolsbase_preprocess_field__block_content__tp_background_image_block()
  */
 #}
 {{ attach_library('schoolsbase/frontpage-cover-block') }}
@@ -13,7 +13,7 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'field--mt-background-image-block',
+    'field--tp-background-image-block',
     'clearfix',
   ]
 %}
@@ -27,24 +27,24 @@
   {% if not label_hidden %}
     <h3{{ title_attributes.addClass(title_classes) }}>{{ label }}</h3>
   {% endif %}
-  <div class="frontpage-cover-block__section" style="height: {{ field_mt_fpcb_block_height_value }}px;">
+  <div class="frontpage-cover-block__section" style="height: {{ field_tp_fpcb_block_height_value }}px;">
     <div class="frontpage-cover-block__background-image" style="background-image: url({{ file_url(background_image_uri) }});"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
-          {% if field_mt_fpcb_title_value %}
-            <h1 class="mt-0">{{ field_mt_fpcb_title_value }}</h1>
+          {% if field_tp_fpcb_title_value %}
+            <h1 class="tp-0">{{ field_tp_fpcb_title_value }}</h1>
           {% endif %}
-          {% if field_mt_fpcb_subtitle_value %}
-            <p class="extra-large">{{ field_mt_fpcb_subtitle_value }}</p>
+          {% if field_tp_fpcb_subtitle_value %}
+            <p class="extra-large">{{ field_tp_fpcb_subtitle_value }}</p>
           {% endif %}
           {% for item in image_buttons %}
             <a class="my-3 d-inline-block" href="{{ item.image_button_link_url }}"><img src="{{ file_url(item.image_button_image_url) }}" alt="{{ item.image_button_image_alt }}"></a>
           {% endfor %}
         </div>
-        {% if field_mt_fpcb_cta_button_text %}
+        {% if field_tp_fpcb_cta_button_text %}
           <div class="col-lg-7 col-xl-6 ml-xl-auto">
-            <a class="cta-button mt-button" href="{{ field_mt_fpcb_cta_button_uri }}"><span>{{ field_mt_fpcb_badge_value }}</span> {{ field_mt_fpcb_cta_button_text }} <i class="fa fa-angle-right"></i></a>
+            <a class="cta-button tp-button" href="{{ field_tp_fpcb_cta_button_uri }}"><span>{{ field_tp_fpcb_badge_value }}</span> {{ field_tp_fpcb_cta_button_text }} <i class="fa fa-angle-right"></i></a>
           </div>
         {% endif %}
       </div>

@@ -9,7 +9,7 @@
             var animatedObject = $(this.element);
             setTimeout(function() {
               animatedObject.addClass("animated " + animation);
-              animatedObject.removeClass("mt-no-opacity");
+              animatedObject.removeClass("tp-no-opacity");
             }, 100);
             this.destroy();
           },{

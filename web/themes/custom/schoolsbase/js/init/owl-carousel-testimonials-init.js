@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtowlCarouselTestimonials = {
     attach: function (context, settings) {
-      $(context).find('.mt-carousel-testimonials').once('mtowlCarouselTestimonialsInit').each(function() {
+      $(context).find('.tp-carousel-testimonials').once('mtowlCarouselTestimonialsInit').each(function() {
         $(this).owlCarousel({
           items: 1,
           autoplay: drupalSettings.schoolsbase.owlCarouselTestimonialsInit.owlTestimonialsAutoPlay,

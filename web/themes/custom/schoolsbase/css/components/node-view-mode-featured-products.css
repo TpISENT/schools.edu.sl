@@ -2,28 +2,28 @@
  * @file
  * Visual styles for Schools Base Theme's product content type slide view.
  */
-.node--view-mode-mt-featured-product .node__title {
+.node--view-mode-tp-featured-product .node__title {
   font-size: 60px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-.region--dark-typography .node--view-mode-mt-featured-product .node__title a {
+.region--dark-typography .node--view-mode-tp-featured-product .node__title a {
   color: #2a2a2a;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-subtitle {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-subtitle {
   font-size: 18px;
   text-align: center;
   margin-bottom: 50px;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-subtitle {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-subtitle {
   position: relative;
   top: -10px;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-body {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-body {
   line-height: 2.5;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-subtitle:before {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-subtitle:before {
   background-color: rgba(255, 255, 255, 0.2);
   content: "";
   position: absolute;
@@ -33,29 +33,29 @@
   bottom: -15px;
   z-index: -1;
 }
-.region--dark-typography .node--view-mode-mt-featured-product .field--name-field-mt-prd-subtitle:before {
+.region--dark-typography .node--view-mode-tp-featured-product .field--name-field-tp-prd-subtitle:before {
   background-color: #f7f7f7;
   color: #2a2a2a;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-subtitle p {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-subtitle p {
   margin: 0;
   padding: 0 20px 20px;
 }
 @media (min-width: 992px) {
-  .node--view-mode-mt-featured-product .field--name-field-mt-prd-subtitle {
+  .node--view-mode-tp-featured-product .field--name-field-tp-prd-subtitle {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-price {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-price {
   text-align: center;
   font-size: 30px;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link {
   text-align: center;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link a {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link a {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
@@ -80,16 +80,16 @@
   margin: 10px 0 30px;
   text-align: center;
 }
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link a:hover,
-.node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link a:focus {
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link a:hover,
+.node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link a:focus {
   color: #ffffff;
 }
-.region--light-typography .node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link a {
+.region--light-typography .node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link a {
   color: #ffffff;
   border-color: #ffffff;
 }
-.region--light-typography .node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link a:hover,
-.region--light-typography .node--view-mode-mt-featured-product .field--name-field-mt-prd-buy-link a:focus {
+.region--light-typography .node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link a:hover,
+.region--light-typography .node--view-mode-tp-featured-product .field--name-field-tp-prd-buy-link a:focus {
   background-color: #ffffff;
   color: #333333;
 }

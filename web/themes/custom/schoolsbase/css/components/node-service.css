@@ -2,12 +2,12 @@
  * @file
  * Visual styles for Schools Base Theme's service content type.
  */
-.node--type-mt-service .node__header {
+.node--type-tp-service .node__header {
   padding: 0;
 }
 
 /*page title*/
-.page-node-type-mt-service .page-title {
+.page-node-type-tp-service .page-title {
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -49,132 +49,132 @@
 }
 
 /*body*/
-.layout-no-sidebars .field--name-field-mt-srv-body {
+.layout-no-sidebars .field--name-field-tp-srv-body {
   max-width: 615px;
   margin-left: auto;
   margin-right: auto;
 }
 @media (min-width: 992px) {
-  .layout-no-sidebars .service-content-top--image-enabled ~ .field--name-field-mt-srv-body {
+  .layout-no-sidebars .service-content-top--image-enabled ~ .field--name-field-tp-srv-body {
     margin-right: 32.9%;
     padding-right: 15px;
   }
 }
-.node--type-mt-service .field.field--name-field-mt-srv-body {
+.node--type-tp-service .field.field--name-field-tp-srv-body {
   margin-bottom: 50px;
 }
-.field--name-field-mt-srv-body p:last-child {
+.field--name-field-tp-srv-body p:last-child {
   padding-bottom: 0px;
 }
 
 /*subheader field*/
-.field--name-field-mt-srv-subheader-body {
+.field--name-field-tp-srv-subheader-body {
   font-size: 18px;
   line-height: 1.4;
   font-weight: 500;
 }
-.node--type-mt-service .field.field--name-field-mt-srv-subheader-body {
+.node--type-tp-service .field.field--name-field-tp-srv-subheader-body {
   margin-bottom: 0;
 }
 @media (max-width: 991px) {
-  .node--type-mt-service .field.field--name-field-mt-srv-subheader-body {
+  .node--type-tp-service .field.field--name-field-tp-srv-subheader-body {
     margin-bottom: 15px;
   }
 }
-.field--name-field-mt-srv-subheader-body p:last-child {
+.field--name-field-tp-srv-subheader-body p:last-child {
   padding-bottom: 0;
 }
 
 /*image field*/
-.node--type-mt-service .field.field--name-field-mt-srv-image {
+.node--type-tp-service .field.field--name-field-tp-srv-image {
   margin-bottom: 0;
 }
 @media (max-width: 991px) {
-  .node--type-mt-service .field.field--name-field-mt-srv-image {
+  .node--type-tp-service .field.field--name-field-tp-srv-image {
     margin: 0 0 30px;
   }
 }
 @media (max-width: 575px) {
-  .mt-style-sharp.mt-style-image-global .node--type-mt-service .field.field--name-field-mt-srv-image,
-  .mt-style-image-sharp .node--type-mt-service .field.field--name-field-mt-srv-image {
+  .tp-style-sharp.tp-style-image-global .node--type-tp-service .field.field--name-field-tp-srv-image,
+  .tp-style-image-sharp .node--type-tp-service .field.field--name-field-tp-srv-image {
     margin: 0 -15px 30px;
   }
 }
-.node--type-mt-service.node--view-mode-teaser .images-container {
+.node--type-tp-service.node--view-mode-teaser .images-container {
   margin-bottom: 15px;
 }
 
 /* highlight field */
-.field--name-field-mt-srv-highlight > .field__item:first-child > .paragraph--type--mt-highlight {
+.field--name-field-tp-srv-highlight > .field__item:first-child > .paragraph--type--tp-highlight {
   padding-top: 15px;
 }
 
 /* video field */
-.layout-no-sidebars .field--name-field-mt-srv-video {
+.layout-no-sidebars .field--name-field-tp-srv-video {
   max-width: 615px;
   margin-left: auto;
   margin-right: auto;
 }
 @media (min-width: 992px) {
-  .layout-no-sidebars .service-content-top--image-enabled ~ .field--name-field-mt-srv-video {
+  .layout-no-sidebars .service-content-top--image-enabled ~ .field--name-field-tp-srv-video {
     margin-right: 32.9%;
     padding-right: 15px;
   }
 }
-.node--type-mt-service .field.field--name-field-mt-srv-video {
+.node--type-tp-service .field.field--name-field-tp-srv-video {
   margin-bottom: 50px;
 }
 
 /* tags */
-.layout-no-sidebars .field--name-field-mt-srv-service-tags {
+.layout-no-sidebars .field--name-field-tp-srv-service-tags {
   max-width: 615px;
   margin-left: auto;
   margin-right: auto;
 }
 @media (min-width: 992px) {
-  .layout-no-sidebars .service-content-top--image-enabled ~ .field--name-field-mt-srv-service-tags {
+  .layout-no-sidebars .service-content-top--image-enabled ~ .field--name-field-tp-srv-service-tags {
     margin-right: 32.9%;
     padding-right: 15px;
   }
 }
-.node--type-mt-service .field.field--name-field-mt-srv-service-tags {
+.node--type-tp-service .field.field--name-field-tp-srv-service-tags {
   margin-bottom: 50px;
 }
 
 /*price field*/
-.node--type-mt-service .field.field--name-field-mt-srv-price {
+.node--type-tp-service .field.field--name-field-tp-srv-price {
   font-size: 18px;
   font-weight: 700;
   margin: 10px 0;
 }
-.region--dark-typography .node--type-mt-service .field--name-field-mt-srv-price {
+.region--dark-typography .node--type-tp-service .field--name-field-tp-srv-price {
   color: #333333;
 }
 
 /*buy link field*/
-.node--type-mt-service .field.field--name-field-mt-srv-buy-link {
+.node--type-tp-service .field.field--name-field-tp-srv-buy-link {
   text-align: center;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
 }
 @media (min-width: 992px) {
-  .layout-no-sidebars .service-content-top-first + .service-content-top-second .field--name-field-mt-srv-buy-link a {
+  .layout-no-sidebars .service-content-top-first + .service-content-top-second .field--name-field-tp-srv-buy-link a {
     display: block;
   }
 }
-.node--type-mt-service .field--name-field-mt-srv-buy-link a {
+.node--type-tp-service .field--name-field-tp-srv-buy-link a {
   min-width: 190px;
   display: block;
   background-color: transparent;
 }
-.node--type-mt-service .field--name-field-mt-srv-buy-link a:hover,
-.node--type-mt-service .field--name-field-mt-srv-buy-link a:focus {
+.node--type-tp-service .field--name-field-tp-srv-buy-link a:hover,
+.node--type-tp-service .field--name-field-tp-srv-buy-link a:focus {
   color: #ffffff;
 }
 
 /* node links */
-.layout-no-sidebars .node--type-mt-service.node--view-mode-full .node__links {
+.layout-no-sidebars .node--type-tp-service.node--view-mode-full .node__links {
   -ms-flex: 0 0 66.666667%;
   flex: 0 0 66.666667%;
   max-width: 66.666667%;
@@ -183,7 +183,7 @@
 }
 
 /* comments */
-.layout-no-sidebars .field--name-field-mt-srv-comments {
+.layout-no-sidebars .field--name-field-tp-srv-comments {
   -ms-flex: 0 0 66.666667%;
   flex: 0 0 66.666667%;
   max-width: 66.666667%;

@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtowlCarouselTeamMembers = {
     attach: function (context, settings) {
-      $(context).find('.mt-carousel-team-members').once('mtowlCarouselTeamMembersInit').each(function() {
+      $(context).find('.tp-carousel-team-members').once('mtowlCarouselTeamMembersInit').each(function() {
         $(this).owlCarousel({
           items: 2,
           responsive:{

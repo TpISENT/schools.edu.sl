@@ -4,8 +4,8 @@
  */
 
 @media (min-width: 1200px) {
-  .layout-no-sidebars .node--type-mt-album.node--view-mode-full .field--name-field-mt-alb-body,
-  .layout-no-sidebars .node--type-mt-album.node--view-mode-full .field--name-field-mt-alb-tags {
+  .layout-no-sidebars .node--type-tp-album.node--view-mode-full .field--name-field-tp-alb-body,
+  .layout-no-sidebars .node--type-tp-album.node--view-mode-full .field--name-field-tp-alb-tags {
     width: 75%;
     margin-left: auto;
     margin-right: auto;

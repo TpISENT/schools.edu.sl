@@ -1,7 +1,7 @@
 (function ($, Drupal, drupalSettings) {
   Drupal.behaviors.mtMagnificPopupCrsMediaCombo = {
     attach: function (context, settings) {
-      $(context).find('.mt-course-media-area .iframe-popup > a, .mt-course-media-area a.image-popup').once('mtMagnificPopupCrsMediaComboInit').magnificPopup({
+      $(context).find('.tp-course-media-area .iframe-popup > a, .tp-course-media-area a.image-popup').once('mtMagnificPopupCrsMediaComboInit').magnificPopup({
         disableOn: 700,
         type: "image",
         mainClass: "mfp-fade",

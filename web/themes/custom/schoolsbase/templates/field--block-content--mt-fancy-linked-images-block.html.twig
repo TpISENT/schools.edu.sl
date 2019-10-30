@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the tabs powered custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_fancy_linked_images_block()
+ * @see schoolsbase_preprocess_field__block_content__tp_fancy_linked_images_block()
  */
 #}
 {{ attach_library('schoolsbase/fancy-linked-images-block') }}
@@ -13,7 +13,7 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'field--mt-fancy-linked-images-block',
+    'field--tp-fancy-linked-images-block',
     'clearfix',
   ]
 %}
@@ -32,22 +32,22 @@
       {% for item in items %}
         <div class="col-lg-4">
           <div class="fancy-linked-image">
-            <div class="clip-{{ item.content['#paragraph'].field_mt_fli_shape.value }}-container">
+            <div class="clip-{{ item.content['#paragraph'].field_tp_fli_shape.value }}-container">
               <div class="overlay-container">
-                {% if item.content['#paragraph'].field_mt_fli_link.title %}
+                {% if item.content['#paragraph'].field_tp_fli_link.title %}
                   <span class="overlay overlay--white">
-                    <a class="overlay-target-link" href="{{ item.content['#paragraph'].field_mt_fli_link['0'].url }}"></a>
+                    <a class="overlay-target-link" href="{{ item.content['#paragraph'].field_tp_fli_link['0'].url }}"></a>
                     <span class="overlay-inner">
-                      <a class="mt-button button--black overlay-animated overlay-fade-bottom" href="{{ item.content['#paragraph'].field_mt_fli_link['0'].url }}">
-                        {% if item.content['#paragraph'].field_mt_fli_button_fa_icon['0'].icon_name %}
-                          <i class="{{ item.content['#paragraph'].field_mt_fli_button_fa_icon['0'].style }} fa-{{ item.content['#paragraph'].field_mt_fli_button_fa_icon['0'].icon_name }} mr-2"></i>
+                      <a class="tp-button button--black overlay-animated overlay-fade-bottom" href="{{ item.content['#paragraph'].field_tp_fli_link['0'].url }}">
+                        {% if item.content['#paragraph'].field_tp_fli_button_fa_icon['0'].icon_name %}
+                          <i class="{{ item.content['#paragraph'].field_tp_fli_button_fa_icon['0'].style }} fa-{{ item.content['#paragraph'].field_tp_fli_button_fa_icon['0'].icon_name }} mr-2"></i>
                         {% endif %}
-                        {{ item.content['#paragraph'].field_mt_fli_link.title }}
+                        {{ item.content['#paragraph'].field_tp_fli_link.title }}
                       </a>
                     </span>
                   </span>
                 {% endif %}
-                <img class="clip-{{ item.content['#paragraph'].field_mt_fli_shape.value }}" src="{{ item.fancy_image_styled_url }}" alt="{{ item.content['#paragraph'].field_mt_fli_image.alt }}" title="{{ item.content['#paragraph'].field_mt_fli_image.title }}">
+                <img class="clip-{{ item.content['#paragraph'].field_tp_fli_shape.value }}" src="{{ item.fancy_image_styled_url }}" alt="{{ item.content['#paragraph'].field_tp_fli_image.alt }}" title="{{ item.content['#paragraph'].field_tp_fli_image.title }}">
               </div>
             </div>
             {{ item.content }}

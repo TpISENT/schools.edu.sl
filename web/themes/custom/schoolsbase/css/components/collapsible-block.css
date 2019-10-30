@@ -2,14 +2,14 @@
  * @file
  * Visual styles for Schools Base Theme's collapsible block.
  */
-.container-fluid .field--mt-collapsible-block {
+.container-fluid .field--tp-collapsible-block {
   margin-right: -15px;
   margin-left: -15px;
 }
-.field--mt-collapsible-block.trigger-icon-enabled {
+.field--tp-collapsible-block.trigger-icon-enabled {
   padding: 30px 0;
 }
-.region .block:last-child:first-child .field--mt-collapsible-block.trigger-icon-enabled {
+.region .block:last-child:first-child .field--tp-collapsible-block.trigger-icon-enabled {
   padding: 0;
 }
 .collapsible-block__trigger {

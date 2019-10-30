@@ -2,13 +2,13 @@
  * @file
  * Visual styles for Press+'s node in teaser tile view.
  */
-.node--view-mode-mt-featured-teaser {
+.node--view-mode-tp-featured-teaser {
   margin-bottom: 60px;
 }
-.region--light-typography .node--view-mode-mt-featured-teaser {
+.region--light-typography .node--view-mode-tp-featured-teaser {
   border-bottom-color: rgba(255, 255, 255, 0.2);
 }
-.node--view-mode-mt-featured-teaser .promoted-label {
+.node--view-mode-tp-featured-teaser .promoted-label {
   background-color: #4d4d4d;
   color: #ffffff;
   display: inline-block;
@@ -17,55 +17,55 @@
   margin-bottom: 20px;
   display: inline-block;
 }
-.node--view-mode-mt-featured-teaser .field--name-field-mt-pst-image,
-.node--view-mode-mt-featured-teaser .field--name-field-mt-crs-teaser-image,
-.node--view-mode-mt-featured-teaser .field--name-field-mt-dpt-teaser-image,
-.node--view-mode-mt-featured-teaser .field--name-field-mt-evnt-teaser-image,
-.node--view-mode-mt-featured-teaser .field--name-field-mt-fclt-teaser-image,
-.node--view-mode-mt-featured-teaser .field--name-field-mt-stdt-teaser-image {
+.node--view-mode-tp-featured-teaser .field--name-field-tp-pst-image,
+.node--view-mode-tp-featured-teaser .field--name-field-tp-crs-teaser-image,
+.node--view-mode-tp-featured-teaser .field--name-field-tp-dpt-teaser-image,
+.node--view-mode-tp-featured-teaser .field--name-field-tp-evnt-teaser-image,
+.node--view-mode-tp-featured-teaser .field--name-field-tp-fclt-teaser-image,
+.node--view-mode-tp-featured-teaser .field--name-field-tp-stdt-teaser-image {
   margin-bottom: 15px;
 }
 @media (min-width: 1200px) {
-  .node--view-mode-mt-featured-teaser h2.node__title {
+  .node--view-mode-tp-featured-teaser h2.node__title {
     margin: 0 0 20px;
   }
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-pst-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-evnt-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-crs-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-dpt-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-stdt-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-fclt-body {
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-pst-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-evnt-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-crs-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-dpt-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-stdt-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-fclt-body {
     margin-bottom: 15px;
   }
 }
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0 0 5px;
   padding: 0;
 }
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term:before,
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item:before {
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term:before,
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item:before {
   content: "";
 }
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
   font-size: 14px;
 }
-.region--dark-typography .node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
-.region--dark-typography .node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
+.region--dark-typography .node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term .field__item a,
+.region--dark-typography .node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item a {
   color: #707070;
 }
-.node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term:not(.field--label-above)::after {
+.node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term:not(.field--label-above)::after {
   content: "";
 }
 @media (min-width: 1200px) {
-  .node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term,
-  .node--view-mode-mt-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
+  .node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term,
+  .node--view-mode-tp-featured-teaser .field--entity-reference-target-type-taxonomy-term.field__item {
     margin: 0 0 10px;
   }
 }
-.node--view-mode-mt-featured-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-featured-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-featured-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-featured-teaser .promoted-label + .field--entity-reference-target-type-taxonomy-term.field__item {
   margin: 0 0 0 10px;
   padding: 0;
   display: inline-block;
@@ -73,67 +73,67 @@
   vertical-align: text-top;
 }
 @media (max-width: 991px) {
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-pst-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-evnt-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-crs-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-dpt-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-stdt-body,
-  .node--view-mode-mt-featured-teaser .field--name-field-mt-fclt-body {
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-pst-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-evnt-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-crs-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-dpt-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-stdt-body,
+  .node--view-mode-tp-featured-teaser .field--name-field-tp-fclt-body {
     margin-bottom: 20px;
   }
 }
-.node--view-mode-mt-featured-teaser .profile {
+.node--view-mode-tp-featured-teaser .profile {
   display: inline-block;
 }
-.node--view-mode-mt-featured-teaser .profile .field--name-user-picture {
+.node--view-mode-tp-featured-teaser .profile .field--name-user-picture {
   float: none;
   margin-right: 0;
 }
-.node--view-mode-mt-featured-teaser .field--name-user-picture img {
+.node--view-mode-tp-featured-teaser .field--name-user-picture img {
   border-radius: 100%;
   max-width: 40px;
   margin-right: 10px;
 }
 @media screen and (max-width: 1200px) {
-  .node--view-mode-mt-featured-teaser a.button {
+  .node--view-mode-tp-featured-teaser a.button {
     display: none;
   }
 }
 
 /* post node */
-.node--view-mode-mt-featured-teaser .node__meta-item .field--entity-reference-target-type-taxonomy-term,
-.node--view-mode-mt-featured-teaser .node__meta-item .field--entity-reference-target-type-taxonomy-term.field__item {
+.node--view-mode-tp-featured-teaser .node__meta-item .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-tp-featured-teaser .node__meta-item .field--entity-reference-target-type-taxonomy-term.field__item {
   margin-bottom: 0;
 }
-.node--view-mode-mt-featured-teaser .node__meta-item .field--name-field-tags,
-.node--view-mode-mt-featured-teaser .node__meta-item .field--name-field-pst-category {
+.node--view-mode-tp-featured-teaser .node__meta-item .field--name-field-tags,
+.node--view-mode-tp-featured-teaser .node__meta-item .field--name-field-pst-category {
   display: inline-block;
 }
-.node--view-mode-mt-featured-teaser .node__meta {
+.node--view-mode-tp-featured-teaser .node__meta {
   font-size: 14px;
   text-transform: capitalize;
   margin-bottom: 5px;
 }
-.region--dark-typography .node--view-mode-mt-featured-teaser .node__meta {
+.region--dark-typography .node--view-mode-tp-featured-teaser .node__meta {
   color: #707070;
 }
-.node--view-mode-mt-featured-teaser .node__meta-item {
+.node--view-mode-tp-featured-teaser .node__meta-item {
   display: inline-block;
   margin-bottom: 5px;
 }
-.node--view-mode-mt-featured-teaser .node__meta-tags {
+.node--view-mode-tp-featured-teaser .node__meta-tags {
   margin-bottom: 0;
 }
-.node--view-mode-mt-featured-teaser .node__meta-item:after {
+.node--view-mode-tp-featured-teaser .node__meta-item:after {
   content: "/";
 }
-.node--view-mode-mt-featured-teaser .node__meta-item:last-child:after {
+.node--view-mode-tp-featured-teaser .node__meta-item:last-child:after {
   content: "";
 }
-.node--view-mode-mt-featured-teaser .image-and-date-container {
+.node--view-mode-tp-featured-teaser .image-and-date-container {
   position: relative;
 }
-.node--view-mode-mt-featured-teaser .image-and-date-container .node__start-date {
+.node--view-mode-tp-featured-teaser .image-and-date-container .node__start-date {
   position: absolute;
   bottom: 0;
   left: auto;
@@ -145,27 +145,27 @@
   max-height: 100px;
   padding-top: 8px;
 }
-.node--view-mode-mt-featured-teaser .image-and-date-container .node__start-date span {
+.node--view-mode-tp-featured-teaser .image-and-date-container .node__start-date span {
   display: block;
   text-align: center;
 }
-.node--view-mode-mt-featured-teaser .image-and-date-container .node__start-date-day {
+.node--view-mode-tp-featured-teaser .image-and-date-container .node__start-date-day {
   font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
 }
-.node--view-mode-mt-featured-teaser .image-and-date-container .node__start-date-month {
+.node--view-mode-tp-featured-teaser .image-and-date-container .node__start-date-month {
   font-size: 18px;
   line-height: 1.5;
   margin-top: -4px;
 }
-.node--view-mode-mt-featured-teaser .image-and-date-container .node__start-date-time {
+.node--view-mode-tp-featured-teaser .image-and-date-container .node__start-date-time {
   font-size: 14px;
   line-height: 1.5;
   opacity: 0.85;
 }
 
 /* Faculty & student Node*/
-.node--view-mode-mt-featured-teaser .node__meta {
+.node--view-mode-tp-featured-teaser .node__meta {
   display: inline-block;
 }

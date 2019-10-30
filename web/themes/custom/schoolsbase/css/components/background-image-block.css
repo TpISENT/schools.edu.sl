@@ -2,19 +2,19 @@
  * @file
  * Visual styles for Schools Base Theme's background image block.
  */
-.container-fluid .field--mt-background-image-block {
+.container-fluid .field--tp-background-image-block {
   margin: 0 -15px;
 }
 @media (min-width: 1200px) {
-  .container-fluid .field--mt-background-image-block {
+  .container-fluid .field--tp-background-image-block {
     margin: 0 -3rem;
   }
 }
-.field--mt-background-image-block .block {
+.field--tp-background-image-block .block {
   padding-bottom: 25px;
   position: relative;
 }
-.region--no-paddings .field--mt-background-image-block .block {
+.region--no-paddings .field--tp-background-image-block .block {
   padding-bottom: 0;
 }
 .container .container {

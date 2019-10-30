@@ -7,7 +7,7 @@
 }
 
 /* navigation */
-.field--name-field-mt-srv-image .flex-control-nav {
+.field--name-field-tp-srv-image .flex-control-nav {
   width: auto;
   position: absolute;
   bottom: 0px;
@@ -17,10 +17,10 @@
   background-color: #ffffff;
   font-size: 0;
 }
-.field--name-field-mt-srv-image .flex-control-nav li {
+.field--name-field-tp-srv-image .flex-control-nav li {
   margin: 0 10px;
 }
-.field--name-field-mt-srv-image .flex-control-paging li a {
+.field--name-field-tp-srv-image .flex-control-paging li a {
   width: 40px;
   height: 8px;
   margin: 5px 0;
@@ -31,13 +31,13 @@
   border-radius: 0;
   box-shadow: none;
 }
-.field--name-field-mt-srv-image .flex-control-paging li a.flex-active,
-.field--name-field-mt-srv-image .flex-control-paging li a:hover {
+.field--name-field-tp-srv-image .flex-control-paging li a.flex-active,
+.field--name-field-tp-srv-image .flex-control-paging li a:hover {
   background-color: #333333;
   border-color: #333333; 
 }
 @media (max-width: 575px) {
-  .field--name-field-mt-srv-image .flex-control-nav {
+  .field--name-field-tp-srv-image .flex-control-nav {
     position: static;
     padding: 20px 20px;
   }

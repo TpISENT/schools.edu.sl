@@ -5,7 +5,7 @@
  * Schools Base Theme's theme implementation to display a Team Member node.
  */
 #}
-{% if content.field_mt_fclt_photo|render and content.field_mt_fclt_body|render %}
+{% if content.field_tp_fclt_photo|render and content.field_tp_fclt_body|render %}
   {% set two_column_layout = true %}
   {% set top_column_class_first = 'col-sm-4 col-md-5 order-sm-last pl-lg-5' %}
   {% set top_column_class_second = 'col-sm-8 col-md-7 order-sm-first' %}
@@ -20,25 +20,25 @@
 {% block content %}
   {{ attach_library('schoolsbase/node-faculty') }}
   <div class="row content-top mb-sm-3">
-    {% if content.field_mt_fclt_photo|render %}
+    {% if content.field_tp_fclt_photo|render %}
       {% if page %}
-        {{ attach_library('schoolsbase/magnific-popup-field-mt-fclt-photo-init') }}
+        {{ attach_library('schoolsbase/magnific-popup-field-tp-fclt-photo-init') }}
       {% endif %}
       <div class="{{ top_column_class_first }}">
         <div class="photo-container mb-4 mb-sm-0">
-          {{ content.field_mt_fclt_photo }}
+          {{ content.field_tp_fclt_photo }}
         </div>
       </div>
     {% endif %}
     <div class="{{ top_column_class_second }}">
-      {{ content.field_mt_fclt_academic_title }}
-      {{ content.field_mt_fclt_body }}
+      {{ content.field_tp_fclt_academic_title }}
+      {{ content.field_tp_fclt_body }}
       {{ content.links }}
     </div>
   </div>
   <div class="row content">
     <div class="{{ bottom_column_class }}">
-      {{ content|without('field_mt_fclt_photo','field_mt_fclt_body','field_mt_fclt_academic_title','links','field_mt_fclt_banner_image') }}
+      {{ content|without('field_tp_fclt_photo','field_tp_fclt_body','field_tp_fclt_academic_title','links','field_tp_fclt_banner_image') }}
     </div>
   </div>
 {% endblock %}

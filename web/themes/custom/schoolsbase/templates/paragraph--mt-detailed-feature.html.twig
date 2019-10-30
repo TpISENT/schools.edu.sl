@@ -50,26 +50,26 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
     <div class="detailed-feature-block__section">
-      <div class="detailed-feature-block__background-image d-xl-block d-none" style="background-image: url({{ field_mt_detailed_feature_image_styled_url }});"></div>
+      <div class="detailed-feature-block__background-image d-xl-block d-none" style="background-image: url({{ field_tp_detailed_feature_image_styled_url }});"></div>
       <div class="container">
         <div class="row">
-          {% if content.field_mt_detailed_feature_image|render %}
+          {% if content.field_tp_detailed_feature_image|render %}
             <div class="col-lg-6">
-              <img class="d-block d-xl-none rounded-0 mb-5" src="{{ field_mt_detailed_feature_image_styled_url }}" alt="{{ paragraph.field_mt_detailed_feature_image['0'].entity.alt.value }}">
+              <img class="d-block d-xl-none rounded-0 mb-5" src="{{ field_tp_detailed_feature_image_styled_url }}" alt="{{ paragraph.field_tp_detailed_feature_image['0'].entity.alt.value }}">
             </div>
           {% endif %}
-          <div class="{{ (content.field_mt_detailed_feature_image|render) ? 'col-xl-5 col-lg-6' : 'ml-lg-auto mr-lg-auto col-12 col-lg-8' }}">
-            {% if content.field_mt_detailed_feature_icon|render %}
+          <div class="{{ (content.field_tp_detailed_feature_image|render) ? 'col-xl-5 col-lg-6' : 'ml-lg-auto mr-lg-auto col-12 col-lg-8' }}">
+            {% if content.field_tp_detailed_feature_icon|render %}
               <div class="detailed-feature__icon">
-                {{ content.field_mt_detailed_feature_icon }}
+                {{ content.field_tp_detailed_feature_icon }}
               </div>
             {% endif %}
-            {% if content.field_mt_detailed_feature_title|render %}
-              <h2 class="mt-0 mb-5">{{ paragraph.field_mt_detailed_feature_title.value }}</h2>
+            {% if content.field_tp_detailed_feature_title|render %}
+              <h2 class="tp-0 mb-5">{{ paragraph.field_tp_detailed_feature_title.value }}</h2>
             {% endif %}
-            {{ content|without('field_mt_detailed_feature_button', 'field_mt_detailed_feature_title', 'field_mt_detailed_feature_image', 'field_mt_detailed_feature_icon') }}
-            {% if paragraph.field_mt_detailed_feature_button['0'].url %}
-              <a href="{{ paragraph.field_mt_detailed_feature_button['0'].url }}" class="mt-button d-block d-md-inline-block">{{ paragraph.field_mt_detailed_feature_button.title }}</a>
+            {{ content|without('field_tp_detailed_feature_button', 'field_tp_detailed_feature_title', 'field_tp_detailed_feature_image', 'field_tp_detailed_feature_icon') }}
+            {% if paragraph.field_tp_detailed_feature_button['0'].url %}
+              <a href="{{ paragraph.field_tp_detailed_feature_button['0'].url }}" class="tp-button d-block d-md-inline-block">{{ paragraph.field_tp_detailed_feature_button.title }}</a>
             {% endif %}
           </div>
         </div>

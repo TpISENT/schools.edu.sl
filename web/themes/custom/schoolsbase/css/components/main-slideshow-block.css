@@ -1,16 +1,16 @@
 /*main slider custom block caption*/
-.container-fluid .field--name-field-mt-main-slideshow-slide {
+.container-fluid .field--name-field-tp-main-slideshow-slide {
   margin-left: -15px;
   margin-right: -15px;
 }
 @media (min-width: 1200px) {
-  .container-fluid .field--name-field-mt-main-slideshow-slide {
+  .container-fluid .field--name-field-tp-main-slideshow-slide {
     margin-left: -3rem;
     margin-right: -3rem;
   }
 }
 @media (max-width: 575px) {
-  .banner .field--name-field-mt-main-slideshow-slide {
+  .banner .field--name-field-tp-main-slideshow-slide {
     margin-left: -15px;
     margin-right: -15px;
   }

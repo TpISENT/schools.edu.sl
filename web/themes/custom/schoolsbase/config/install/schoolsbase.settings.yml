@@ -221,13 +221,13 @@ sticky_footer_trigger_text: 'Related Products'
 mobile_menu_widget_display: 1
 mobile_menu_widget_sticky: 1
 fixed_header_behavior: fixed-header-enabled--scroll-up
-links_style: mt-link-style-animated-icon
-global_corner_style: mt-style-sharp
-button_corner_style: mt-style-button-global
-form_corner_style: mt-style-form-global
-image_corner_style: mt-style-image-global
-custom_elements_corner_style: mt-style-custom-global
-menu_corner_style: mt-style-menu-global
+links_style: tp-link-style-animated-icon
+global_corner_style: tp-style-sharp
+button_corner_style: tp-style-button-global
+form_corner_style: tp-style-form-global
+image_corner_style: tp-style-image-global
+custom_elements_corner_style: tp-style-custom-global
+menu_corner_style: tp-style-menu-global
 total_node_views: 0
 hero_layout_container: container
 hero_background_color: 'region--dark-typography region--default-background'

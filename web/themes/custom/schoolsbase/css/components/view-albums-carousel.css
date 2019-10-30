@@ -2,10 +2,10 @@
  * @file
  * Visual styles for Schools Base Theme's albums carousel.
  */
-.mt-carousel-albums {
+.tp-carousel-albums {
   padding: 0 70px;
   margin-bottom: 100px;
 }
-.mt-carousel-albums .mt-carousel-item {
+.tp-carousel-albums .tp-carousel-item {
   margin: 10px;
 }

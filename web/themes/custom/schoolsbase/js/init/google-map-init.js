@@ -7,9 +7,9 @@
 
       function initialize() {
         $(context).find(mapSelector).once('mtGoogleMapsInit').each(function(index, item) {
-          var map_locations_string = $(this).attr('data-attribute-mt-locations');
+          var map_locations_string = $(this).attr('data-attribute-tp-locations');
           var locations = JSON.parse(map_locations_string);
-          var zoom = parseInt($(this).attr('data-attribute-mt-map-zoom'));
+          var zoom = parseInt($(this).attr('data-attribute-tp-map-zoom'));
           var mapCenter = null;
 
           var mapOptions = {
@@ -55,7 +55,7 @@
             });
           }
 
-          $(".field--mt-collapsible-block .google-map-canvas", context).closest('.collapse').on('shown.bs.collapse', function() {
+          $(".field--tp-collapsible-block .google-map-canvas", context).closest('.collapse').on('shown.bs.collapse', function() {
             google.maps.event.trigger(map, 'resize');
             map.fitBounds(bounds);
           });

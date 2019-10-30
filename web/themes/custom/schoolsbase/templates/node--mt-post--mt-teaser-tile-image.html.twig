@@ -19,15 +19,15 @@
   <div class="teaser-tile-image-container">
     {{ title_prefix }}
     {{ title_suffix }}
-    {% if content.field_mt_pst_image|render %}
+    {% if content.field_tp_pst_image|render %}
       {% block featured_post %}
-        {{ content.field_mt_pst_image }}
+        {{ content.field_tp_pst_image }}
       {% endblock %}
     {% endif %}
 
-    <div class="teaser-tile-image__caption mt-style-custom-tl region--default-background">
+    <div class="teaser-tile-image__caption tp-style-custom-tl region--default-background">
 
-      {% if display_submitted or content.field_mt_pst_category|render %}
+      {% if display_submitted or content.field_tp_pst_category|render %}
         <div class="node__meta">
           {% if display_submitted %}
             {{ metadata }}
@@ -35,16 +35,16 @@
               {{ node.createdtime|format_date('custom', 'M d, Y') }}
             </span>
           {% endif %}
-          {% if content.field_mt_pst_category|render %}
+          {% if content.field_tp_pst_category|render %}
             <span class="node__meta-item node__meta-tags">
-              {{ content.field_mt_pst_category }}
+              {{ content.field_tp_pst_category }}
             </span>
           {% endif %}
         </div>
       {% endif %}
 
       {% if not page %}
-        <h4{{ title_attributes.addClass("mt-0") }}>
+        <h4{{ title_attributes.addClass("tp-0") }}>
           <a href="{{ url }}" rel="bookmark">{{ label }}</a>
         </h4>
       {% endif %}
@@ -58,7 +58,7 @@
     </div>
   </div>
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('field_mt_pst_image', 'field_mt_pst_category') }}
+    {{ content|without('field_tp_pst_image', 'field_tp_pst_category') }}
   </div>
 
 </article>

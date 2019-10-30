@@ -3,7 +3,7 @@
  * @file
  * Schools Base Theme's theme override for the block entity refernece field for the tabs powered custom block
  *
- * @see schoolsbase_preprocess_field__block_content__mt_fancy_linked_images_block()
+ * @see schoolsbase_preprocess_field__block_content__tp_fancy_linked_images_block()
  */
 #}
 {{ attach_library('schoolsbase/featured-linked-text-tiles-block') }}
@@ -13,7 +13,7 @@
     'field--name-' ~ field_name|clean_class,
     'field--type-' ~ field_type|clean_class,
     'field--label-' ~ label_display,
-    'field--mt-featured-linked-text-tiles-block',
+    'field--tp-featured-linked-text-tiles-block',
     'clearfix',
   ]
 %}
@@ -31,19 +31,19 @@
     <div class="row">
       {% for item in items %}
         <div class="col-lg-4">
-          <div class="featured-linked-text-tile mt-style-custom-all">
-            {% if item.content['#paragraph'].field_mt_fltt_link['0'].url and item.content['#paragraph'].field_mt_fltt_title.value %}
-              <div class="featured-linked-text-tile__title"><a href="{{ item.content['#paragraph'].field_mt_fltt_link['0'].url }}">{{ item.content['#paragraph'].field_mt_fltt_title.value }}</a></div>
-            {% elseif item.content['#paragraph'].field_mt_fltt_title.value %}
-              <div class="featured-linked-text-tile__title">{{ item.content['#paragraph'].field_mt_fltt_title.value }}</div>
+          <div class="featured-linked-text-tile tp-style-custom-all">
+            {% if item.content['#paragraph'].field_tp_fltt_link['0'].url and item.content['#paragraph'].field_tp_fltt_title.value %}
+              <div class="featured-linked-text-tile__title"><a href="{{ item.content['#paragraph'].field_tp_fltt_link['0'].url }}">{{ item.content['#paragraph'].field_tp_fltt_title.value }}</a></div>
+            {% elseif item.content['#paragraph'].field_tp_fltt_title.value %}
+              <div class="featured-linked-text-tile__title">{{ item.content['#paragraph'].field_tp_fltt_title.value }}</div>
             {% endif %}
             {% if item.content %}
               <div class="featured-linked-text-tile__body">
                 {{ item.content }}
               </div>
             {% endif %}
-            {% if item.content['#paragraph'].field_mt_fltt_link['0'].url %}
-              <a class="featured-linked-text-tile__link mt-button" href="{{ item.content['#paragraph'].field_mt_fltt_link['0'].url }}">{{ item.content['#paragraph'].field_mt_fltt_link.title }}</a>
+            {% if item.content['#paragraph'].field_tp_fltt_link['0'].url %}
+              <a class="featured-linked-text-tile__link tp-button" href="{{ item.content['#paragraph'].field_tp_fltt_link['0'].url }}">{{ item.content['#paragraph'].field_tp_fltt_link.title }}</a>
             {% endif %}
           </div>
         </div>

@@ -2,12 +2,12 @@
  * @file
  * Visual styles for Schools Base Theme's nodes slider.
  */
-.field--mt-nodes-slideshow-block {
+.field--tp-nodes-slideshow-block {
   padding-top: 20px;
 }
 
 /*nodes slideshow*/
-.nodes-slideshow .slides > li:not(.flex-active-slide) a.mt-button {
+.nodes-slideshow .slides > li:not(.flex-active-slide) a.tp-button {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
