@@ -1,5 +1,9 @@
+uuid: 3a4fb7d3-579d-43c7-b44c-b43c2555850c
 langcode: en
 status: true
 dependencies: {  }
 id: tp_video_gallery_slide
 label: 'Video Gallery slide'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

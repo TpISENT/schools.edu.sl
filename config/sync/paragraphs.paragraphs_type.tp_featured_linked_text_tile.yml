@@ -1,5 +1,9 @@
+uuid: 0aa2be2e-610c-4075-9951-66fa9ed3eb8d
 langcode: en
 status: true
 dependencies: {  }
 id: tp_featured_linked_text_tile
 label: 'Featured Linked Text Tile'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

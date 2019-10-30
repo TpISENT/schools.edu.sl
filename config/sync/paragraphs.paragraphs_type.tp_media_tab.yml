@@ -1,5 +1,9 @@
+uuid: c64c3e42-7812-49a6-b9cf-8e35a6085168
 langcode: en
 status: true
 dependencies: {  }
 id: tp_media_tab
 label: 'Media Tab'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

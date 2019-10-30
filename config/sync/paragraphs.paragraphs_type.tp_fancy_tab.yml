@@ -1,5 +1,9 @@
+uuid: 13ba66a1-cfa1-42ea-b877-e8ac72e533aa
 langcode: en
 status: true
 dependencies: {  }
 id: tp_fancy_tab
 label: 'Fancy Tab'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

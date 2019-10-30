@@ -1,5 +1,9 @@
+uuid: 5154c5eb-f8ca-4058-8fd3-6b3d0a49e983
 langcode: en
 status: true
 dependencies: {  }
 id: tp_main_slideshow_slide
 label: 'Main Slideshow Slide'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

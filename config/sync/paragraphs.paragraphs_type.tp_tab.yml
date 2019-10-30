@@ -1,5 +1,9 @@
+uuid: ca622e65-62e4-4dd6-ace7-42bd84e631b0
 langcode: en
 status: true
 dependencies: {  }
 id: tp_tab
 label: Tab
+icon_uuid: null
+description: null
+behavior_plugins: {  }

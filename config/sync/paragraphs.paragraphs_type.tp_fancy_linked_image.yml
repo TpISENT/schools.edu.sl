@@ -1,5 +1,9 @@
+uuid: e7b44f7c-272d-46c2-a305-79cc0b2a3f81
 langcode: en
 status: true
 dependencies: {  }
 id: tp_fancy_linked_image
 label: 'Fancy Linked Image'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

@@ -1,6 +1,9 @@
+uuid: b9840d62-c9a2-4407-9aad-052058476304
 langcode: en
 status: true
 dependencies: {  }
 id: tp_additional_feature
 label: 'Additional Feature'
+icon_uuid: null
+description: null
 behavior_plugins: {  }

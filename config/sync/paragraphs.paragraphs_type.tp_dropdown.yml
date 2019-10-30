@@ -1,5 +1,9 @@
+uuid: 670838ef-f7f4-4d8a-9857-e65740081fe2
 langcode: en
 status: true
 dependencies: {  }
 id: tp_dropdown
 label: Dropdown
+icon_uuid: null
+description: null
+behavior_plugins: {  }

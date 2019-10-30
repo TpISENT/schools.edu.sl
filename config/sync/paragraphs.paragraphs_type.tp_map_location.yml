@@ -1,6 +1,9 @@
+uuid: 6dde3ce1-8d22-400c-ba69-1df91283ffa1
 langcode: en
 status: true
 dependencies: {  }
 id: tp_map_location
 label: 'Map Location'
+icon_uuid: null
+description: null
 behavior_plugins: {  }

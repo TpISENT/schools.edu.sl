@@ -1,5 +1,9 @@
+uuid: e1242e21-d5e3-467a-8aae-19957236e310
 langcode: en
 status: true
 dependencies: {  }
 id: tp_collapse
 label: Collapse
+icon_uuid: null
+description: null
+behavior_plugins: {  }

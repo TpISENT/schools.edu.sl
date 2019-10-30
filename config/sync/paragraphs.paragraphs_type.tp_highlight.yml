@@ -1,6 +1,9 @@
+uuid: 102ea002-0561-4894-b49f-208551b072ac
 langcode: en
 status: true
 dependencies: {  }
 id: tp_highlight
 label: Highlight
+icon_uuid: null
+description: null
 behavior_plugins: {  }
