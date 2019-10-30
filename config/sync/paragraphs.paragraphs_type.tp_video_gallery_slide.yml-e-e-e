@@ -1,0 +1,5 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_video_gallery_slide
+label: 'Video Gallery slide'

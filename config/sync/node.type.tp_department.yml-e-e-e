@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Department
+type: tp_department
+description: 'Use for presenting a department with all associated information e.g.: courses and affiliated faculty members and students.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

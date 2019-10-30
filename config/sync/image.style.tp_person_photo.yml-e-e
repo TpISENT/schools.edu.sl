@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.tp_person_photo
+  module:
+    - crop
+name: tp_person_photo
+label: 'Person Photo (545x545)'
+effects:
+  35449abd-5920-4fef-aa39-88715eadcd99:
+    uuid: 35449abd-5920-4fef-aa39-88715eadcd99
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: tp_person_photo
+  adc99674-eebf-4bc7-a32e-ad4f9208a280:
+    uuid: adc99674-eebf-4bc7-a32e-ad4f9208a280
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 690
+      height: 690
+      anchor: center-center

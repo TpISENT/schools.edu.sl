@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_prd_specification
+label: 'Product Specification'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

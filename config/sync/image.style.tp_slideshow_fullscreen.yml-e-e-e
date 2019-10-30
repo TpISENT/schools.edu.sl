@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.tp_fullscreen_slide_image
+  module:
+    - crop
+name: tp_slideshow_fullscreen
+label: 'Slideshow Full Screen'
+effects:
+  cbae7618-d37f-4c08-afcc-73038c375864:
+    uuid: cbae7618-d37f-4c08-afcc-73038c375864
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: tp_fullscreen_slide_image

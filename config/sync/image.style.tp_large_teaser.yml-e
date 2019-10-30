@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.tp_large_teaser
+  module:
+    - crop
+name: tp_large_teaser
+label: 'Large teaser (1110×600)'
+effects:
+  8b0355f8-f87d-42b8-930c-89388096725c:
+    uuid: 8b0355f8-f87d-42b8-930c-89388096725c
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: tp_large_teaser
+  f0c3c1b8-4a62-4c2f-97de-c394ae87528d:
+    uuid: f0c3c1b8-4a62-4c2f-97de-c394ae87528d
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1110
+      height: 600
+      anchor: center-center

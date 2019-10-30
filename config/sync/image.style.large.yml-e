@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: large
+label: 'Large (1110×600)'
+effects:
+  c9b8f257-4d75-4dc9-befb-f82f5b688e89:
+    uuid: c9b8f257-4d75-4dc9-befb-f82f5b688e89
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1110
+      height: 600
+      anchor: center-center

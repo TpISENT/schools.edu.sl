@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_how_it_works_item
+label: Step
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_detailed_feature
+label: 'Detailed Feature'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tp_fa_icon
+label: 'Fontawesome Icon'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

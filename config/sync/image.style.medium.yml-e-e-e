@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: medium
+label: 'Medium (220×220)'
+effects:
+  02cbd0df-42b9-4c05-91a7-17c1cb75205a:
+    uuid: 02cbd0df-42b9-4c05-91a7-17c1cb75205a
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 220
+      height: 220
+      anchor: center-center
