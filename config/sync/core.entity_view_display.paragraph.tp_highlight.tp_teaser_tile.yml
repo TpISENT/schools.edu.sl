@@ -1,0 +1,31 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.tp_teaser_tile
+    - field.field.paragraph.tp_highlight.field_tp_highlight_body
+    - field.field.paragraph.tp_highlight.field_tp_highlight_image
+    - field.field.paragraph.tp_highlight.field_tp_highlight_link
+    - field.field.paragraph.tp_highlight.field_tp_highlight_title
+    - image.style.large
+    - paragraphs.paragraphs_type.tp_highlight
+  module:
+    - image
+id: paragraph.tp_highlight.tp_teaser_tile
+targetEntityType: paragraph
+bundle: tp_highlight
+mode: tp_teaser_tile
+content:
+  field_tp_highlight_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_tp_highlight_body: true
+  field_tp_highlight_link: true
+  field_tp_highlight_title: true

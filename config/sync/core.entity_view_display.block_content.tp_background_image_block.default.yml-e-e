@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_background_image_block
+    - field.field.block_content.tp_background_image_block.field_tp_background_image
+    - field.field.block_content.tp_background_image_block.field_tp_bg_image_color
+    - field.field.block_content.tp_background_image_block.field_tp_bg_image_layout_mode
+    - field.field.block_content.tp_background_image_block.field_tp_bg_image_opacity
+    - field.field.block_content.tp_background_image_block.field_tp_bg_image_positioning
+    - field.field.block_content.tp_background_image_block.field_tp_block_reference
+id: block_content.tp_background_image_block.default
+targetEntityType: block_content
+bundle: tp_background_image_block
+mode: default
+content:
+  field_tp_block_reference:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  field_tp_background_image: true
+  field_tp_bg_image_color: true
+  field_tp_bg_image_layout_mode: true
+  field_tp_bg_image_opacity: true
+  field_tp_bg_image_positioning: true

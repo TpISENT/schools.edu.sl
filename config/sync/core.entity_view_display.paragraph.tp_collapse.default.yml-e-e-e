@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_collapse.field_tp_collapse_body
+    - field.field.paragraph.tp_collapse.field_tp_collapse_title
+    - paragraphs.paragraphs_type.tp_collapse
+  module:
+    - text
+id: paragraph.tp_collapse.default
+targetEntityType: paragraph
+bundle: tp_collapse
+mode: default
+content:
+  field_tp_collapse_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  created: true
+  field_tp_collapse_title: true
+  uid: true

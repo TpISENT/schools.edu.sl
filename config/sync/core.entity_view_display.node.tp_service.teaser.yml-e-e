@@ -1,0 +1,64 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tp_service.field_tp_srv_banner_image
+    - field.field.node.tp_service.field_tp_srv_body
+    - field.field.node.tp_service.field_tp_srv_buy_link
+    - field.field.node.tp_service.field_tp_srv_highlight
+    - field.field.node.tp_service.field_tp_srv_image
+    - field.field.node.tp_service.field_tp_srv_price
+    - field.field.node.tp_service.field_tp_srv_service_tags
+    - field.field.node.tp_service.field_tp_srv_subheader_body
+    - field.field.node.tp_service.field_tp_srv_teaser_image
+    - field.field.node.tp_service.field_tp_srv_video
+    - image.style.large
+    - node.type.tp_service
+  module:
+    - image
+    - text
+    - user
+id: node.tp_service.teaser
+targetEntityType: node
+bundle: tp_service
+mode: teaser
+content:
+  field_tp_srv_body:
+    type: text_summary_or_trimmed
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_tp_srv_service_tags:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_tp_srv_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tp_srv_banner_image: true
+  field_tp_srv_buy_link: true
+  field_tp_srv_highlight: true
+  field_tp_srv_image: true
+  field_tp_srv_price: true
+  field_tp_srv_subheader_body: true
+  field_tp_srv_video: true

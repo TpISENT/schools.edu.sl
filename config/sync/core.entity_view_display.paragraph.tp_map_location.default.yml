@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_map_location.field_tp_ml_latitude
+    - field.field.paragraph.tp_map_location.field_tp_ml_location_name
+    - field.field.paragraph.tp_map_location.field_tp_ml_longitude
+    - paragraphs.paragraphs_type.tp_map_location
+id: paragraph.tp_map_location.default
+targetEntityType: paragraph
+bundle: tp_map_location
+mode: default
+content: {  }
+hidden:
+  field_tp_ml_latitude: true
+  field_tp_ml_location_name: true
+  field_tp_ml_longitude: true

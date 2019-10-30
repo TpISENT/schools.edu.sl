@@ -1,0 +1,64 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tp_featured_teaser
+    - field.field.node.tp_student.field_tp_stdt_academic_title
+    - field.field.node.tp_student.field_tp_stdt_banner_image
+    - field.field.node.tp_student.field_tp_stdt_body
+    - field.field.node.tp_student.field_tp_stdt_contact_info
+    - field.field.node.tp_student.field_tp_stdt_cv
+    - field.field.node.tp_student.field_tp_stdt_links
+    - field.field.node.tp_student.field_tp_stdt_photo
+    - field.field.node.tp_student.field_tp_stdt_publications
+    - field.field.node.tp_student.field_tp_stdt_social
+    - field.field.node.tp_student.field_tp_stdt_supervisor
+    - field.field.node.tp_student.field_tp_stdt_teaser_image
+    - field.field.node.tp_student.field_tp_stdt_video
+    - image.style.tp_large_teaser
+    - node.type.tp_student
+  module:
+    - image
+    - text
+    - user
+id: node.tp_student.tp_featured_teaser
+targetEntityType: node
+bundle: tp_student
+mode: tp_featured_teaser
+content:
+  field_tp_stdt_academic_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tp_stdt_body:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_tp_stdt_teaser_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: tp_large_teaser
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_tp_stdt_banner_image: true
+  field_tp_stdt_contact_info: true
+  field_tp_stdt_cv: true
+  field_tp_stdt_links: true
+  field_tp_stdt_photo: true
+  field_tp_stdt_publications: true
+  field_tp_stdt_social: true
+  field_tp_stdt_supervisor: true
+  field_tp_stdt_video: true
+  links: true

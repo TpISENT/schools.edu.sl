@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.tp_mdt_hero_image.field_media_image_1
+    - image.style.tp_hero_image
+    - media.type.tp_mdt_hero_image
+  module:
+    - image
+id: media.tp_mdt_hero_image.default
+targetEntityType: media
+bundle: tp_mdt_hero_image
+mode: default
+content:
+  field_media_image_1:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: tp_hero_image
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true
