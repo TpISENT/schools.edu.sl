@@ -1,0 +1,7 @@
+uuid: ff6f7cbf-4347-4d7a-8a3f-d3e5b3cdb361
+langcode: en
+status: false
+dependencies: {  }
+formId: node_tp_student_form
+captchaType: default
+label: null

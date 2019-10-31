@@ -1,3 +1,4 @@
+uuid: 4f7ed926-c20b-42da-a53c-01e37d5279a0
 langcode: en
 status: true
 dependencies:
@@ -23,6 +24,14 @@ targetEntityType: node
 bundle: article
 mode: tp_video_grid_item
 content:
+  field_tags:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
   field_tp_video:
     weight: 0
     label: hidden
@@ -32,21 +41,18 @@ content:
     third_party_settings: {  }
     type: video_embed_field_thumbnail
     region: content
-  field_tags:
-    type: entity_reference_label
-    weight: 1
-    region: content
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
 hidden:
+  addtoany: true
   body: true
   comment: true
   field_image: true
+  field_meta_tags: true
   field_tp_banner_image: true
+  field_tp_bg_video_youtube: true
+  field_tp_seo_meta_description: true
   field_tp_slideshow: true
   field_tp_slideshow_image: true
   field_tp_slideshow_text: true
   field_tp_subheader_body: true
+  field_yoast_seo: true
   links: true

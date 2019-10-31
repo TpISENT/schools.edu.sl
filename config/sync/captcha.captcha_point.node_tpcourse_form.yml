@@ -1,0 +1,7 @@
+uuid: b92e8e5b-d160-4f90-8ebe-e14a50a0acc4
+langcode: en
+status: false
+dependencies: {  }
+formId: node_tpcourse_form
+captchaType: default
+label: null

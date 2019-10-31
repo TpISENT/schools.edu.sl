@@ -1,3 +1,4 @@
+uuid: d065e38d-d625-4a5f-8c9b-efb5d11d52d3
 langcode: en
 status: false
 dependencies:
@@ -41,6 +42,7 @@ content:
     type: video_embed_field_thumbnail
     region: content
 hidden:
+  addtoany: true
   field_tp_srv_banner_image: true
   field_tp_srv_buy_link: true
   field_tp_srv_highlight: true
@@ -48,4 +50,5 @@ hidden:
   field_tp_srv_price: true
   field_tp_srv_service_tags: true
   field_tp_srv_subheader_body: true
+  field_tp_srv_teaser_image: true
   links: true

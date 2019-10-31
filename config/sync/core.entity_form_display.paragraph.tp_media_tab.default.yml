@@ -1,0 +1,77 @@
+uuid: 8ee750a4-42a2-44f1-a4c9-99d9085dbb46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_media_tab.field_tp_media_body
+    - field.field.paragraph.tp_media_tab.field_tp_media_button
+    - field.field.paragraph.tp_media_tab.field_tp_media_image
+    - field.field.paragraph.tp_media_tab.field_tp_media_tab_title
+    - field.field.paragraph.tp_media_tab.field_tp_media_title
+    - field.field.paragraph.tp_media_tab.field_tp_media_video
+    - paragraphs.paragraphs_type.tp_media_tab
+  module:
+    - entity_browser
+    - link
+    - text
+    - video_embed_field
+id: paragraph.tp_media_tab.default
+targetEntityType: paragraph
+bundle: tp_media_tab
+mode: default
+content:
+  field_tp_media_body:
+    type: text_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_media_button:
+    type: link_default
+    weight: 5
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tp_media_image:
+    type: entity_browser_file
+    weight: 2
+    region: content
+    settings:
+      preview_image_style: thumbnail
+      entity_browser: null
+      open: false
+      field_widget_edit: true
+      field_widget_remove: true
+      field_widget_replace: false
+      selection_mode: selection_append
+      view_mode: default
+    third_party_settings: {  }
+  field_tp_media_tab_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_media_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_media_video:
+    type: video_embed_field_textfield
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

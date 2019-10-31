@@ -1,0 +1,55 @@
+uuid: da9ee9fd-7182-400a-82c6-af9b5688a491
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_feature.field_tp_feature_body
+    - field.field.paragraph.tp_feature.field_tp_feature_image
+    - field.field.paragraph.tp_feature.field_tp_feature_link
+    - field.field.paragraph.tp_feature.field_tp_feature_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.tp_feature
+  module:
+    - image
+    - link
+    - text
+id: paragraph.tp_feature.default
+targetEntityType: paragraph
+bundle: tp_feature
+mode: default
+content:
+  field_tp_feature_body:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_feature_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_tp_feature_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tp_feature_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

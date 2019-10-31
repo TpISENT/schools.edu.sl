@@ -1,3 +1,4 @@
+uuid: df8bafab-f491-4b54-9b39-8bc04082ab8c
 langcode: en
 status: true
 dependencies:
@@ -38,6 +39,7 @@ content:
       link: false
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_crs_banner_image: true
   field_tp_crs_file_resources: true
   field_tp_crs_image: true

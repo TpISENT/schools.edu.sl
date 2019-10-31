@@ -1,3 +1,4 @@
+uuid: 0d166542-658a-445f-ae71-d3cd2c1d9538
 langcode: en
 status: true
 dependencies:
@@ -51,6 +52,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_fclt_banner_image: true
   field_tp_fclt_contact_info: true
   field_tp_fclt_cv: true

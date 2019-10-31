@@ -1,0 +1,8 @@
+uuid: 0ad8ccc6-8aa7-48db-bb8b-1c40cbfa1d82
+langcode: en
+status: true
+dependencies: {  }
+id: subfooter
+label: Subfooter
+description: Subfooter
+locked: false

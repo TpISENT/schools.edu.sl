@@ -1,3 +1,4 @@
+uuid: 511f8917-871d-4af3-8837-95275f95923f
 langcode: en
 status: true
 dependencies:
@@ -41,5 +42,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_alb_tags: true
   field_tp_alb_video: true

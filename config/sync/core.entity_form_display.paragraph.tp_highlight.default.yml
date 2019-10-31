@@ -1,0 +1,55 @@
+uuid: 3e797c19-0b06-48a2-a730-61103d8dee1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_highlight.field_tp_highlight_body
+    - field.field.paragraph.tp_highlight.field_tp_highlight_image
+    - field.field.paragraph.tp_highlight.field_tp_highlight_link
+    - field.field.paragraph.tp_highlight.field_tp_highlight_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.tp_highlight
+  module:
+    - image
+    - link
+    - text
+id: paragraph.tp_highlight.default
+targetEntityType: paragraph
+bundle: tp_highlight
+mode: default
+content:
+  field_tp_highlight_body:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_highlight_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_tp_highlight_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tp_highlight_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

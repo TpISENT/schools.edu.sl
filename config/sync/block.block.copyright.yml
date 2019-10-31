@@ -1,0 +1,25 @@
+uuid: 0a924856-909b-478a-beee-b2bdafb343ae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:be1bca75-281d-467c-8bdc-3b7f155efebf'
+  module:
+    - block_content
+  theme:
+    - schoolsbase
+id: copyright
+theme: schoolsbase
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:be1bca75-281d-467c-8bdc-3b7f155efebf'
+settings:
+  id: 'block_content:be1bca75-281d-467c-8bdc-3b7f155efebf'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

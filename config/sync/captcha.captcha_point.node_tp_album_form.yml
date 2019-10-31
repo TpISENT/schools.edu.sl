@@ -1,0 +1,7 @@
+uuid: 999cf76c-f769-466c-bbc6-9071fcb84114
+langcode: en
+status: false
+dependencies: {  }
+formId: node_tp_album_form
+captchaType: default
+label: null

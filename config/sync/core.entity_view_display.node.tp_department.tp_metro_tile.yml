@@ -1,3 +1,4 @@
+uuid: 74015ee2-cf7f-4ccf-a234-7831a3fd261b
 langcode: en
 status: true
 dependencies:
@@ -26,6 +27,10 @@ content:
     type: image
     region: content
 hidden:
+  addtoany: true
+  field_tp_dpt_banner_image: true
   field_tp_dpt_body: true
   field_tp_dpt_image: true
+  field_tp_dpt_subheader_body: true
+  field_tp_dpt_video: true
   links: true

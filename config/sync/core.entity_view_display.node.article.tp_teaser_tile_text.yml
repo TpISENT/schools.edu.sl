@@ -1,3 +1,4 @@
+uuid: d854f3f5-f516-4b1d-bf9f-c2b3d3460ecd
 langcode: en
 status: true
 dependencies:
@@ -31,13 +32,18 @@ content:
     label: hidden
     region: content
 hidden:
+  addtoany: true
   comment: true
   field_image: true
+  field_meta_tags: true
+  field_tags: true
   field_tp_banner_image: true
+  field_tp_bg_video_youtube: true
+  field_tp_seo_meta_description: true
   field_tp_slideshow: true
   field_tp_slideshow_image: true
   field_tp_slideshow_text: true
   field_tp_subheader_body: true
   field_tp_video: true
-  field_tags: true
+  field_yoast_seo: true
   links: true

@@ -1,3 +1,4 @@
+uuid: 195c34a1-29b3-47ed-88ca-f0674bcad126
 langcode: en
 status: false
 dependencies:
@@ -36,6 +37,7 @@ content:
     type: video_embed_field_thumbnail
     region: content
 hidden:
+  addtoany: true
   field_tp_alb_image: true
   field_tp_alb_tags: true
   links: true

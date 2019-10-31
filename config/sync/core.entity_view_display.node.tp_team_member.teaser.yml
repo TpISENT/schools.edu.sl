@@ -1,3 +1,4 @@
+uuid: 3c7fd56c-6884-4b38-ba9e-08d6e05b6cc8
 langcode: en
 status: true
 dependencies:
@@ -42,6 +43,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_tmm_facebook_account: true
   field_tp_tmm_featured: true
   field_tp_tmm_linkedin_account: true

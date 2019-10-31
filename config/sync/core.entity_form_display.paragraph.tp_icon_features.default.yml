@@ -1,0 +1,63 @@
+uuid: 7624f7c0-ed77-4b3b-ac05-ea1e53326378
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_icon_features.field_tp_if_body
+    - field.field.paragraph.tp_icon_features.field_tp_if_fa_icon
+    - field.field.paragraph.tp_icon_features.field_tp_if_image
+    - field.field.paragraph.tp_icon_features.field_tp_if_link
+    - field.field.paragraph.tp_icon_features.field_tp_if_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.tp_icon_features
+  module:
+    - fontawesome
+    - image
+    - link
+    - text
+id: paragraph.tp_icon_features.default
+targetEntityType: paragraph
+bundle: tp_icon_features
+mode: default
+content:
+  field_tp_if_body:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_if_fa_icon:
+    type: fontawesome_icon_widget
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tp_if_image:
+    type: image_image
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_tp_if_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tp_if_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

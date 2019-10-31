@@ -1,3 +1,4 @@
+uuid: 1e4b3877-3eea-4ab1-810c-e36204915c3d
 langcode: en
 status: true
 dependencies:
@@ -80,18 +81,24 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_prd_additional_features: true
   field_tp_prd_availability: true
   field_tp_prd_banner_carousel: true
   field_tp_prd_categories: true
+  field_tp_prd_comments: true
+  field_tp_prd_content_collapses: true
   field_tp_prd_content_tabs: true
+  field_tp_prd_delivery_options: true
   field_tp_prd_featured_product: true
   field_tp_prd_highlight: true
   field_tp_prd_landscape_image: true
   field_tp_prd_most_popular: true
   field_tp_prd_pricing_table_item: true
   field_tp_prd_product_code: true
+  field_tp_prd_specifications: true
   field_tp_prd_subheader_body: true
   field_tp_prd_tags: true
+  field_tp_prd_teaser_image: true
   field_tp_prd_video: true
   links: true

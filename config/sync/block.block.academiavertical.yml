@@ -1,0 +1,29 @@
+uuid: 3c540ba4-acbb-4e38-97b8-debff5dc068e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.academia-vertical
+  module:
+    - block_class
+    - system
+  theme:
+    - schoolsbase
+third_party_settings:
+  block_class:
+    classes: tp-vertical-menu
+id: academiavertical
+theme: schoolsbase
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:academia-vertical'
+settings:
+  id: 'system_menu_block:academia-vertical'
+  label: 'Academia Vertical'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 6aea6ce1-28b2-4cff-9a1d-f8093409fc89
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - schoolsbase
+id: footer
+theme: schoolsbase
+region: footer_top_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,3 +1,4 @@
+uuid: 61bd4995-7cdf-444f-ac3e-7c4dc7e178cc
 langcode: en
 status: true
 dependencies:
@@ -41,12 +42,17 @@ content:
       link: true
     third_party_settings: {  }
 hidden:
+  addtoany: true
   body: true
   comment: true
+  field_meta_tags: true
   field_tp_banner_image: true
+  field_tp_bg_video_youtube: true
+  field_tp_seo_meta_description: true
   field_tp_slideshow: true
   field_tp_slideshow_image: true
   field_tp_slideshow_text: true
   field_tp_subheader_body: true
   field_tp_video: true
+  field_yoast_seo: true
   links: true

@@ -1,3 +1,4 @@
+uuid: 5a72e7f5-0054-4102-bda4-2e4f21d5658f
 langcode: en
 status: true
 dependencies:
@@ -158,4 +159,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_crs_teaser_image: true

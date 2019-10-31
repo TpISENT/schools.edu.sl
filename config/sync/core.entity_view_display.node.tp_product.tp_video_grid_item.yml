@@ -1,3 +1,4 @@
+uuid: 4e5dcf44-1b24-4c17-8b26-8168fd99e64a
 langcode: en
 status: false
 dependencies:
@@ -49,12 +50,17 @@ content:
     type: video_embed_field_thumbnail
     region: content
 hidden:
+  addtoany: true
   field_tp_prd_additional_features: true
   field_tp_prd_availability: true
   field_tp_prd_banner_carousel: true
   field_tp_prd_buy_link: true
   field_tp_prd_categories: true
+  field_tp_prd_comments: true
+  field_tp_prd_content_collapses: true
   field_tp_prd_content_tabs: true
+  field_tp_prd_delivery_options: true
+  field_tp_prd_featured_product: true
   field_tp_prd_highlight: true
   field_tp_prd_image: true
   field_tp_prd_landscape_image: true
@@ -62,6 +68,9 @@ hidden:
   field_tp_prd_price: true
   field_tp_prd_pricing_table_item: true
   field_tp_prd_product_code: true
+  field_tp_prd_specifications: true
   field_tp_prd_subheader_body: true
+  field_tp_prd_subtitle: true
   field_tp_prd_tags: true
+  field_tp_prd_teaser_image: true
   links: true

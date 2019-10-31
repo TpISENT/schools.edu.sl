@@ -1,3 +1,4 @@
+uuid: e682edac-906e-43be-8c59-13a74962490d
 langcode: en
 status: true
 dependencies:
@@ -27,6 +28,7 @@ content:
     type: image
     region: content
 hidden:
+  addtoany: true
   field_tp_alb_body: true
   field_tp_alb_tags: true
   field_tp_alb_video: true

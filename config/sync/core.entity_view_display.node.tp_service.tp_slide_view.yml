@@ -1,3 +1,4 @@
+uuid: 16679127-cd91-4474-8d7e-30fd960f957a
 langcode: en
 status: true
 dependencies:
@@ -41,11 +42,13 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_srv_banner_image: true
   field_tp_srv_buy_link: true
   field_tp_srv_highlight: true
   field_tp_srv_price: true
   field_tp_srv_service_tags: true
   field_tp_srv_subheader_body: true
+  field_tp_srv_teaser_image: true
   field_tp_srv_video: true
   links: true

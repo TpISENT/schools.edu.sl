@@ -1,3 +1,4 @@
+uuid: aa357953-1eed-4582-95b0-6f4089cb7ee3
 langcode: en
 status: true
 dependencies:
@@ -40,9 +41,13 @@ content:
     type: daterange_default
     region: content
 hidden:
+  addtoany: true
+  field_tp_evnt_address: true
   field_tp_evnt_banner_carousel: true
+  field_tp_evnt_contact_info: true
   field_tp_evnt_image: true
   field_tp_evnt_location: true
+  field_tp_evnt_related_resources: true
   field_tp_evnt_tags: true
   field_tp_evnt_teaser_image: true
   field_tp_evnt_video: true

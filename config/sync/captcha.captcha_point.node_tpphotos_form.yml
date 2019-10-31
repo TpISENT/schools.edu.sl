@@ -1,0 +1,7 @@
+uuid: 3c41c6ac-b307-4194-acaa-eb98c0b497b7
+langcode: en
+status: false
+dependencies: {  }
+formId: node_tpphotos_form
+captchaType: default
+label: null

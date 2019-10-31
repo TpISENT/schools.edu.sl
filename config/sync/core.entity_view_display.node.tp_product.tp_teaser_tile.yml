@@ -1,3 +1,4 @@
+uuid: 8753e1fb-c021-4a50-ab2e-02de52f6ade3
 langcode: en
 status: true
 dependencies:
@@ -63,6 +64,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_prd_additional_features: true
   field_tp_prd_availability: true
   field_tp_prd_banner_carousel: true

@@ -1,3 +1,4 @@
+uuid: 497a5bd1-249a-40b6-aca3-39f7a8d594ec
 langcode: en
 status: true
 dependencies:
@@ -39,6 +40,7 @@ content:
     type: entity_reference_label
     region: content
 hidden:
+  addtoany: true
   field_tp_shw_body: true
   field_tp_shw_comments: true
   field_tp_shw_content_collapses: true

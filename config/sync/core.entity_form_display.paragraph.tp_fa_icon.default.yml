@@ -1,0 +1,33 @@
+uuid: fbcaaf94-e5ca-46d2-86ca-a3ea722a0672
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_fa_icon.field_tp_fa_icon_icon
+    - field.field.paragraph.tp_fa_icon.field_tp_fa_icon_link
+    - paragraphs.paragraphs_type.tp_fa_icon
+  module:
+    - fontawesome
+    - link
+id: paragraph.tp_fa_icon.default
+targetEntityType: paragraph
+bundle: tp_fa_icon
+mode: default
+content:
+  field_tp_fa_icon_icon:
+    type: fontawesome_icon_widget
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tp_fa_icon_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

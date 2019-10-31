@@ -1,0 +1,41 @@
+uuid: 7fa95cd7-ffd0-4701-8fed-fcb32f0169de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_map_location.field_tp_ml_latitude
+    - field.field.paragraph.tp_map_location.field_tp_ml_location_name
+    - field.field.paragraph.tp_map_location.field_tp_ml_longitude
+    - paragraphs.paragraphs_type.tp_map_location
+id: paragraph.tp_map_location.default
+targetEntityType: paragraph
+bundle: tp_map_location
+mode: default
+content:
+  field_tp_ml_latitude:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_ml_location_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_ml_longitude:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

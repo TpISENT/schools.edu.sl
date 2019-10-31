@@ -1,3 +1,4 @@
+uuid: e3316816-d81d-433c-92dd-1a4ce6a18ba8
 langcode: en
 status: true
 dependencies:
@@ -23,7 +24,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   created: true
   field_media_image_1: true
+  field_media_image_2: true
   name: true
   uid: true

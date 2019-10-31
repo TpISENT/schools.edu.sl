@@ -1,3 +1,4 @@
+uuid: eff23da4-a157-4d9b-b229-36046805505f
 langcode: en
 status: true
 dependencies:
@@ -40,6 +41,7 @@ content:
     type: entity_reference_label
     region: content
 hidden:
+  addtoany: true
   field_tp_crs_banner_image: true
   field_tp_crs_body: true
   field_tp_crs_file_resources: true

@@ -1,0 +1,31 @@
+uuid: e88d4749-ae77-4e8e-9319-ae338a7ba06c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:tp_main_slideshow_block:255c2b44-a801-40d1-a19a-bd0df9c41e73'
+  module:
+    - block_content
+    - system
+  theme:
+    - schoolsbase
+id: slideshowblockfullscreen
+theme: schoolsbase
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:255c2b44-a801-40d1-a19a-bd0df9c41e73'
+settings:
+  id: 'block_content:255c2b44-a801-40d1-a19a-bd0df9c41e73'
+  label: 'Slideshow block Fullscreen'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,44 @@
+uuid: 4b42cd13-5cf0-430c-8275-ddced86fa931
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_how_it_works_item.field_tp_hiw_body
+    - field.field.paragraph.tp_how_it_works_item.field_tp_hiw_link
+    - field.field.paragraph.tp_how_it_works_item.field_tp_hiw_title
+    - paragraphs.paragraphs_type.tp_how_it_works_item
+  module:
+    - link
+    - text
+id: paragraph.tp_how_it_works_item.default
+targetEntityType: paragraph
+bundle: tp_how_it_works_item
+mode: default
+content:
+  field_tp_hiw_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_hiw_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tp_hiw_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,3 +1,4 @@
+uuid: 3611a04f-3b03-4374-a426-5a34a3f1f2e8
 langcode: en
 status: true
 dependencies:
@@ -210,6 +211,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_prd_featured_product: true
   field_tp_prd_landscape_image: true
   field_tp_prd_most_popular: true

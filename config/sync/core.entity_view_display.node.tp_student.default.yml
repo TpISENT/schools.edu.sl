@@ -1,3 +1,4 @@
+uuid: e3267322-5768-47e5-a7d3-337a1f2bbb73
 langcode: en
 status: true
 dependencies:
@@ -234,4 +235,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_stdt_teaser_image: true

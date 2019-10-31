@@ -1,3 +1,4 @@
+uuid: a84c9a9b-f31e-4cd1-b2bb-37c7c7ce8167
 langcode: en
 status: true
 dependencies:
@@ -38,6 +39,7 @@ content:
     type: image
     region: content
 hidden:
+  addtoany: true
   field_tp_dpt_banner_image: true
   field_tp_dpt_image: true
   field_tp_dpt_subheader_body: true

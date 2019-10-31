@@ -1,0 +1,7 @@
+uuid: ba67c460-c969-46a1-aeba-a856f119c956
+langcode: en
+status: false
+dependencies: {  }
+formId: node_tpschool_form
+captchaType: default
+label: null

@@ -1,0 +1,7 @@
+uuid: 385d50f0-986e-4e3d-aa20-5dda647f0070
+langcode: en
+status: false
+dependencies: {  }
+formId: node_tppublication_form
+captchaType: default
+label: null

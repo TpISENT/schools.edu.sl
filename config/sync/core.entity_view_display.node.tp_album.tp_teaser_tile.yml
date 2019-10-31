@@ -1,3 +1,4 @@
+uuid: 6729f9f9-5767-4275-a5e2-50fd3a0da2ce
 langcode: en
 status: true
 dependencies:
@@ -36,6 +37,7 @@ content:
     type: image
     region: content
 hidden:
+  addtoany: true
   field_tp_alb_tags: true
   field_tp_alb_video: true
   links: true

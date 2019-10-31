@@ -1,3 +1,4 @@
+uuid: 20e833f5-ca1b-45ef-a768-bc9e31707a16
 langcode: en
 status: true
 dependencies:
@@ -66,6 +67,7 @@ content:
     type: image
     region: content
 hidden:
+  addtoany: true
   field_tp_prd_additional_features: true
   field_tp_prd_availability: true
   field_tp_prd_banner_carousel: true

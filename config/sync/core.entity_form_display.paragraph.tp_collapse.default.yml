@@ -1,0 +1,34 @@
+uuid: c96b6eea-d9de-4c97-939d-bbde49d2b8c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_collapse.field_tp_collapse_body
+    - field.field.paragraph.tp_collapse.field_tp_collapse_title
+    - paragraphs.paragraphs_type.tp_collapse
+  module:
+    - text
+id: paragraph.tp_collapse.default
+targetEntityType: paragraph
+bundle: tp_collapse
+mode: default
+content:
+  field_tp_collapse_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_collapse_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

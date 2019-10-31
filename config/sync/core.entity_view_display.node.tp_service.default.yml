@@ -1,3 +1,4 @@
+uuid: 959f35ba-8297-4856-ad98-acdf938d69d1
 langcode: en
 status: true
 dependencies:
@@ -110,4 +111,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_srv_teaser_image: true

@@ -1,0 +1,32 @@
+uuid: 14ebd022-bd82-497c-8047-6f9094b2f4f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_prd_specification.field_tp_prd_specification_label
+    - field.field.paragraph.tp_prd_specification.field_tp_prd_specification_value
+    - paragraphs.paragraphs_type.tp_prd_specification
+id: paragraph.tp_prd_specification.default
+targetEntityType: paragraph
+bundle: tp_prd_specification
+mode: default
+content:
+  field_tp_prd_specification_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tp_prd_specification_value:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,42 @@
+uuid: cce07dee-6b3b-4d3f-a158-d3977fbfbdec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_timeline_item.field_tp_tml_timeline_date
+    - field.field.paragraph.tp_timeline_item.field_tp_tml_timeline_link
+    - field.field.paragraph.tp_timeline_item.field_tp_tml_timeline_title
+    - paragraphs.paragraphs_type.tp_timeline_item
+  module:
+    - datetime
+    - link
+id: paragraph.tp_timeline_item.default
+targetEntityType: paragraph
+bundle: tp_timeline_item
+mode: default
+content:
+  field_tp_tml_timeline_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tp_tml_timeline_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_tp_tml_timeline_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

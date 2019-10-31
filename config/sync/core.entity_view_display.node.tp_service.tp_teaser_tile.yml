@@ -1,3 +1,4 @@
+uuid: c72d12c6-7022-4725-a08d-bf39cacaa5db
 langcode: en
 status: true
 dependencies:
@@ -50,6 +51,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_srv_banner_image: true
   field_tp_srv_buy_link: true
   field_tp_srv_highlight: true

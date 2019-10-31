@@ -1,3 +1,4 @@
+uuid: 7000acc0-8d41-4f47-9a22-d8c66e8ca10e
 langcode: en
 status: true
 dependencies:
@@ -53,6 +54,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_shw_comments: true
   field_tp_shw_content_collapses: true
   field_tp_shw_subheader_body: true

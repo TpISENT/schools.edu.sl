@@ -1,0 +1,36 @@
+uuid: 1498ba90-470c-4e8f-bbc8-39259a415363
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tp_image_button.field_tp_image_button_image
+    - field.field.paragraph.tp_image_button.field_tp_image_button_link
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.tp_image_button
+  module:
+    - image
+    - link
+id: paragraph.tp_image_button.default
+targetEntityType: paragraph
+bundle: tp_image_button
+mode: default
+content:
+  field_tp_image_button_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_tp_image_button_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

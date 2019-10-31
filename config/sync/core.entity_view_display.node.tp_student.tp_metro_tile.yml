@@ -1,3 +1,4 @@
+uuid: cad5c1b6-8746-4831-9f96-b59e9d947c1f
 langcode: en
 status: true
 dependencies:
@@ -43,6 +44,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_stdt_banner_image: true
   field_tp_stdt_body: true
   field_tp_stdt_contact_info: true

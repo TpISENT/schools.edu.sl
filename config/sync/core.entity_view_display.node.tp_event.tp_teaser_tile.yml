@@ -1,3 +1,4 @@
+uuid: 10df0756-b063-4c8a-a7e0-29a3fee13e5f
 langcode: en
 status: true
 dependencies:
@@ -54,6 +55,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_evnt_address: true
   field_tp_evnt_banner_carousel: true
   field_tp_evnt_contact_info: true

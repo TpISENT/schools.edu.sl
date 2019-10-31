@@ -1,3 +1,4 @@
+uuid: 8505015a-8049-4e47-a732-a81b8cc2f804
 langcode: en
 status: true
 dependencies:
@@ -48,6 +49,7 @@ content:
       link: true
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_shw_comments: true
   field_tp_shw_content_collapses: true
   field_tp_shw_subheader_body: true

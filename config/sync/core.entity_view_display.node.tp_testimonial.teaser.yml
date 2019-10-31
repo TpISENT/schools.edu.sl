@@ -1,3 +1,4 @@
+uuid: fb16575d-d0bf-47c7-a97b-a55979a25531
 langcode: en
 status: true
 dependencies:
@@ -44,5 +45,6 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_tst_testimonial_link: true
   links: true

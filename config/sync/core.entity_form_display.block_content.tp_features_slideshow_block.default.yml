@@ -1,0 +1,35 @@
+uuid: 4dff30f3-0850-4631-a9f3-efcc39c59594
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tp_features_slideshow_block
+    - field.field.block_content.tp_features_slideshow_block.field_tp_feature
+  module:
+    - paragraphs
+id: block_content.tp_features_slideshow_block.default
+targetEntityType: block_content
+bundle: tp_features_slideshow_block
+mode: default
+content:
+  field_tp_feature:
+    type: entity_reference_paragraphs
+    weight: 1
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: tp_feature
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

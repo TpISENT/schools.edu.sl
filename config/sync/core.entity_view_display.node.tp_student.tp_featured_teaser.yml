@@ -1,3 +1,4 @@
+uuid: 7c25db53-589f-4d94-aad5-8f2a19e801aa
 langcode: en
 status: true
 dependencies:
@@ -52,6 +53,7 @@ content:
       image_link: content
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_stdt_banner_image: true
   field_tp_stdt_contact_info: true
   field_tp_stdt_cv: true

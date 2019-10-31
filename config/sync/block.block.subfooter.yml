@@ -1,0 +1,25 @@
+uuid: 0ed705ab-948a-48bf-8723-1451f4010b9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.subfooter
+  module:
+    - system
+  theme:
+    - schoolsbase
+id: subfooter
+theme: schoolsbase
+region: footer
+weight: -8
+provider: null
+plugin: 'system_menu_block:subfooter'
+settings:
+  id: 'system_menu_block:subfooter'
+  label: Subfooter
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

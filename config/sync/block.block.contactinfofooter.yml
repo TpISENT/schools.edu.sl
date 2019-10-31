@@ -1,0 +1,25 @@
+uuid: 94444592-5510-4d2d-b488-3779d7fd652d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e50a2a29-d663-4e77-96d2-873332bc32a1'
+  module:
+    - block_content
+  theme:
+    - schoolsbase
+id: contactinfofooter
+theme: schoolsbase
+region: footer_top_second
+weight: 0
+provider: null
+plugin: 'block_content:e50a2a29-d663-4e77-96d2-873332bc32a1'
+settings:
+  id: 'block_content:e50a2a29-d663-4e77-96d2-873332bc32a1'
+  label: 'Contact info (footer)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

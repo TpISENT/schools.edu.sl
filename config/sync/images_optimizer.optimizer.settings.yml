@@ -1,0 +1,4 @@
+image/png: images_optimizer.optimizer.pngquant
+image/jpeg: images_optimizer.optimizer.jpegoptim
+_core:
+  default_config_hash: RKbnIRrbLxJWLFcKWS-RopnMAyIMCExqwtjU9IBM0jM

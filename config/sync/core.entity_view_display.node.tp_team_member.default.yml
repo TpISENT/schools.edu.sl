@@ -1,3 +1,4 @@
+uuid: aee7752e-1d78-418f-92ff-2601d819a695
 langcode: en
 status: true
 dependencies:
@@ -92,5 +93,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_tp_tmm_featured: true
   field_tp_tmm_member_photo_wide: true

@@ -1,3 +1,4 @@
+uuid: 515c997c-cac9-42ad-b2be-7c25be5617f5
 langcode: en
 status: true
 dependencies:
@@ -40,4 +41,8 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
+  field_tp_dpt_banner_image: true
   field_tp_dpt_image: true
+  field_tp_dpt_subheader_body: true
+  field_tp_dpt_video: true

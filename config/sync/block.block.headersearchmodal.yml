@@ -1,0 +1,25 @@
+uuid: 1ef3cdee-4414-47e9-adbc-491b90d7adab
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:tp_modal_block:c94634f0-c0ba-4680-9c43-266eab4bddd4'
+  module:
+    - block_content
+  theme:
+    - schoolsbase
+id: headersearchmodal
+theme: schoolsbase
+region: header_top_second
+weight: 0
+provider: null
+plugin: 'block_content:c94634f0-c0ba-4680-9c43-266eab4bddd4'
+settings:
+  id: 'block_content:c94634f0-c0ba-4680-9c43-266eab4bddd4'
+  label: 'Header Search (Modal)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
